@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Guillermo de San Lorenzo</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#AGN">Archivo Real y General de Navarra</repository>
+                  <collection>Protocolos Notariales</collection>
+                  <idno>Pamplona, Antonio Igal, caja 19075/3, 1631-IX-13</idno>
+                  <altIdentifier>
+                     <idno
+                        source="dsd"
+                     />
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+
+                  <summary>Inventario de Guillermo de San Lorenzo</summary>
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc> </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+
+
+         <milestone unit="folio" n="7r"/>
+         <!-- inventory! -->
+
+         <p>En la <choice><abbr>Ciu<hi rend="super">d</hi></abbr><expan></expan></choice> de Pamplona a dos dias del mes de
+               <choice><abbr>Sep<hi rend="super">e</hi></abbr><expan></expan></choice> del año mill y <choice><abbr>seys<hi rend="super">os</hi></abbr><expan></expan></choice> treinta y uno
+            yo el <choice><abbr>es<hi rend="super">no</hi></abbr><expan></expan></choice>
+            <lb/>
+            <choice><abbr>ynfras<hi rend="super">to</hi></abbr><expan></expan></choice> en <choice><abbr>vir<hi rend="super">d</hi></abbr><expan></expan></choice> de un auto proveydo por la
+            Real Corte de <choice><abbr>pidimi<hi rend="super">to</hi></abbr><expan></expan></choice> de guillermo <lb/> millanga ympressor real
+                  <choice><abbr>supp<hi rend="super">te</hi></abbr><expan></expan></choice>
+            <unclear extent="1 word"/> a <unclear extent="1 word"
+            /><!-- it's gotta be an ordinary number --> dia del mes de <choice><abbr>Sep<hi rend="super">e</hi></abbr><expan></expan></choice>
+            hultimo passado <lb/> ffirmado por Balentin de echauz <choice><abbr>es<hi rend="super">no</hi></abbr><expan></expan></choice> de la
+            dicha cortte <lb/> para que conste en todos <unclear extent="1 word"/> los
+               <choice><abbr>bns</abbr><expan></expan></choice> que an quedado de guillermo de san <lb/> lorenco librero <unclear
+               extent="1 word"/> con asistencia de cathalina de aliori y <unclear>fumes</unclear>
+            <unclear extent="1 word"/>
+            <lb/> el ymbentario de <choice><abbr>bnes</abbr><expan></expan></choice> en la fforma <choice><abbr>sg<hi rend="super">te</hi></abbr><expan></expan></choice>= </p>
+         <!-- list of goods -->
+<!-- beginning of sample; book list began on 7v -->
+         <milestone unit="folio" n="8r"/>
+         <div><listBibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">unas</measure> <title>partidas</title> <author>de gregorio lopez</author> <measure type="format" corresp="#_2o">fol</measure> <measure unit="vol" quantity="4">en quatro tomos</measure> <note type="condition" subtype="binding">en quadernados en
+               pergamino.</note></bibl>
+            <bibl>Itten <measure unit="copies" quantity="1">una</measure> <title>filosofia</title> <author>de oña</author> <measure unit="vol" quantity="2">en dos tomos.</measure> <measure type="format" corresp="#_4o">en quarto</measure></bibl>
+            <bibl>Itten <measure unit="copies" quantity="1">un</measure> <title>manual</title> <author>de <choice><sic>navarra</sic><corr>navarro</corr></choice></author>. <measure type="format" corresp="#_4o">quarto</measure></bibl>
+            <bibl>Itten <measure unit="copies" quantity="1">un</measure> <title>español gerardo</title> <measure type="format" corresp="#_4o">quarto</measure> <note type="condition" subtype="binding">enquadernado</note></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">un</measure> <author>navarra</author> <title>de Restitucione</title> <measure unit="vol" quantity="2">en dos cuerpos</measure>
+               <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <title>suma</title> <author>de Rodgriguez</author> <measure unit="vol" quantity="2">en dos tomos</measure> <measure unit="copies" quantity="1">una</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>toledana discreta</title> <measure type="format" corresp="#_4o">en quarto</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>historia de la merce<supplied reason="missing letter">d</supplied></title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>historia de las llagas de San <choice><abbr>fr.<hi rend="super">co</hi></abbr><expan>francisco</expan></choice></title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">un</measure> <title>estimulo del carmen</title> <measure type="format" corresp="#_4o">4o.</measure> <note type="condition" subtype="binding">enquadernado</note></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">unas</measure> <title>obras</title> <author>de padilla</author>. <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>vida del beato luys goncaga</title> <measure type="format" corresp="#_4o">a 4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">un</measure> <title>escelençias del español</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>cronica de San <choice><abbr>fr.<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> de paula.</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <!-- which francis is this?? or is it vincent de paul -->
+            <bibl>Ittem <measure unit="copies" quantity="1">unos</measure> <title><choice><sic>conentarios</sic><corr>comentarios</corr></choice></title> <author>de cesar</author> <measure type="format" corresp="#_4o">en 4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">unas</measure> <title>adiçiones de la bula</title> - <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>entrada del Rey en portugal</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">un</measure> <title>purgatorio contra lutere</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>silba espiritual</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <title>exerçiçios de perfeccion</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <title>serial</title> <author>del barez</author> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">unas</measure> <title>novelas</title> <author>de Camereño</author> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">una</measure> <title>quaresma</title> <author>de Bardaxi</author> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="2">dos</measure> <title>estimulos del Carmen</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">un</measure> <title>bernardo del carpio</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">unas</measure> <title>obras</title> <author>de don luys Carrillo</author> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl>Ittem <measure unit="copies" quantity="1">unos</measure> <title>versos</title> <author>de herrera</author> <measure type="format" corresp="#_4o">4o</measure></bibl>
+         </listBibl></div>
+         <!-- end of sample; book list continues to 12r -->
+         
+      </body>
+   </text>
+</TEI>

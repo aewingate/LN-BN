@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>BARTOLOME PARIS contra ABRAHAM ROGIER</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <!--
+                         Name: msIdentifier
+                         Description: Contains the info to identify a manuscript or part uniquely within its holding institution
+                         Attributes: No attributes other than those globally available (see definition for tei.global.attributes)
+                         NOTE:  all elements shown below are required per the project encoding practice.  Data for these in many cases
+                         can be taken from the UK database, in the repository table.  In the case of idno, and sotheby/chadwyck healey number,
+                         look to the Control field of the Altered_Alchemical_Main table.
+                     -->
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#AGN">Archivo Real y General de Navarra</repository>
+                  <collection>Tribunales Reales</collection>
+                  <idno>297878</idno>
+                  <altIdentifier>
+                     <idno
+                        source="http://www.navarra.es/home_es/Temas/Turismo+ocio+y+cultura/Archivos/Programas/Archivo+Abierto/Documentos/BARTOLOME-PARIS-contra-ABRAHAM-ROGIER_kuJKHgRmNvgpIDFIDLvYew"
+                     />
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+
+                  <summary> Bartolome Paris, mercader librero, vecino de Pamplona, contra Abraham
+                     Rogier, mercader librero, vecino de Burdeos (Gironde), sobre cese de ejecucion
+                     de bienes por 550 libras de averiguacion de cuentas, alegando pago de 1.600
+                     reales de deuda. Inventario de Bartolome de Paris</summary>
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="12"/>
+                  <!-- 12 folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <milestone unit="folio" n="13r"/>
+         <!-- hand changes and not for the better -->
+<div>         <fw><choice><abbr>exe<hi rend="super">on</hi></abbr><expan>execución</expan></choice></fw>
+         <p>Por <gap reason="hole" extent="1"/><!-- might be 2 letters -->timenio y en
+                  <choice><abbr>cumplimi<hi rend="super">to</hi></abbr><expan>cumplimiento</expan></choice> de mi <choice><abbr>offi<hi rend="super">o</hi></abbr><expan>officio</expan></choice>
+            <choice><orig><unclear>to</unclear><lb/>me</orig><reg><lb/><unclear>to</unclear>me</reg></choice> a mano Real de su <choice><abbr>mag<hi rend="super">d</hi></abbr><expan>magestad</expan></choice>
+            la libreria y <choice><orig>de<lb/>mas</orig><reg><lb/>demas</reg></choice>
+            <choice><sic>cossal</sic><corr>cossas</corr></choice> que halle en la dicha tienda
+               <choice><abbr>hazien<hi rend="super">do</hi></abbr><expan>haziendo</expan></choice>
+            <lb/>
+            <choice><abbr>exe<hi rend="super">on</hi></abbr><expan>execución</expan></choice> en ellos que son los bienes contenidos en <lb/> el
+            ynbentario siguiente y en ffee dello lo <choice><orig>fir<lb/>me</orig><reg><lb/>firme</reg></choice> En Pamplona a <date when="1623-07-29">beynte y
+            nuebe de jullio del <lb/>
+            <choice><sic>del</sic><corr/></choice> año mill y <choice><abbr>seis<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y beynte y tres</date>
+               <choice><abbr>m<hi rend="super">n</hi></abbr><expan>martín</expan></choice> de ollo <lb/> y vidaurre <choice><abbr>es<hi rend="super">o</hi></abbr><expan>escribano</expan></choice> y
+            tiniente de <choice><abbr>Just<hi rend="super">a</hi></abbr><expan>Justicia</expan></choice>
+         </p>
+         <p> En la ciudad de Pamplona a <date when="1623-07-29">beynte y nuebe <lb/> dias de jullio del año mill y
+                  <choice><abbr>seis<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y <lb/> beynte y tres</date> yo el
+            <choice><abbr>es<hi rend="super">o</hi></abbr><expan>escribano</expan></choice>y tiniente de <choice><abbr>Just<hi rend="super">a</hi></abbr><expan>Justicia</expan></choice>
+            <choice><orig>yn<lb/>frascripto</orig><reg><lb/>ynfrascripto</reg></choice> en <choice><abbr>presen<hi rend="super">a</hi></abbr><expan>presencia</expan></choice> de los
+                  <choice><abbr>test<hi rend="super">os</hi></abbr><expan>testigos</expan></choice> abaxo <choice><orig>non<lb/>brados</orig><reg><lb/>nombrados</reg></choice>. hize
+            ynbentario de los libros y lo <choice><orig>de<lb/>mas</orig><reg><lb/>demas</reg></choice> que se hallo en la botiga y tienda
+            del <lb/> dicho bartholome paris que son los <choice><abbr>siguien<hi rend="super">tes</hi></abbr><expan>siguientes</expan></choice>
+            <lb/>
+         </p>
+         <fw><choice><abbr>ymbent<hi rend="super">o</hi></abbr><expan>ymbentario</expan></choice></fw></div>
+         <!-- note that this section I'm not putting in line breaks. but important to note that the items are not written on separate lines. it's all one thing. bad scribe! -->
+
+      
+
+<!-- begin sample; book list begins on 13r -->
+            <milestone unit="folio" n="13v"/>
+
+<div>
+   <listBibl>
+            <bibl><title>matematica</title> <author>de <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice>
+               vieti</author> <measure type="format" corresp="#_2o">fol</measure>:</bibl>
+            <bibl><author>Claudi <choice><sic>petolomey</sic><corr>ptolomey</corr></choice></author> <measure type="format" corresp="#_2o">fol</measure>:</bibl>
+            <bibl><title>bocabulario eclessiastico</title> <measure type="format" corresp="#_2o">fol</measure>:</bibl>
+            <bibl><title>constituciones <choice><sic>elementis</sic><corr>clementis</corr></choice></title> <measure type="format" corresp="#_2o">fol.</measure></bibl>
+            <bibl><title><persName>pintus</persName> yn essayam</title> <measure type="format" corresp="#_2o">fol</measure>:</bibl>
+            <bibl><title><persName>melo</persName> <choice><sic>ym</sic><corr>yn</corr></choice> apocalipsse</title> <measure type="format" corresp="#_2o">fol</measure>:</bibl>
+            <bibl><author><abbr>dum<hi rend="super">s</hi></abbr></author> <author>sobre escoto</author> <measure unit="vol" quantity="2">dos tomos</measure> <note type="condition" subtype="age">viejos</note> <measure type="format" corresp="#_2o">fol.</measure></bibl>
+            <bibl><title>catalo y espurgatorio</title> <measure type="format" corresp="#_2o">fol.</measure></bibl>
+            <bibl><measure unit="copies" quantity="2">doze cuerpos</measure> <author>del <choice><abbr>p<hi rend="super">e</hi></abbr><expan>padre</expan></choice> heriça</author> <title>sobre santo thomas</title>
+               <note type="condition" subtype="binding">sin encuadernar</note> <measure type="format" corresp="#_2o">fol</measure>:</bibl>
+            <bibl><measure unit="copies" quantity="1">un</measure> <author>diascoridis</author> <measure type="format" corresp="#_2o">fol.</measure></bibl>
+            <bibl><measure unit="copies" quantity="8">ocho</measure> <author>marçiales</author> <measure type="format" corresp="#_4o">en quarto 4o</measure></bibl>
+            <bibl><title><persName>gordoni</persName> Epitome contraberssias</title> <measure type="format" corresp="#_4o">4o</measure>:</bibl>
+            <bibl>ydem <!-- assuming by Gordoni too --><title>la suma</title>: <measure type="format" corresp="#_4o">4o</measure>:</bibl>           
+            <bibl><title>Concordançial</title> <measure unit="simple_count" quantity="2">dos thomos</measure> <textLang xml:lang="ell">griego</textLang> y <textLang xml:lang="heb">hebreo</textLang> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>perigrinazion de <choice><abbr>xpo</abbr><expan>cristo</expan></choice></title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>silva espiritual</title> <author>de albarez</author> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>bocabulario ecclesiastico</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><measure unit="copies" quantity="4">quatro</measure> <title>desengaños <choice><abbr>xpanos</abbr><expan>cristianos</expan></choice></title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>silva espiritual <choice><abbr>ter<hi rend="super">a</hi></abbr><expan>tercera</expan></choice> parte.</title> <measure type="format" corresp="#_4o">4o</measure>.</bibl>
+            <bibl><title>estimulo del Carmen</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>Reduçion para enseñar a mudos</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>Comedias de <persName>lope</persName> nobena parte</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><measure unit="copies" quantity="2">dos</measure> <title>quadraxessimas</title> <author>de bardaxi</author>. <note type="condition" subtype="wear">el uno sin cubierta</note> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><title>mesterios de la missa</title>. <measure type="format" corresp="#_4o">4o:</measure></bibl>
+            <bibl><title>estaciones del peregrino <choice><abbr>xpano</abbr><expan>cristiano</expan></choice></title> <measure unit="copies" quantity="2">dos cuerpos</measure> <measure type="format" corresp="#_2o">fol</measure>
+               <measure type="format" corresp="#_4o">4o</measure><!-- yes, it has two formats there. One of each? --></bibl>
+            <bibl><title>comedias de <persName>lope</persName> quarta parte</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><measure unit="copies" cert="unknown">onze enboltorios</measure> del
+                     <title><choice><abbr>offi<hi rend="super">o</hi></abbr><expan>officio</expan></choice> del angel de la guarda</title> que por ser muchos y no
+               deshagellos y no estar en <choice><sic>norden</sic><corr>orden</corr></choice> no se contaron <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><measure unit="copies" cert="unknown">tres <choice><sic>enloltorios</sic><corr>emboltorios</corr></choice></measure> del <title><choice><abbr>offi<hi rend="super">o</hi></abbr><expan>officio</expan></choice> de la missa de
+               Requiem y el canon</title> <measure type="format" corresp="#_4o">4o</measure></bibl>
+            <bibl><measure unit="copies" cert="unknown">catorce enboltorios</measure> de libros de humanidad todos de una misma cossa. <title>entitulados
+               la ley ney çe neçe</title> <!-- French? --><measure type="format" corresp="#_4o">4o</measure></bibl>          
+            <bibl><title>anales <persName>bordinis</persName></title> <note type="condition" subtype="binding">sin encuadernar</note>. <measure type="format" corresp="#_4o">4o</measure>:</bibl>
+            <bibl><title>Coronica <persName>gordoni</persName></title> <measure type="format" corresp="#_8o">8o</measure>.</bibl>
+            <bibl><title>obras</title> <author>de astete</author> <measure type="format" corresp="#_8o">8o</measure></bibl>
+            <bibl><title>fiest<gap reason="hole" n="3"/> de la
+               <choice><sic><choice><abbr>poriffica.<hi rend="super">on</hi></abbr><expan>porifficación</expan></choice></sic><corr>purificación</corr></choice></title> <measure type="format" corresp="#_8o">8o:</measure></bibl>
+            <bibl><title><persName>andrada</persName> ynfrenus</title> <measure type="format" corresp="#_8o">8o</measure></bibl>
+            <bibl><author>palaçio</author> <title>super <milestone unit="folio" n="14r"/>ma<supplied reason="hole"
+               >t</supplied>heum</title>. <measure type="format" corresp="#_8o">8o</measure>,</bibl></listBibl>
+            <!-- stop here for enriched TEI sample -->
+            </div>
+
+      </body>
+   </text>
+</TEI>
