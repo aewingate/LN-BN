@@ -19,9 +19,9 @@ The principal point of this dataset is to provide enriched TEI files that distin
 - Capitalization, punctuation, spacing: No regularization
 - Ligatures: Diagraphs (like æ) are not regularized. Letters acting as scribal abbreviations are regularized (e.g., ꝵ for '-rum')
 ### Book entries
-#### Book lists
 A list of book items, regardless of whether there are line breaks between each item or not, should be enclosed in a `<listBibl>` and then each item inside a `<bibl>`. 
-##### `<listBibl>`
+#### Book list 
+`<listBibl>`  
 `<listBibl>` should close before each folio `<milestone>`, even if the list continues from folio to folio. This is should make it easier to extract and transform the data in the `<listBibl>` later using XSLT. 
 ```xml
 <milestone unit="folio" n="3v"/>
@@ -37,7 +37,8 @@ A list of book items, regardless of whether there are line breaks between each i
 ```
 
 If a book list has a heading, this should be indicated using `<head>`
-##### `<bibl>`
+#### Book entry 
+`<bibl>`  
 Each book item should be contained within a bibl, including the quantity, format, price, and any other information associated with the item. 
 
 ```xml
@@ -46,7 +47,7 @@ Each book item should be contained within a bibl, including the quantity, format
 ```
 
 The information in each `<bibl>` is further structured into the following categories as they are applicable. Given the various levels of descriptiveness in early modern inventories, it is very likely that only some of these will be used in a given `<bibl>`.
-##### Title/title description
+#### Title/title description
 `<title>`
 - should include words like "intitulado". All the words that try to point us to a particular work.
 - If an author's name is part of the title (e.g. codicis justiniani sacratissimi principis), encode that part inside the `<title>` with `<persName type="author">`.  
@@ -54,17 +55,17 @@ The information in each `<bibl>` is further structured into the following catego
 <title>codicis <persName type="author">justiniani sacratissimi principis</author></title>
 ```
 __NB: A @corresp with value of a unique identifier for the work will be added eventually.__
-##### Author
-`<author>`
+#### Author
+`<author>`  
 Include prepositional words like "de" and "por" and phrases like "escrito por"
 __NB: A @corresp with value of a unique identifier for the author will be added eventually.__
-##### Place of publication
+#### Place of publication
 `<pubPlace>`
-##### Year of publication
+#### Year of publication
 `<date type="publication" when="YYYY">`
-##### Printers/Publishers
+#### Printers/Publishers
 `<publisher>`
-##### Format statement
+#### Format statement
 `<measure type="format" corresp="#format_ref_value">`
 Include any preceding prepositions (e.g., "a folio")
 - `_2o`
@@ -75,25 +76,25 @@ Include any preceding prepositions (e.g., "a folio")
 - `_18mo`
 - `_24mo`
 - `_32mo`
-##### Quantity (copies)
+#### Quantity (copies)
 Number of copies, not how many volumes in a work/edition.  2 copies of 3 volume works means quantity = 2  
 `<measure unit="copies" quantity="number_of_copies">`
 If quantity is uncertain, do not include quantity and instead put `@cert="unknown"`
-##### Volumes
+#### Volumes
 How many volumes in a work (e.g., the works of Bartolus in 5 volumes). Not how many copies.  
 2 copies of 3 volumes work means quantity = 3  
 `<measure unit="vol" quantity="number_of_phys_vols">`
-##### Simple count (codices)
+#### Simple count (codices)
 Occasionally books are described in such a way that the numerical counting is simply the number of different codices/items without reference to a work. It is not multiple copies of the same work, nor multiple volumes comprising a multi-volume work. In this case, unit="simple_count".  
 `<measure unit="simple_count" quantity="number_of_books">`  
 `<measure unit="simple_count" quantity="4">quatro</measure> libros escriptos de mano`
-##### Price/Valuation
+#### Price/Valuation
 **Total price**  
 `<measure unit="#currency" quantity="price">`  
 
 **Price per copy**  
 `<measure type="copyPrice" unit="currency" quantity="price">`  
-##### Physical condition (binding, condition, other information)
+#### Physical condition (binding, condition, other information)
 `<note type="condition" subtype="controlled_vocab">`
 **Controlled vocab of subtypes**
 - age
@@ -101,10 +102,10 @@ Occasionally books are described in such a way that the numerical counting is si
 - size (unspecified format, e.g. "pequeño")
 - wear (e.g., andado)
 - value
-##### Creation method (print/mss)
+#### Creation method (print/mss)
 `<note type="method" subtype="print/mss">`
-##### Language
-Use `<textLang>` to encode any mentions of what language texts are in. Encode each mention of a language name individually, even if a text is bilingual. Use @xml:lang with [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data)to refer to the language. Include text like "en" or "escrito en" within the tag.  
+#### Language
+Use `<textLang>` to encode any mentions of what language texts are in. Encode each mention of a language name individually, even if a text is bilingual. Use @xml:lang with [ISO 639-3](https://iso639-3.sil.org/code_tables/639/data) to refer to the language. Include text like "en" or "escrito en" within the tag.  
 `<textLang xml:lang="ISO-code">`  
 `<textLang xml:lang="lat">en latin</textLang>`  
 **Common ISO values**  
@@ -116,9 +117,9 @@ Use `<textLang>` to encode any mentions of what language texts are in. Encode ea
 - Greek (classical) = grc
 - Greek (1453- and later) = ell
 - Hebrew = heb
-##### Content
+#### Content
 If the content of the book is quoted, such as to identify the book in the case that it is missing its beginning, use `<q>`
-##### Speech
+#### Speech
 Very occasionally, there is evidence in the written text confirming that inventories were created by someone dictating descriptions to a scribe. For example, the scribe might write "digo" (I mean) in the middle of a description, thereby recording the speakers self-correction mid-sentence. These words will be recorded with `<distinct type="oral">`  
 ```xml
 <bibl>una suma de toledo <distinct type="oral">digo</distinct> rodriguez=</bibl>
