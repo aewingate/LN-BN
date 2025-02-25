@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Juan de Apzilcueta, abad de Zolina</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/106 N.17</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <milestone unit="folio" n="22r"/>
+<div>
+   <p>
+<!-- Uncorrected text. This paragraph has been silently regularized.-->
+         En el lugar de zolina primero dia del mes de septiembre de mil y quineintos nobenta y siete años parecieron presentes ante mi el escribano publico y testigos avaxo nombrados los señores don leon de garro visconde de zolina don miguel de noayn vicario de taxonar don remon de lerruz y joanes de azpiliqueta cavecaleros y sobre cabecalero del ultimo testamento de don joan de azpiliqueta ultimo abad del dicho lugar de colina difunto los quales en cumplimiento de lo que por este testamento y codicillo se le engarca y en satsifaccion y descargo de sus conciencias dixeron que hazian y hizieron el inbentario de sus vienes y haienda en la manera que sigue</p></div>
+
+<milestone unit="folio" n="30v"/>
+        <div><listBibl> 
+           <head>~ Libreria ~</head>
+           <!-- note that a few entries span over multiple line, but line breaks have been surpressed as detailed in encoding guidelines -->
+         <bibl>Itten <measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">en quadernado en tablones negros</note> <title>titulado decretun <persName type="author">graciani</persName></title> //</bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">enquadernado en tablones amarillos</note> <title>titulado <add rend="caret">decretales</add> <persName type="author">gregorij noni pontifiçis</persName></title> //</bibl>
+           <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">encoadernado en tablones blancos</note> <title>titulado codiçis <persName type="author">justiniani sacratissimi prinçipis</persName></title> //</bibl>
+         <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">encoadernado en tablones blancos</note> <title>titulado Justitutionem sibe<del rend="strike">be</del> primorum totius Juris prudentie elementorum</title></bibl>
+           <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">de la misma encoadernaçion</note> <title>titulado digesttum nouum seu pandectarum Juris Cibilij tomus terçius</title> //</bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">de la mesma encoadernacion</note> <title>titulado digestum vetus seu <choice><sic>pandectaroum</sic><corr>pandectarum</corr></choice> Juris Ciuilis tomus primus</title> /</bibl>
+           <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">de la mesma encoadernaçion</note> <title>titulado Inforçiatum seu pandectarun Juris Cibilis tomus secundus</title> //</bibl>
+           <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">encoadernado en tablones Royantes y labrados</note> <title>titulado <persName type="author">domini ugonis cardinalis postela</persName><del rend="strike">la</del> seu dibinia ex posiçio<gap reason="cancelled" extent="1 letter"/> yn altos quatuor ebangeliorum apices</title> //</bibl>
+         <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">en coadernado en papelones berdes</note> <title>titulado <choice><abbr>Clementinꜫ</abbr><expan>Clementinae</expan></choice> <persName type="author">Clementis quinti</persName> constituciones quas clementinas vocant</title> //</bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">en quadernado en papelones berdes</note> <title>titulado decretalium liber sextus</title></bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado prima pars <persName type="author">siculi panormiorum</persName><!-- siculi is reference to Sicily --> super seccundo decretalium</title> //</bibl>
+           <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado tabula prim boluminis conçiliorun <persName type="author">abbatis</persName><!-- another ref. to Tedeschi --></title> //</bibl>
+           <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado de lo mismo</note> <title>titulado <persName type="author">Abbas</persName> super terçio</title> //</bibl>
+        </listBibl>
+        </div>
+<milestone unit="folio" n="31r"/>
+         <div><listBibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <del rend="strike">un</del><note type="condition" subtype="binding">de la mesma encoadernacion</note> <title>titulado prima pars <persName>abbatis</persName> super primo decretalium <choice><sic>suple sionbus</sic><corr>supletionibus</corr></choice> antoni</title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">de la mesma en coadernaçion</note> <title>titulado secunda pars domini <persName>abbatis</persName> super secundo decretalium</title> //</bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">de la mesma enquadernaçion</note> <title>titulado ultima pars <persName type="author">clarisimi ac famosisimi doctoris domini abatis <choice><abbr>panorm.</abbr><expan>panormitanus</expan></choice></persName> super 4<hi rend="super">o</hi>. 5<hi rend="super">o</hi>. decretalium</title> //</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">ancho</note> <note type="condition" subtype="binding">de la mesma enquadernacion</note> <title>titulado Reportorium beridicun anoficum ac preclarissimum <persName><choice><abbr>ex.<hi rend="super">mi</hi></abbr><expan>excellentisimi</expan></choice> juris <choice><abbr>utriusq</abbr><expan>utriusque</expan></choice> Luminis Domini Antonij Corce</persName></title> ./.</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="size">grande</note> <note type="condition" subtype="binding">de la mesma enquadernaçion</note> <title>titulado catena aurea <persName>diui Thome aquinatis doctoris angelici</persName></title> //</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado elucidacio yn omnes psalmos</title></bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">de la mesma encoadernaçion</note> <title>titulado <persName>fratris dominiçi soto segobiensis teologi ordinis predicatorum</persName></title> //</bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado <persName>fratris didaçi estelle ordinis minorum</persName></title> //</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <note type="condition" subtype="size">grande</note> <title>titulado <persName>Ambrossi calepini</persName> dictionarium</title> //</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en tablones berdes</note> <title>titulado <persName>geruardi conpostellani</persName></title> /</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">un</measure> <title>bocabulario heclesiastico</title> <note type="condition" subtype="binding">enquadernado en pergamino</note> //</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">en quadernado en pergamino</note> <title>titulado <persName>gabriel</persName> super canone mise</title></bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en papelon</note> <title>titulado Raçionale diuinorfun officiorum</title></bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en papelon labrado</note> <title>titulado <persName>dibij dionissi cartasiani</persName> yn santa quatuor .J.n. Jesu <choice><abbr>xpi</abbr><expan>christiani</expan></choice> <choice><abbr>ebang.<hi rend="super">a</hi></abbr><expan>ebangelia</expan></choice></title><!--Dionysii Cartusiani in Sancta quatuor D.N. Iesu Christi Euangelia--></bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en tablones</note> <title>titulado <persName>boeçius</persName> de consolaçione filosofiꜫ nec non de diciplina escolarium cum comento <persName>santi tome</persName></title> //</bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado <persName>Dibi prosperi aquitaniçi episcopi</persName></title> //</bibl>
+         </listBibl>
+         </div>
+<milestone unit="folio" n="31v"/>
+<div><listBibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">en quadernado en pergamino</note> <title>titulado adiçiones al memorial de la bida <choice><abbr>xpiana</abbr><expan>cristiana</expan></choice></title> <author>de fray luis de granada</author> //</bibl>
+<bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado suma <persName>cayetani</persName></title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en papelones negros</note> <title>titulado libro de la oraçion y meditaçion</title> <author>de fray luys de granada</author> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <note type="condition" subtype="size">pequeño</note> <note type="condition" subtype="binding">en quadernado en pergamino</note> <title>titulado omiliarium <persName>doctisimi viri Joanis Echij</persName></title> /</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <note type="condition" subtype="size">pequeño</note> <title>titulado suma misteriorum cristiani fidey</title> ./</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado pomerium sermonū</title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado <persName>eutimij monaqui sigaboni</persName> comentarij yn omnes psalmos <gap reason="cancelled" extent="2 letters"/>egreco jn latinum conberssi</title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>titulado <persName>pauli de palaçio granatenssis</persName></title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado confessio Catoli<del rend="strike">q</del>çe fidey <choice><abbr>xpiana</abbr><expan>christiana</expan></choice></title></bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <note type="condition" subtype="binding">en quadernado en tablones cubierta negra</note> <title>titulado sermones <persName>prestantisimi biri Roberti de Eçio ordinis minorum</persName></title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">un libro</measure> <textLang xml:lang="spa">en romance</textLang> <title>titulado ymagen de la vida <choice><abbr>xpiana</abbr><expan>christiana</expan></choice></title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <note type="condition" subtype="binding">en quadernado en papelon labrado de color amarillento</note> <title>titulado <choice><abbr>sumꜫ</abbr><expan>sumae</expan></choice> virtutum ac vitiorum tomus secundus</title> ///</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado consuelo de penitentes</title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en pergamino</note> <title>titulado <persName>cornelij Joancenj<del rend="strike">mi</del> Episcopi gandabensis</persName></title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <note type="condition" subtype="binding">con cubiertas negras de papelon</note> <title>titulado omiliarum <persName>doctisimi viri Joanis <del rend="strike">e</del>Eckij</persName> adbersus Luternum</title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en papelon labrado</note> <title>titulado sume Vi<supplied reason="hole">rtu</supplied>tum ac vitiorum psalmus primus</title> //</bibl>
+   <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">con cubiertas negras de papelon</note> <title>titulado guia de pecadores</title> <textLang xml:lang="spa">en Romance</textLang> /.</bibl></listBibl></div>
+<milestone unit="folio" n="32r"/>
+<div>
+   <listBibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">enquadernado en papelon color bayo</note> <title><persName>Theophilati bulgaris Archiepiscopi</persName></title> /.</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">un librillo</measure> <note type="condition" subtype="size">pequeño</note> <note type="condition" subtype="binding">con cubiertas de negro</note> <title>titulado 1. <persName>coeli lactantij Firmiani</persName> diuinarum</title> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">con cubiertas de pargamino</note> <measure type="format" corresp="#_4o">a manera de quarto de pliego</measure> <title>titulo 20 discursos sobre el credo en declaracion de <choice><abbr>nra</abbr><expan>nuestra</expan></choice> fee catholica</title> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="binding">en cubiertas de pargamino</note> <title>Titulado Regulæ cancelariæ <persName><choice><abbr>sanctiss.<hi rend="super">mi</hi></abbr><expan>sanctissimi</expan></choice> <choice><abbr>dni.</abbr><expan>domini</expan></choice> <choice><abbr>nri.</abbr><expan>nostri</expan></choice> Pij diuina <choice><abbr>prouid.<hi rend="super">a</hi></abbr><expan>prouidencia</expan></choice> Papæ V.<hi rend="super">i</hi></persName></title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>titulado Canones et decreta sacrosancti ecumeniçi et <choice><abbr>g<hi rend="super">☉</hi>nalis</abbr><expan>generalis</expan></choice><!-- it looks like a sun symbol over the n --> concilij</title> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>Titulado 3.<hi rend="super">a</hi> parte de la vanidad del mundo</title> <author>compuesto por fray Diego de estella</author> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>Titulado <persName>Alberti troti ferrarensis</persName></title> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado las epistolas familiares de <persName>Ciceron</persName></title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado libro <choice><abbr>sp<hi rend="super">☉</hi>ual</abbr><expan>spiritual</expan></choice> sobre el verso audi filia</title> /.</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado <persName>Therencio</persName></title> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">un librillo</measure> <title>llamado Inquiridion confessorum</title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>processio<add rend="caret">na</add>rium</title> /.</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">un libro</measure> <title>de las constitutiones cessarinas</title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>Titulado catalogus legatorum</title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>llamado monte calbario</title>,</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado <persName>Alberti trotij ferrarienssis</persName></title>,</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado doctrina <choice><abbr>xpiana</abbr><expan>christiana</expan></choice> y pazto <choice><abbr>esp<hi rend="super">☉</hi>ual</abbr><expan>espiritual</expan></choice> del alma</title> /.</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado Proueruiorum et adagiorum veterū <persName>polidori Vergilij</persName></title> /.</bibl>
+   </listBibl>
+</div>
+<milestone unit="folio" n="32v"/>
+<div>
+   <listBibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado adagia <persName>erasmi</persName></title>,</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>llamado <persName>antonj nebrisensis</persName></title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title><persName>Joanes ludobiçi</persName></title> //</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro</measure> <title>llamado que estionis amsuys argumentus</title> /</bibl>
+      <bibl>Itten <title>las indulugencias de la confraria del cordon de san françisco</title> /</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">un librillo</measure> <title>de la Retorica</title>. //</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>titulado tratatus sacerdotalis</title> //</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro</measure> <note type="condition" subtype="wear">sin cubiertas</note> <title>titulado <persName>Laurençij Valæ</persName></title></bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro librillo</measure> <title>a <choice><abbr>mana</abbr><expan>manera</expan></choice> de duirnal titulado santum <choice><abbr>Jhu</abbr><expan>Jhesu</expan></choice> <choice><abbr>xpi.</abbr><expan>christiani</expan></choice> ebangelium</title> //</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">otro</measure> <title>titulado examen ordinandorum</title>,</bibl>
+      <bibl>Itten <measure unit="vol" quantity="1">un</measure> <title>brebiario</title></bibl>
+      <bibl>y <measure unit="vol" quantity="1">un</measure> <title>diurnal</title> //</bibl>
+   </listBibl>
+</div>
+         
+         
+         
+      </body>
+   </text>
+</TEI>

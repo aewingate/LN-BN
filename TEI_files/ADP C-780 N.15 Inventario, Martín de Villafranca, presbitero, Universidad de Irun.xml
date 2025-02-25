@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Martín de Villafranca, presbitero, Universidad de Irun</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/780 N.15</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- died 1636 -->
+
+         <milestone unit="folio" n="55v"/>
+<div>         <list><item>Yten una medialoba con su manseo y mangas de sarsa de señor irandof</item></list>
+<listBibl>
+   <bibl>Yten <measure unit="vol" quantity="1">un libro</measure> <title>yntitulado Maleus Malificarun</title></bibl>
+      <bibl>Yten <measure unit="vol" quantity="1">otro</measure> <title>flor santorum</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>monarquia mistica</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <author>del padre san ygnacio</author></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>tratado de la ecelencia de la misa</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>de la vida y muerte de san Josep</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>yntitulado <unclear>Reino</unclear><!-- dot of i is over the o --> de dios</title></bibl>
+   <bibl><measure unit="vol" quantity="0">otros</measure><!-- unknown number of volumes --> <title>obras</title> <author>de fray Manuel Rodrigez</author></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>dicionariun eclesiasticun</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro libro</measure> <title>sobre los ebangelios</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>discursos morales del santisimo <choice><abbr>sacram<hi rend="super">to</hi></abbr><expan>sacramento</expan></choice></title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de <choice><abbr>vitt<hi rend="super">a</hi></abbr><expan>vittoria</expan></choice></author></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>discursos de la <choice><abbr>pass<hi rend="super">on</hi></abbr><expan>passion</expan></choice> de <choice><abbr>xpo</abbr><expan>cristo</expan></choice></title></bibl>
+   <bibl><add><measure unit="vol" quantity="1">otro</measure> <title>ordo rezitandi,</title></add></bibl>
+   <bibl><add><measure unit="vol" quantity="1">otro</measure> <title><choice><abbr>narr.<hi rend="super">es</hi></abbr><expan>narraciones</expan></choice> de <choice><abbr>euang<hi rend="super">os</hi></abbr><expan>euangelios</expan></choice></title></add></bibl>
+   <bibl><add><measure unit="vol" quantity="1">otro</measure> <title><choice><abbr>serm.<hi rend="super">o</hi></abbr><expan>sermonario</expan></choice></title></add></bibl>
+   <bibl><add><measure unit="vol" quantity="1">otro</measure> <title>de la <choice><abbr>imit.<hi rend="super">on</hi></abbr><expan>imitacion</expan></choice> de <choice><abbr>xpo</abbr><expan>cristo</expan></choice></title></add></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title><persName>jacobi sanacari</persName></title><!-- think Iacopo, Sannazzaro --></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>tesaurus berborun</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title><choice><abbr>aprouecham<hi rend="super">to</hi></abbr><expan>aprovechamiento</expan></choice> espiritual</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>catecismo manual</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>de lo mismo</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title><persName>esopi</persName> et aliarum</title><!-- search for aesopi et aliorum --></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>tesaurus preconiorun</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>parsoxidentaliss</title><!-- pars occidentalis --></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>canones <unclear>presiris</unclear></title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>omilias dotisimas</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>oracion mental</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>manual de confesores</title></bibl>
+   <bibl><measure unit="vol" quantity="1">otro</measure> <title>Monarquia eclesiastica</title></bibl>
+</listBibl>
+</div>
+         <milestone unit="folio" n="56r"/>
+<div>
+   <listBibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>manual de confesores</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>santo tomas</author> <title>sobre esayas</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>tesaurus bibliorun</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>parso acidentaliss</title><!-- that's what it says --></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>bixilio menor</title></bibl>
+      <bibl><measure unit="vol" quantity="1">Otro</measure> <author>ludobico <unclear>eliclobeo</unclear></author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de cayetano</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>sermonario</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>dionisio cartusanio</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>salterio para fragibus</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>exposicio preclara</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>parso acidentalis</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>santo tomas</author> <title>sobre san mateo</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>enarraciones <gap reason="cancelled" extent="2 letters"/> angelorum</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>la ajiografia de los santos</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>un montecalvario</title><!-- t's tend to look like s's --></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>espejo de consolacion</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>perfecion y birtudes <choice><abbr>xpianas</abbr><expan>christianas</expan></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>catalogo santorun</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>san tomas de aquino</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>ludubico Blosio</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>ruperto abad</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>sermon del abiento</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>la vida de <choice><abbr>xpo</abbr><expan>cristo</expan></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>elencus forum</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>Ruperto abad</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title><choice><abbr>q<hi rend="super">ta</hi></abbr><expan>quarta</expan></choice> <choice><abbr>pte</abbr><expan>parte</expan></choice> de la vida de <choice><abbr>xpo</abbr><expan>cristo</expan></choice></title><!-- fonseca --></bibl>
+</listBibl>
+</div>
+         <milestone unit="folio" n="56v"/>
+<div>
+   <listBibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>dionisio cartusano</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>de la vida de <choice><abbr>xpo</abbr><expan>cristo</expan></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>catalogo de los obispos de <choice><abbr>pamp<hi rend="super">a</hi></abbr><expan>pamplona</expan></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>flor santuron</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de la ledesma</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>de lo mismo</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <note type="condition" subtype="size">chiquito</note> <title>sobiloquio</title> <author>de san agustin</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>instruçion de confesores</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>oraciones funebres</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>que trata de excomuniones</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>suma de casos de <choice><abbr>concien<hi rend="super">a</hi></abbr><expan>conciencia</expan></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title><persName>marcialis</persName> eprigramorun</title><!-- martial, epigrammata --></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>diretorum <choice><sic>quratoren</sic><corr>curatorum</corr></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>suma de cassos</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>ceremonial de la missa</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>catesimo romano</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>capricu</title><!-- not sure is title --></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>de <choice><abbr>sacram<hi rend="super">tos</hi></abbr><expan>sacramentos</expan></choice></title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>calendario</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>silua de baria elecion</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>de purgatorio contra lutero</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>obras y dias manuel</title></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>de joanis medini</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <author>del mismo</author></bibl>
+      <bibl><measure unit="vol" quantity="1">otro</measure> <title>silua baria elecion</title></bibl>
+   </listBibl>
+</div>
+
+
+
+         
+      </body>
+   </text>
+</TEI>

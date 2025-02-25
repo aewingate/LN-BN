@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inventario, Juan de Usarralde, vicario de la Ciudadela</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+                <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    
+                    <msIdentifier>
+                        <country key="ES">Spain</country>
+                        <region key="Navarre" type="community"/>
+                        <settlement>Pamplona</settlement>
+                        <institution/>
+                        <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                        <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                        <!-- #ADP or #AGN -->
+                        <collection>Sección Procesos</collection>
+                        <!-- Procesos, Protocolos notariales, etc. -->
+                        <idno>C/515 N. 35
+                        </idno>
+                        <!-- shelfmark -->
+                        <altIdentifier>
+                            <idno source="URL to finding aid
+                                "/>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        
+                        <summary> </summary>
+                        <!-- summary from ADP or AGN catalog -->
+                        <textLang xml:lang="spa"/>
+                    </msContents>
+                    <physDesc>
+                        <ab n="no of folios"/>
+                        <!-- folios -->
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <milestone unit="folio" n="2r"/>
+            <div> 
+                <p>
+                    En la fortaleca y Ciudadela de la Ciudad de  <choice><abbr>Pamp<hi rend="super">a</hi></abbr><expan>Pamplona</expan></choice> a  <choice><abbr>prim<hi rend="super">o</hi></abbr><expan>primero</expan></choice> de <lb/>
+                    <choice><abbr>diz<hi rend="super">e</hi></abbr><expan>diziembre</expan></choice> del año de mill y  <choice><abbr>seys<hi rend="super">os</hi></abbr><expan>seyscientos</expan></choice> y honçe yo el  <choice><abbr>notr<hi rend="super">o</hi></abbr><expan>notario</expan></choice>  <choice><abbr>ynfr<hi rend="super">o</hi></abbr><expan>ynfrascrito</expan></choice> en virtud <lb/>
+                    del auto y mandato del  <choice><abbr>s<hi rend="super">r</hi></abbr><expan>señor</expan></choice>  <choice><abbr>D<hi rend="super">or</hi></abbr><expan>Doctor</expan></choice> calba official  <choice><abbr>gn<hi rend="super">al</hi></abbr><expan>general</expan></choice> deste obispado <lb/>
+                    fuy a la cassa donde tenia su  <choice><abbr>abita<hi rend="super">on</hi></abbr><expan>abitacion</expan></choice> y morada don Joan de Usarra<supplied reason="torn page edge">l</supplied><lb/>de 
+                    vicario q fue de la dicha ciudadela y castillo nuebo y a <lb/>
+                    difunto y hize parecer ante mi a  <choice><abbr>m<hi rend="super">a</hi></abbr><expan>maria</expan></choice> de sauyn y a  <choice><abbr>m<hi rend="super">a</hi></abbr><expan>maria</expan></choice> de olague ser<lb/>bicialas 
+                    q fueron del dicho don  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Ussarralde de las quales Recebi <lb/>
+                    <choice><abbr>Juram<hi rend="super">to</hi></abbr><expan>Juramento</expan></choice> en deuida forma de drecho y abiendo prometido de dezir <lb/>
+                    verdad y amen les fue interrogado digan y declaren los bienes <lb/>
+                    que tenia y dexo el dicho vicario assi muebles como Rayces dineros <lb/>
+                    oro y plata joyas receiuos y en otra qualquiera manera assi <lb/>
+                    lo que estaba en su cassa como en otras y al a fuerça del dicho  <choice><abbr>jura<lb/>m<hi rend="super">to</hi></abbr><expan><lb/>juramento</expan></choice> y otras penas y censuras q por mi el dicho  <choice><abbr>not<hi rend="super">o</hi></abbr><expan>notario</expan></choice> le fueron <lb/>
+                    puestas dixeron y  <choice><abbr>declara<hi rend="super">on</hi></abbr><expan>declaracion</expan></choice> aber dexado el dicho vicario al <lb/>
+                    fin de sus dias los vienes y recibos  <choice><abbr>seg<hi rend="super">tes</hi></abbr><expan>seguientes</expan></choice>
+                </p>
+                <list>
+                    <item> <choice><abbr>Prim<hi rend="super">te</hi></abbr><expan>Primeramente</expan></choice> un bufete de nogal con sus hierros</item>
+                    <item>Item seis sillas de respaldo la madera de nogal y los respaldares y asientos de vezerro con ciertas labores dorados en los respaldares</item>
+                    <item>Una banda de tafetan colorado con dos randas de oro y franjas de lo mismo</item>
+                    <item>ocho cucharas de plata</item>
+                    <item>siete platos medianos destaño y catorze pequeños de lo mismo y el uno muy viejo</item>
+                    <item>dos saleros de picalto de lo mismo</item>
+                    <item>un jarro de lo mismo para tener vino de tres pintas</item>
+                    <item>y un jarro de lo mismo para tener agua con su cubierta</item>
+                    <item>y otro jarro para lo mismo y del mismo metal sin cubierta</item>
+                    <item>Item un almirez con su mano de cobre y la mano quebrada</item>
+                </list>
+            </div>
+            <milestone unit="folio" n="2v"/>
+            <div>
+                <list>
+                    <item>Item tres candeleros de Astofar</item>
+                    <item>Item una sobremessa de paño Azul algo andada</item>
+                    <item>Item un coletillo de cordoban</item>
+                    <item>Ittem dos pares de calçones de paño el uno <unclear>ajestunado</unclear><!-- gotta be a color --> y el otro azul este con un passamano y el otro con tres y entrambos andados</item>
+                    <item>Iten un manteo<!--  mantico?--> de billa traydo con su fiador de Leon</item>
+                    <item>Item una <unclear>cesta</unclear> cerrada de <unclear>sarsa</unclear> de señor</item>
+                    <item>Item una  <choice><abbr>me<hi rend="super">a</hi></abbr><expan>media</expan></choice> <unclear>letana</unclear><!-- setana? --> y un fenefruelo de paño negro beyntidesseno andados</item>
+                    <item>Item una <unclear>cesta</unclear> cerrada y un manteo de paño negro veyntideja no buenos</item>
+                    <item>Item una ropa de billa forrada en pellejos negros</item>
+                    <item>Un sombrero Afforrado en Tajetan con su cordon de seda</item>
+                    <item>Item un par de Vorceguis engros de cordoban nueno, y un par de vestas encerados de camino andadas</item>
+                    <item>Y un par despuelas</item>
+                    <item>Item un Jubon negro de billa andado</item>
+                    <item>Item treze Tabbillas con sus stampas illuminados y los marcos dorados</item><!-- printed item? -->
+                    <item>Item dos vancos largos de madera y un bufetillo de lo mismo y la madera de pino</item>
+                    <item>Item doze sabbanas las ocho de lino y los quatro de stopa</item>
+                    <item>Item una colchita pequeña para cuna de ruan</item>
+                    <item>Item una colcha grande de ruan muy buena</item>
+                    <item>Item dos fraçadoas blancas para la cama la una buena y la otra trayda</item>
+                    <item>y una fraçada pequeña con unas bistas coloradas</item>
+                    <item>Item dos Fablas de manteles de flandes buenos</item>
+                    <item>Item diez y seis seruilletas los nueve buenas y los siete viejas</item>
+                    <item>Item ocho fundas de Almohadas las seis grandes y las dos pequeñas de ruan andadas con sus <unclear>encases</unclear><!-- first s unclear --></item>
+                    <item>Item quatro almohadas las dos grandes y dos pequeñas de Arrseo llenas de lana</item>
+                </list>
+            </div>
+            <milestone unit="folio" n="3r"/>
+            <div>
+                <list>
+                    <item>Item tres fundas de plumiones las dos de stopa y la otra de lino traydos</item>
+                    <item>Item las Tohallas de lino andadas dos labrados de hilo blanco y los demas llanas</item>
+                    <item>Item tres paños de manos andados</item>
+                    <item>Item una funda de plumion demas del las tres de lino andadas</item>
+                    <item>Item tres camissas las dos de Ruan y la otra de lienco vizcayno</item>
+                    <item>Item una setera de cama de lienço con sus caja de hilera y dos roda pies de lo mismo y franja de lo mismo</item>
+                    <item>Item un paño de Anajar de lienço viejo</item>
+                    <item>Item cinco colchones de lana los quatro de lienço de lino, y el otro de stopa y otro viejo<unclear> q en todo son scis</unclear></item>
+                    <item>Item un plumion</item>
+                    <item>Item una  <choice><abbr>me<hi rend="super">a</hi></abbr><expan>media</expan></choice> cama torneada de Robre</item>
+                    <item>Item una cama cnalada de robre con su caneçera de lo mismo y tres piramides de lo mismo pequeños</item>
+                    <item>Item una Arca de pino sin cerraja ni visagras</item>
+                    <item>Item una messilla con su <unclear>caisonallo</unclear> de pino</item>
+                    
+                </list>
+                <listBibl>
+                    <bibl>Ittem <measure unit="vol" quantity="1">un libro</measure> <title>intitulado Instruction de sacerdotes y summado cassos de  <choice><abbr>concien<hi rend="super">a</hi></abbr><expan>conciencia</expan></choice></title> <author>author el cardenal de Toledo de la compañia de Jhs</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado supplementum  <choice><abbr>chronicoꝵ</abbr><expan>chronicorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado secunda secunde <persName>sancti thome</persName></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>sobre el  <choice><abbr>psalt<hi rend="super">o</hi></abbr><expan>psalterio</expan></choice></title> <author>de Dauid author Hugo cardenae</author><!-- cardinal? --></bibl>
+                    <bibl><title>las quatro partes</title> <author>de S. Antonino de  <choice><abbr>floren<hi rend="super">a</hi></abbr><expan>florencia</expan></choice></author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado epistolas</title> <author>de çiçeron</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado lexicon ecclesiastico</title></bibl>
+                </listBibl>
+                <milestone unit="folio" n="3v"/>
+                <listBibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intittulado summa de cassos de  <choice><abbr>conçien<hi rend="super">a</hi></abbr><expan>conçiencia</expan></choice></title> <author>de fr. Manuel Rodriguez</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado suma syluestrina 2<hi rend="super">a</hi> parte</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado Reyno de Dios</title> <author>Author Fr. Sanchez de la compañia de Jhs</author></bibl>
+                    <bibl>Item <title>suma syluestrina primera parte</title></bibl>
+                    <bibl>Item <title>las epistolas</title> <author>de S. Paulo</author>, y al fin <title>un tratado modus legendi in utroque jure</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> <title>Intitulado norte de los estados</title> <author>autor fr.  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Ossuna</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intittulado sermones Hyemales</title> <author>de S. Vicente</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado  <choice><abbr>postillꜫ</abbr><expan>postillae</expan></choice> maines totius Anni cum glossis questionibus et figuris</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>de las  <choice><abbr>excelen<hi rend="super">as</hi></abbr><expan>excelencias</expan></choice> y vida de S.  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> evangelista</title> <author>Author fr. Diego destella</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>tratado de Alauança y  <choice><abbr>murmura<hi rend="super">on</hi></abbr><expan>murmuracion</expan></choice></title> <author>Author el  <choice><abbr>D<hi rend="super">or</hi></abbr><expan>Doctor</expan></choice> Nauarro</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitutlado vita patrum</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Practica <persName>Vernardi Diaz</persName></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">un</measure> <title>arte de gramatica</title> <author>Author Martin de Segura</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado  <choice><abbr>epistolꜫ</abbr><expan>epistolae</expan></choice> <persName>diui Hieronymi</persName></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado Symiles para los vicio y virtudes</title> <author>author  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> Perez Moya</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro</measure> <title>Intitulado  <choice><abbr>expossi<hi rend="super">on</hi></abbr><expan>expossicion</expan></choice> de los Hymnos</title></bibl><!-- maybe this? http://catalogos.mecd.es/CCPB/cgi-ccpb/abnetopac?ACC=DOSEARCH&xsqf99=CCPB000032100-1 -->
+                    <bibl>Item <measure unit="vol" quantity="1">otro</measure> <title>intitulado <persName>Terentio</persName></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">en un volumen</measure> los quatro libros <author>compuestos por Alexio Venegas</author><!-- Alejo de Venegas --> <title>de las  <choice><abbr>differen<hi rend="super">as</hi></abbr><expan>differencias</expan></choice> de libres <choice><abbr>q</abbr><expan>que</expan></choice> Ay en el mundo</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Moralia accutissimi <persName>Jacobi Almain</persName></title><!-- Jacques Almain --></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado doctrinale  <choice><abbr>floꝵ</abbr><expan>florum</expan></choice> Actis <choice><abbr>notarie</abbr><expan>notariae</expan></choice></title></bibl>
+                    
+                    
+                </listBibl>
+            </div>
+            <milestone unit="folio" n="4r"/>
+            <div>
+                <listBibl>
+                    <bibl>Item <title>el concilio de Trento</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">un</measure> <title>libro de grammatica</title> <author>author Joannis despauterij</author></bibl>
+                    <bibl>Item <title>la Rhethorica</title> <author>de saura</author> <note type="condition" subtype="age">muy viejo</note></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> <title>Intitulado seduli paschali</title><!-- Caelius Sedulius --></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> en q se contiene <title>la passion de nro  <choice><abbr>S<hi rend="super">r</hi></abbr><expan>Señor</expan></choice> Jhu  <choice><abbr>xpo</abbr><expan>christo</expan></choice></title> y <title><unclear>otro</unclear> Sanctus</title> <note type="condition" subtype="age">muy biejo</note> y <note type="condition" subtype="binding">quasi desenquadernado</note></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> <title>intitulado <persName>Joseph</persName> de  <choice><abbr>Antiquitatibꝰ</abbr><expan>Antiquitatibus</expan></choice>  <choice><abbr>Judeoꝵ</abbr><expan>Judeorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado <persName>Marco tulio ciceronis</persName></title> <note type="condition" subtype="size">muy pequeño</note></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado de la  <choice><abbr>ora<hi rend="super">on</hi></abbr><expan>oracion</expan></choice></title> <author>Author Fr. Andres Capilla</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado flosculus  <choice><abbr>sacramentoꝵ</abbr><expan>sacramentorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro</measure> <title>Intitulado christiani Pueri <choice><abbr>Institu<hi rend="super">o</hi></abbr><expan>Institutio</expan></choice></title> <author>author Joanne  <choice><abbr>bonifa<hi rend="super">o</hi></abbr><expan>bonifacio</expan></choice> de la compañia de <choice><abbr>jhs</abbr><expan>jesus</expan></choice></author></bibl> <!-- I wonder if the person writing has a connection to the jesuits considering that this keeps getting pointed out  -->
+                </listBibl>
+                <!-- inventory stopped for the day -->
+            </div>
+            <!-- restart inventory 2 December 1611 -->
+            <milestone unit="folio" n="4v"/>
+            <div>
+                <listBibl>
+                    <bibl>Item <title>las partes de la  <choice><abbr><choice><sic>oca<hi rend="super">on</hi></sic><corr>ora<hi rend="super">on</hi></corr></choice></abbr><expan>oracion</expan></choice></title><!-- oracion meaning oration, not prayer --> <author>de <choice><abbr>Mgl</abbr><expan>Miguel</expan></choice> Saura</author> <title>por otro  <choice><abbr>nom<hi rend="super">e</hi></abbr><expan>nombre</expan></choice> llamdo Syntaxis</title></bibl>
+                    <bibl>Item <title>Institutio gramatica</title> <author>de <choice><abbr>Ant.<hi rend="super">o</hi></abbr><expan>Antonio</expan></choice> de Nebrissa</author></bibl>
+                    <bibl>Item <title>las elegançias</title> <author>de Paulo Manuçio</author></bibl>
+                    <bibl>Item <title>summa <choice><abbr>sacramentoꝵ</abbr><expan>sacramentorum</expan></choice> <choice><abbr>ecclesiꜫ</abbr><expan>ecclesiae</expan></choice></title> <author>de Vitoria</author></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>de constructione verbi</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado puscula <persName>sancti Bonauenture</persName></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Cathalogus  <choice><abbr>libroꝵ</abbr><expan>librorum</expan></choice> qui prohbentur</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Institutiones absolutissime in grescam linguam</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado vita  <choice><abbr>sanctoꝵ</abbr><expan>sanctorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado de Imitatione christi</title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <persName>luis vives</persName></title></bibl>
+                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado tractatus sacerdotalis</title> <author>autor Nicolas de Ploue</author></bibl>
+                    <bibl>Item <measure unit="simple_count" quantity="4">quatro libros</measure> <note type="method">scriptos de mano</note></bibl>
+                    
+                </listBibl>
+                <list>
+                    <item>Item tres assadores, una sarten, dos cuchares de hyerro un caldero grande y otro pequeño de Alambre</item>
+                    <item>Item dos morilles de yerro y unos lares</item>
+                    <item>Item una arca Grande con su clauaçon</item>
+                    <item>Item dos herradas con sus cellos de yerro</item>
+                    <item>Item dos aparadores de madera</item>
+                    <item>Item dos banquillos de pino</item>
+                    <item>Item una comporta grande para tener harina</item>
+                </list>
+            </div>
+            <milestone unit="folio" n="6r"/>
+            <div>
+                <p>
+                    Juan de aguirre mercader vezino desta ciudad dize que Don Juan de Usarralde <lb/>
+                    vicario y capellan de la fortaleza nueba es muerto y este dia de enfermedad <lb/>
+                    natural dexando echo el memorial y testamento firmado de su mano quel  <choice><abbr>suplic<hi rend="super">e</hi></abbr><expan>suplicante</expan></choice> <lb/>
+                    presenta en que le nombra por su heredero universal cumplidas las mandas y legatos <lb/>
+                    que dexa en fauor de sus parientes y para que tenga effecto y se acuda a la cobranza <lb/>
+                    del salario que su  <choice><abbr>mag<hi rend="super">d</hi></abbr><expan>magestad</expan></choice> le debe y su socorra su alma y paguen sus deudas y legatos <lb/>
+                    conuiene quel dicho testamento sea abonido y se reciba informacion de testigos de <lb/>
+                    la voluntad que siempre mostro al suplicante deciendo de palabra en differentes oca<lb/>siones 
+                    que le dexaba por su heredero universal y como en otras enfermedades se re<lb/>legia 
+                    y curaba en cassa del suplicante y trataba mucha amistad y que la dicha <lb/>
+                    fama es suya y no se saue que aya echo otro testamento y lo de mas que con<lb/>uiniere suplica a v. md. mande recebir informacion de lo sobredicho aorando un <lb/>
+                    tanto desta peticion y lo que se mandare en la yglessia de la dicha fortaleza que <lb/>
+                    sirba de  <choice><abbr>llamam<hi rend="super">to</hi></abbr><expan>llamamiento</expan></choice> y edito general para que los que otra cossa pretendieren parescan an<lb/>te 
+                    V. md. y pide Justicia
+                </p>
+            </div>
+            <!-- verso date 29 November 1611 -->
+            <!-- 7r-11r (though unfoliated) testament of Juan de Ussarralde -->
+            <milestone unit="folio" n="8v"/>
+            <div>
+                <p>
+                    digo q tengo un libro de Memorias donde tengo asentados algunos Rezibos que tengo es mi  <choice><abbr>volun<hi rend="super">d</hi></abbr><expan>voluntad</expan></choice> se cobren
+                </p>
+            </div>
+            <!-- 11r, testament dated 24 November 1610 in the Ciudadela -->
+            
+        </body>
+    </text>
+</TEI>

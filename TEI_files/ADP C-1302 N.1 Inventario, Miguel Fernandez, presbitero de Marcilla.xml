@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Miguel Fernández, presbitero de Marcilla</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/1302 N.1</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <milestone unit="folio" n="1r"/>
+
+            
+            <milestone unit="folio" n="7r"/>
+            <div><p>En la villa de marcilla a treze dias del mes de mayo del <lb/>
+               año mil y seyscientos y ochenta y dos yo el comisario <choice><abbr>ynfras<hi rend="super">to</hi></abbr><expan>ynfrascrito</expan></choice>  en parte <lb/>
+               de la comision del <choice><abbr>s<hi rend="super">r</hi></abbr><expan>señor</expan></choice> lizenciado don Zeferino de Ulibarry <lb/>
+               probissor y bicario general de este obispado a mi dada para hazer <lb/>
+               ynbentario de los bienes rayzes muebles y recibos que quedaron por <lb/>
+               fin y muerte de don Miguel Hernandez presbitero ya difunto, <lb/>
+               beneficiado que fue de la parroquial de la <choice><abbr>dha</abbr><expan>dicha</expan></choice> villa a ynstanzia del <lb/>
+               fiscal General deste <add rend="caret"><choice><abbr>dho</abbr><expan>dicho</expan></choice></add> obispado y en birtud de lo que se manda por <lb/>
+               la <choice><abbr>dha</abbr><expan>dicha</expan></choice> comision y con la de la <choice><abbr>ynfor<hi rend="super">on</hi></abbr><expan>ynformacion</expan></choice> por mi recibida aber muerto <lb/>
+               abintestato el <choice><abbr>dho</abbr><expan>dicho</expan></choice> don Miguel fernadez, hiçe ynbentario <lb/>
+               para que en todos tiempos conste de los vienes siguentes =
+            </p>
+
+            </div>
+            
+           <milestone unit="folio" n="7v"/>
+            <div>
+<!-- intervening goods -->
+            <listBibl>
+               <bibl>Iten mas <measure unit="copies" quantity="1"><add>un</add></measure><del rend="strike">dos</del> <title>brebiario</title> <measure unit="vol" quantity="2">en dos cuerpos</measure> <measure type="format" corresp="#_2o">de medio folio</measure> <pubPlace corresp="Antwerp">impreso en <unclear>Anerpia</unclear></pubPlace><!-- erpia clear. bad spelling of Antuerpia? --> <date type="publication" when="1661">año <add>mil y <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y sesenta</add> <gap reason="cancelled" extent="3 letters"/> y un</date> y <sic>urno</sic> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">un libro</measure> <title>yntitulado de la esperanza y temor <choice><abbr>xptiano</abbr><expan>cristiano</expan></choice></title> <author>conpuesto por fr juan de la fuente</author> =</bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Manual de confesores</title> <author>conpuesto por el <choice><abbr>p<hi rend="super">e</hi></abbr><expan>padre</expan></choice> enrique de villalobos</author> =</bibl>
+               <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>zeremonial <choice><abbr>p<hi rend="super">a</hi></abbr><expan>para</expan></choice> las misas solegnes</title> <author>conpuesto por el Padre Guerrero</author></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>de Juycio final</title> <note type="condition" subtype="wear">sin principio ni fin</note></bibl>
+            </listBibl>
+            </div>
+         <milestone unit="folio" n="8r"/>
+         <div>
+            <listBibl>
+              <bibl>Ittem mas <measure unit="vol" quantity="1">un</measure> <title>compendio</title> <author>de Bonazina</author> <title>de theologia moral</title></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Balerio maximo</title></bibl>
+               <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>tratado casos de conziencia</title> <author>conpuesto por el <choice><abbr>P<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> cordoua</author></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <choice><abbr>congreg.<hi rend="super">on</hi></abbr><expan>congregacion</expan></choice> que celebraron las <choice><abbr>s<hi rend="super">tas</hi></abbr><expan>santas</expan></choice> Yglesias Metropolitanas y cathedrales de las coronas de castilla</title> =</bibl>
+               <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Monarquia mistica de la yglesia</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> Zamora</author></bibl>
+               <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="wear">que le falta el principio</note> y entra diziendo <q>el exsamen de la <choice><abbr>conzien.<hi rend="super">a</hi></abbr><expan>conziencia</expan></choice> del Muy <choice><abbr>Reu<hi rend="super">do</hi></abbr><expan>Reuerendo</expan></choice> <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> fr Alonso de orozco</q></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado la segunda parte de las quatrocientas <choice><abbr>Resp<hi rend="super">tas</hi></abbr><expan>respuestas</expan></choice></title> <note type="method" subtype="print">impreso</note> <pubPlace>en Valladolid</pubPlace> <date type="publication" when="1552">año de mil quinientos <choice><abbr>cinq<hi rend="super">ta</hi></abbr><expan>cinquenta</expan></choice> y dos</date></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado santoral seraphica</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>padre</expan></choice> fr <choice><abbr>P.<hi rend="super">o</hi></abbr><expan>Pedro</expan></choice> Nuñez castro</author> <date type="publication" when="1618">año mil <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y diez y ocho</date></bibl>
+               <bibl>Itten mas <measure unit="vol" quantity="1">un quadernillo</measure> <title>de los santos del obispado</title></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado cathedra episcopal de Zaragoza</title> <author>conpuesto por <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Arruego</author> <date type="publication" when="1653">año mil <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> cinquenta y tres</date> =</bibl>
+               <bibl>Itten Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>fundaz.<hi rend="super">on</hi></abbr><expan>fundazion</expan></choice> milagrosa de la capilla de la <choice><abbr>M.<hi rend="super">e</hi></abbr><expan>Madre</expan></choice> de Dios del Pelar</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> fr Diego Murillo</author></bibl><!-- CCPB000147312-3 -->
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado canones et decreta sacrosante et generales concili tredentini</title> =</bibl>
+               <bibl>Iten <measure unit="vol" quantity="1">un quadernillo</measure> <title>de los santos <choice><sic>nueves</sic><corr>nuevos</corr></choice></title></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado blasones de la Virgen</title> <author>conpuesto por Don Plazido <choice><sic>Virto</sic><corr>Mirto</corr></choice></author></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>Ynstru.<hi rend="super">on</hi></abbr><expan>Ynstruccion</expan></choice> de sacerdotes</title> <author>conpuesto por fr <choice><abbr>An.<hi rend="super">o</hi></abbr><expan>Antonio</expan></choice> de Molina</author></bibl>
+               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado laurea Evangelica</title> <author>conpuesta por fr angel Manrrique</author></bibl>
+            </listBibl>
+         </div>
+            <milestone unit="folio" n="8v"/>
+            <div>
+               <listBibl>
+                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado tratado del Patronado antiguedades Gouierno y varones y cultres de la <choice><abbr>ciu<hi rend="super">d</hi></abbr><expan>ciudad</expan></choice> y comunidad de calatayud</title></bibl>
+                  <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado coronaziones de los <choice><abbr>Seren.<hi rend="super">mos</hi></abbr><expan>serenisimos</expan></choice> Reyes de Aragon</title></bibl>
+                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado agricoltura Pastoril</title></bibl>
+                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <persName>Yanguas</persName> de santis</title></bibl>
+                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Conbentari Universan Aristotelis Logicam</title></bibl>
+                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>S.<hi rend="super">ta</hi></abbr><expan>Santa</expan></choice> Juana de la Cruz</title></bibl>
+                  <bibl>Yten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado suma</title> <author>de enriquez</author></bibl>
+                  <bibl>Yten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado suma</title> <author>de ledesma</author> <title>primero y segundo tomos</title></bibl>
+               </listBibl>
+            </div>
+         
+      </body>
+   </text>
+</TEI>

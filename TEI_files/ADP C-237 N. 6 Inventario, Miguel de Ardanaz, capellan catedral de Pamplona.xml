@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Miguel de Ardanaz, capellan catedral de Pamplona</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/237 N. 6</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- 1610 -->
+
+         <milestone unit="folio" n="26r"/>
+         <div>
+            <listBibl>
+<!-- This inventory will be good to compare in structure to the booksellers since it was actually valued. -->
+               <!-- this inventory is a treslado. See scribe's note at the end of book inventory. -->
+         <head>Memorial de los libros de don Miguel de Ardanaz y
+         baluacion dellos por los libreros</head>
+               <!-- triple dash indicates rule from end of description to valuation. -->
+         <bibl><title>Opera <persName>Nauarri</persName></title> <measure unit="vol" quantity="3">en 3 tomos</measure> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="66">66 Rs</measure></bibl>
+               <bibl><title>Consilia <persName>nauarri</persName></title> <measure unit="vol" quantity="2">en 2 tomos</measure> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="33">33 rs</measure></bibl>
+               <bibl><title><persName>sotus</persName> <choice><abbr>suꝑ</abbr><expan>super</expan></choice> 4<hi rend="super">to</hi> sentenciarum</title> <measure unit="vol" quantity="2">dos tomos</measure> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="6">36 rs</measure></bibl>
+               <bibl><author>soto</author> <title>de <choice><abbr>jus.<hi rend="super">a</hi></abbr><expan>justicia</expan></choice> et jure</title> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="18">18 rs</measure></bibl>
+               <bibl><author>Pedro de ledesma</author> <title>de matrimonio</title> --- <measure unit="reales" quantity="18">18 rs</measure></bibl>
+               <bibl><author>alfonsus de Vega</author> <title>de casibus <choice><abbr>concien.<hi rend="super">a</hi></abbr><expan>conciencia</expan></choice></title> <measure unit="vol" quantity="2">dos tomos</measure> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="40">40 rs</measure></bibl>
+               <bibl><author>petrus de nauarra</author> <title>de restitucione</title> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="12">12 rs</measure></bibl>
+               <bibl><title>candelabrum Aureum</title> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="10">10 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de llamas</author> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="10">10 rs</measure><!-- Jeronimo Llamas --></bibl>
+               <bibl><title>suma <persName>toleti</persName></title> <measure type="format" corresp="#_8o">8</measure> --- <measure unit="reales" quantity="11">11 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de rodriguez</author> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="18">18 rs</measure></bibl>
+               <bibl><title>explicacion dela bulla</title> <author>de rodriquez</author> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+               <bibl><author>Angles</author> <title>yn 4<hi rend="super">tto</hi> sentenciarum</title> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="12">12 rs</measure></bibl>
+               <bibl><title>adiciones</title> <author>de fr. manuel rodriguez</author> <title>de la bulla</title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+               <bibl><title><choice><abbr>explica.<hi rend="super">on</hi></abbr><expan>explicacion</expan></choice> de la bulla de los difuntos</title> <author>de carrillo</author> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de cordoua</author> <measure type="format" corresp="#_8o">8<hi rend="super">o</hi></measure> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de medina</author> <measure type="format" corresp="#_8o">8<hi rend="super">o</hi></measure> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+               <bibl><title>yttenerarium ordinandoze</title> <measure type="format" corresp="#_8o">8</measure> --- <measure unit="reales" quantity="3">3 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de pedraza</author> --- <measure unit="reales" quantity="2">02 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de Victoria</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+               <bibl><title>suma</title> <author>de orriz lucio</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+               <bibl><title>suma <persName>cayetano</persName></title> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+               <bibl><title>suma <persName>angelica</persName></title> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            </listBibl>
+         </div>
+         <milestone unit="folio" n="26v"/>
+         <div>
+            <listBibl>
+               <bibl><author>franciscus alcocer</author> <title>de ludo</title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+               <bibl><title><choice><sic>bibilia</sic><corr>biblia</corr></choice> sacra</title> --- <measure unit="reales" quantity="18">18 rs</measure></bibl>
+               <bibl><author>magister sentenciarum</author> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+               <bibl><title>opera <persName>ruperti abbatis</persName></title> <measure type="format" corresp="#_2o">fol.</measure> <measure unit="vol" quantity="3">3 tomos</measure> --- <measure unit="reales" quantity="90">90 rs</measure></bibl>
+               <bibl><title><persName>maldonatus</persName> <choice><abbr>suꝑ</abbr><expan>super</expan></choice> euangelia</title> --- <measure unit="reales" quantity="40">40 rs</measure></bibl>
+               <bibl><title>incognitus jn Psalmos</title> <measure type="format" corresp="#_2o">fol.</measure> <measure unit="vol" quantity="2">2 tomos</measure> --- <measure unit="reales" quantity="55">55 rs</measure></bibl>
+               <bibl><title><persName>estella</persName> jn lucam</title> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+               <bibl><title><persName>toletus</persName> in Juanem</title> --- <measure unit="reales" quantity="34">34 rs</measure></bibl>
+               <bibl><title><persName>auendanum</persName><!-- there's a squiggle over the um as if it's an abbreviation, but I don't think it is since it's Avendaño --> in Matheum</title> --- <measure unit="reales" quantity="40">40 rs</measure></bibl>
+               <bibl><title>flos <choice><abbr>sanctoꝵ</abbr><expan>sanctorum</expan></choice></title> <author>de villegas</author> <title><choice><abbr>p.<hi rend="super">a</hi></abbr><expan>primera</expan></choice> <choice><abbr>p.<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title> --- <measure unit="reales" quantity="20">20 rs</measure></bibl>
+               <bibl><title>flos sanctorum</title> <author>de villegas</author> <measure type="format" corresp="#_4o">4<hi rend="super">o</hi></measure> --- <measure unit="reales" quantity="18">18 rs</measure></bibl>
+               <bibl><add place="inline"><title>flosanctorum</title> <persName>de billegas</persName> <title>.4. parte</title> --- <measure unit="reales" quantity="20">20 rs</measure></add></bibl>
+               <bibl><title>obras</title> <author>de frai luis de granada</author> <measure unit="vol" quantity="2">en 2 tomos</measure> --- <measure unit="reales" quantity="33">33 rs</measure></bibl>
+               <!-- the next two bibls need to be added to database because my eye jumped from one luis de granada to the text in the original transcribing -->
+               <bibl><title>simbolo</title> <author>de frai luis de granada</author> <measure unit="vol" quantity="7">en 7 tomos</measure> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+               <bibl><title>sermones</title> <author>de fray luys de granada</author> <measure unit="vol" quantity="7">en 7 tomos</measure> --- <measure unit="reales" quantity="36">36 rs</measure></bibl>
+               <bibl><title>lugares comunes</title> <author>de ortiz lucio</author> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="16">16 rs</measure></bibl>
+               <bibl><author>philipe diez</author> <title>marial</title> --- <measure unit="reales" quantity="16">16rs</measure></bibl>
+               <bibl><title>loci comunes</title> <author>de filipe diez</author> <measure unit="vol" quantity="2">2 tomos</measure> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+               <bibl><title>sermones</title> <author>de filipe diez</author> <measure unit="vol" quantity="6">en 6 tomos</measure> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+               <bibl><title>sermones <persName>osori</persName></title> <measure unit="vol" quantity="5">en 5. tomos</measure> --- <measure unit="reales" quantity="44">44 rs</measure></bibl>
+               <bibl><title>jornadas para el cielo</title> <author>de fr. moreno</author> --- <measure unit="reales" quantity="12">12 rs</measure></bibl>
+               <bibl><title>tratado del juizo final</title> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="6">06 rs</measure></bibl>
+               <bibl><author>estella</author> <title>dela vanidad del mundo</title> <measure unit="vol" quantity="2">en 2 tomos</measure>// --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+               <bibl><title>tratado sobre <choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> Joan y <choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> <choice><abbr>p.<hi rend="super">o</hi></abbr><expan>pedro</expan></choice></title> <author>de saona</author> --- <measure unit="reales" quantity="10">10 rs</measure></bibl>
+               <bibl><title>Milicia <choice><abbr>xpiana</abbr><expan>cristiana</expan></choice> de los tres enemigos</title> --- <measure unit="reales" quantity="10">10 rs</measure></bibl>
+               <bibl><title>catechimus tridentinus</title> --- <measure unit="reales" quantity="6">06 rs</measure></bibl>
+            </listBibl>
+         </div>
+        <milestone unit="folio" n="27r"/>
+      <div>
+         <listBibl>
+            <bibl><title>La conuersion dela Madalena</title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+            <bibl><title>tratado sobre el magnificat</title> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+            <bibl><title>Hierarchia selestial y terrena</title> <author>de saona</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>excelencias de <choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> Joan euangelista</title> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+            <bibl><title>memorial de confessores</title> <author>de carillo</author> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+            <bibl><author>sant joan climaco</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>obras</title> <author>de ludouico blosio</author> --- <measure unit="reales" quantity="20">20 rs</measure></bibl>
+            <bibl><title>confessiones</title> <author>de <choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> agustin</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>meditaciones</title> <author>de <choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> agustin</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>meditaciones de la Passion</title> <author>de conero</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>manual del <choice><abbr>xpano</abbr><expan>cristiano</expan></choice></title> <author>de torres</author> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>lunario perpetuo</title> <author>de cortes</author> --- <measure unit="reales" quantity="2">02 rs</measure></bibl>
+            <bibl><title>consilio tridentino</title> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+            <bibl><title>contemptus Mundi</title> --- <measure unit="reales" quantity="2">02 rs</measure></bibl>
+            <bibl><title>opera <persName><choice><abbr>D.</abbr><expan>Divi</expan></choice> Chrisostomi</persName></title> <note type="condition" subtype="binding">en tablas</note> <measure unit="vol" quantity="5">5 tomos</measure> --- <measure unit="reales" quantity="99">99 rs</measure></bibl>
+            <bibl><title>suma siluestrina</title> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+            <bibl><title>opera <persName><choice><abbr>D.</abbr><expan>Divi</expan></choice> Ambrossi</persName></title> --- <measure unit="reales" quantity="40">40 rs</measure></bibl>
+            <bibl><title>opera <persName><choice><abbr>D.</abbr><expan>Divi</expan></choice> bernardi</persName></title> --- <measure unit="reales" quantity="38">38 rs</measure></bibl>
+            <bibl><title>opera <persName><choice><abbr>D.</abbr><expan>Divi</expan></choice> Gregori</persName></title> <measure type="format" corresp="#_2o">fol.</measure> --- <measure unit="reales" quantity="50">50 rs</measure></bibl>
+            <bibl><title>obras</title> <author>del padre auila</author> <measure unit="vol" quantity="2">en 2 tomos</measure> --- <measure unit="reales" quantity="30">30 rs</measure></bibl>
+            <bibl><title>espejo de curas</title> <author>de Vega</author> <measure unit="vol" quantity="2">2 tomos</measure> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+            <bibl><title>vocabulario</title> <author>de brauo</author> <measure type="format" corresp="#_4o">4<hi rend="super">to</hi></measure> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+            <bibl><title>vocabulario</title> <author>del antonio</author> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+            <bibl><title>vocabulario <choice><abbr>eccle.<hi rend="super">o</hi></abbr><expan>ecclesiastico</expan></choice></title> <measure type="format" corresp="#_4o">4<hi rend="super">o</hi></measure> <measure unit="reales" quantity="8">08 rs</measure></bibl>
+         </listBibl>
+      </div>
+         <milestone unit="folio" n="27v"/>
+         <div>
+            <listBibl>
+               <bibl><title>Compendium <choice><abbr>theologiū</abbr><expan>theologium</expan></choice></title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+               <bibl><author>suarez</author> <title>de vita <choice><abbr>xpi</abbr><expan>cchristiani</expan></choice></title> --- <measure unit="reales" quantity="36">36 rs</measure></bibl>
+               <bibl><author>suarez</author> <title>de penitencia</title> --- <measure unit="reales" quantity="26">26 rs</measure></bibl>
+               <bibl><author>suarez</author> <title>de sacramentis</title> <measure unit="vol" quantity="3">3<!-- odd stroke here next to the 3 --> tomos</measure> --- <measure unit="reales" quantity="36">36 rs</measure></bibl>
+               <bibl><title>Historia pontifical</title> <measure unit="vol" quantity="2">2 tomos</measure> --- <measure unit="reales" quantity="30">30 rs</measure></bibl>
+               <bibl><title>Philospia Moral de Principes</title> <author>de torres</author> <measure unit="vol" quantity="2">2 tomos</measure> --- <measure unit="reales" quantity="30">30 rs</measure></bibl>
+               <bibl><title>opera <persName>Juannis Viguerij</persName></title> --- <measure unit="reales" quantity="14">14 rs</measure></bibl>
+               <bibl><author>dionissio Cartusiano</author> --- <measure unit="reales" quantity="15">15 rs</measure></bibl>
+               <bibl><title>excelencias de la castidad</title> --- <measure unit="reales" quantity="20">20 rs</measure></bibl>
+               <bibl><title>Purgatorio de Conciencia</title> --- <measure unit="reales" quantity="10">10 rs</measure></bibl>
+               <bibl><title>constituciones sinodales</title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+               <bibl><title>tratado del purgatorio <choice><abbr>con.<hi rend="super">a</hi></abbr><expan>contra</expan></choice> lutero</title> <del rend="strike">estapletonio</del> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+               <bibl><author>estapletonio</author> --- <measure unit="reales" quantity="6">06 rs</measure></bibl>
+               <bibl><title>rosaurea <choice><abbr>sup.</abbr><expan>super</expan></choice> euangelia</title> --- <measure unit="reales" quantity="5">05 rs</measure></bibl>
+               <bibl><author>zerola</author> <title>de penitencia</title> --- <measure unit="reales" quantity="3">03 rs</measure></bibl>
+               <bibl><title><choice><abbr>drecho</abbr><expan>derecho</expan></choice> canonico</title> <measure unit="vol" quantity="4">en 4 tomos</measure> --- <measure unit="reales" quantity="40">40 rs</measure></bibl>
+               <bibl><title>racionale <choice><abbr>diuinoꝵ</abbr><expan>diuinorum</expan></choice> officiorum</title> <measure unit="reales" quantity="6">6 rs</measure></bibl>
+               <bibl><title>concordancia dela biblia</title> --- <measure unit="reales" quantity="24">24 rs</measure></bibl>
+               <bibl><author>Juanes tauleri</author> --- <measure unit="reales" quantity="2">02 rs</measure></bibl>
+               <bibl><author>Grauiel viel</author> <title><choice><abbr>sup.</abbr><expan>super</expan></choice> <choice><abbr>senten.<hi rend="super">as</hi></abbr><expan>sentencias</expan></choice></title> <measure unit="vol" quantity="2">2 tomos</measure> --- <measure unit="reales" quantity="12">12 rs</measure></bibl>
+               <bibl><title>suma armilia</title> --- <measure unit="reales" quantity="6">06 rs</measure></bibl>
+               <bibl><title>ceremonial romano</title> --- <measure unit="reales" quantity="2">02 rs</measure></bibl>
+               <bibl><title>milagros della cruz</title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+            </listBibl>
+         </div>
+         <milestone unit="folio" n="28r"/>
+         <div>
+         <listBibl>
+            <bibl><title>Suma conffessorum</title> <author>de Juanes de friburgo</author> --- <measure unit="reales" quantity="6">06 rs</measure></bibl>
+            <bibl><title>dictionario de vocabulos castellanos</title> <author>de vallesta</author> --- <measure unit="reales" quantity="8">08 rs</measure></bibl>
+            <bibl><title>breue suma dela antiguedad del Carmen</title> --- <measure unit="reales" quantity="1">01 rs</measure></bibl>
+            <bibl><title>suma</title> <author>de azor</author> <measure type="format" corresp="#_2o">fol</measure> --- <measure unit="reales" quantity="33">33 rs</measure></bibl>
+            <bibl><title>un diurnal</title> --- <measure unit="reales" quantity="4">04 rs</measure></bibl>
+            <bibl><title>la segunda</title> <author>de guzman</author> --- <measure unit="reales" quantity="2">02 rs</measure></bibl>
+            <bibl><title>las obras</title> <author>de <choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> agustin</author> <measure unit="vol" quantity="9">en 10 tomos y le falta el 2<hi rend="super">o</hi> tomo</measure> --- <measure unit="reales" quantity="180">180 rs</measure></bibl>
+            <!-- alewinga, this identification needs to be updated. i had this as the 2nd part originally, but clearly quinta --><bibl><title>flos santorum 5<hi rend="super">a</hi> parte</title> --- <measure unit="reales" quantity="20">020 rs</measure></bibl><!-- this notary clearly actually knew Latin well because there are practically no spelling mistakes and he uses scribal abbreviations correctly (or in a more standard manner) -->
+            <bibl><title>flos <choice><abbr>sanctoꝵ</abbr><expan>sanctorum</expan></choice> 6<hi rend="super">a</hi> parte</title> --- <measure unit="reales" quantity="24">024 rs</measure></bibl>
+         </listBibl>
+         <!-- These books mentioned here are the ones added between other entries. They are noted with the add tag in the listBibls. 12-09-2023, had to take the add out of some bibls because wouldn't let author be a child. -->
+         <p>balga lo añadido entre renglones// <lb/>
+            <bibl>flosantorum de villegas en quarta parte</bibl> <lb/> <bibl>sermones de fray luys de granada en siete <lb/>
+               tomos</bibl>/ <bibl>estapletomo</bibl> / no dañe lo borrado <lb/>
+            estaplatomo / doy fee berdadero testimonio <lb/>
+            yo el escribano infrasto que este <choice><abbr>tras<hi rend="super">do</hi></abbr><expan>traslado</expan></choice> hize sacar de su original que en mi poder queda <lb/>
+            y sigue y firme como acostumbro y çerre<lb/></p>
+            <p>en testimonio de verdad <lb/>
+         <fw type="signature">Hernando Labari</fw></p>
+         </div>
+         
+         
+      </body>
+   </text>
+</TEI>

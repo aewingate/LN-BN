@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Lorenzo de Yoldi, vicario de Melida</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/983 N.3</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+
+   </teiHeader>
+   <text>
+      <body>
+         
+         <!-- date 1694 -->
+         <milestone unit="folio" n="18r"/><!-- my word transcription says 28r, but Doña Teresa named the image as 18r -->
+         <div><list><item>Itten se allo un estante de pino y en el los
+         libros siguientes</item></list>
+         <listBibl><head>Primeramente <measure type="format" corresp="#_4o">en quarto folio</measure> los siguentes</head>
+         <milestone unit="folio" n="18v"/>
+
+            <bibl><title>El politico <persName>del Lulo</persName></title> =</bibl>
+            <bibl>Itten <title>Jornada para el cielo</title></bibl>
+            <bibl>Ittem <title>Ieon pro didioso</title> =</bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <author>de <choice><abbr>s<hi rend="super">ta</hi></abbr><expan>santa</expan></choice> theresa de jesus</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>de la canonicacion de santo thomas de Villanueba</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author><choice><sic>Larcano</sic><corr>Lazcano</corr></choice></author> <title>de oracion</title></bibl>
+            <bibl>Itten <measure unit="vol" quantity="1">otro</measure> <title>Vida de Lulo</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>constancia del Justo</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>silba esperitual</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>supresticion la dina</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author>alchacoa</author><!-- Alchacoa is author, two works printed in Pamplona --></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones</title> <author>de quiros</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones</title> <author>de <unclear>Cespedes</unclear></author><!-- C looks like an L --></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>Politica</title> <author>de quebedo</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>obras</title> <author>de medina</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>conpendio</title> <author>de barcca</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>tratados <choice><sic>ebandelicos</sic><corr>ebangelicos</corr></choice></title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>Lojica</title> <author>de alfonsso</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>questiones morales</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de lumbier</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author>Amadio Guimenio</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de <unclear>Visien bauco</unclear></author> <textLang xml:lang="spa">Romance</textLang></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de Rodriguez</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>pasos de la Virjen santisima</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>empresas</title> <author>de sabedra</author><!-- Don Diego Saavedra Farjado, Idea de un principe en cien empresas --></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>Manual</title> <author>de Nauarro</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de Rodriguez</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>adiciones</title> <author>de Rodriguez</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma selebistrina</title><!-- silvestrina --></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>practica de curas</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>oratoria sagrada</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sacra decima de sermones</title></bibl></listBibl>
+         </div>
+
+         <milestone unit="folio" n="19r"/>
+         <div><listBibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>biblia sacra</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones</title> <author>de Gaona</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>catecismo</title> <author>de eusebio</author></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones barios</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>de sermones barios</title></bibl>
+            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>de el apostol de las yndias</title></bibl>
+         </listBibl>
+            <listBibl>
+         <head><measure type="format" corresp="#_2o">Libros de folio potente</measure></head>
+            <bibl>Primeramente <title>Marial</title> <author>de Couphino</author></bibl>
+               <bibl><measure unit="simple_count" quantity="2">dos tomos</measure> <author>de villalobos</author></bibl>
+            <bibl><title>selectas</title> <author>de moya</author></bibl>
+            <bibl><title>caticismo</title> <author>de fr luis de Granada</author></bibl>
+            <bibl><title>flosantorum</title> <author>de riba de neira</author></bibl>
+            <bibl><title>suma</title> <author>de diana</author></bibl>
+            <bibl><title>Bocabulario eclesiastico</title></bibl>
+            <bibl><title>suma</title> <author>de Juan de la cruz</author></bibl>
+            <bibl><title>espejo de la consolacion</title></bibl>
+            <bibl><title>esplicacion del oficio eclesiastico</title></bibl>
+            <bibl><title>orijen de los <choice><sic>flaires</sic><corr>frailes</corr></choice> ermitanos</title></bibl>
+            <bibl><author>calepino</author></bibl></listBibl>
+            <listBibl>
+         <head><note type="condition" subtype="size">Libros de folio pequeño</note></head>
+               <bibl>Ittem <measure unit="simple_count" quantity="12">doze libros</measure> <note type="condition" subtype="size">de folio Pequeño</note> <author>de diferentes
+         autores</author> <note type="condition" subtype="value">de poca utilidad o balor</note></bibl>
+               <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>brebiario</title> <note type="condition" subtype="size">pequeño</note></bibl>
+         </listBibl>
+         </div>
+         
+         
+      </body>
+   </text>
+</TEI>

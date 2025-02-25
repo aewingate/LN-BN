@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Francisco de Larrimpe, beneficiado de Sangüesa</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/781 N. 21</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         
+         <milestone unit="folio" n="7r"/>
+         <div><p>En la villa de sanguessa A Veynte y un dias del mes de julio del <lb/>
+            año mil y <choice><abbr>seys<hi rend="super">os</hi></abbr><expan>seyscientos</expan></choice> y quarenta y nuebe Yo el <choice><abbr>comm<hi rend="super">o</hi></abbr><expan>commisario</expan></choice> <choice><abbr>infras<hi rend="super">to</hi></abbr><expan>enfrascrito</expan></choice> en virtud <lb/>
+         de mi <choice><abbr>comi<hi rend="super">on</hi></abbr><expan>comision</expan></choice> hauiendo receuido <choice><abbr>ynforma.<hi rend="super">on</hi></abbr><expan>ynformacion</expan></choice> de como es <choice><abbr>licen<hi rend="super">do</hi></abbr><expan>licenciado</expan></choice>
+            don <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> larrinpe beneficiado de la dicha villa a muerto abin<lb/>testato 
+            y <del>ha</del> en virtud de la dicha <choice><abbr>com<hi rend="super">on</hi></abbr><expan>comision</expan></choice> acudi a cassa<lb/>
+            del dicho don <choice><abbr>fran.<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> hacer Ynbentario de los vienes que <lb/> alle en ella que son los Vienes siguientes = <lb/>
+         </p>
+         <listBibl> 
+            <head>estos son los libros que fueron de don Bernardo de todas
+               <choice><abbr>q</abbr><expan>que</expan></choice> los compra el difunto</head>
+            <!-- triple dash for ruling -->    <bibl> <choice><abbr>Prim.<hi rend="super">te</hi></abbr><expan>Primeramente</expan></choice> <author>el tostado</author> <title>sus obras</title> <measure unit="vol" quantity="25">en veynte y cinco tomos</measure> --- <measure unit="vol" quantity="25">025</measure></bibl>
+ <bibl> mas <title>las obras</title> <author>de salmeron</author> <measure unit="vol" quantity="16">en 16 tomos</measure> --- <measure unit="vol" quantity="16">016</measure></bibl>
+
+ <bibl> mas <measure unit="vol" quantity="3">tres cuerpos</measure> <author>de san gregorio magno</author> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+ <bibl> mas <measure unit="vol" quantity="1">otro</measure> <author>de san gregorio niceno</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl> mas <title>la glossa hordinaria</title> <author>de nicolase de lira</author> <measure unit="vol" quantity="4">en quatro tomos</measure> --- <measure unit="vol" quantity="4">004</measure></bibl>
+
+            <bibl> mas <title>blibia sacra</title> <author>de sixto quinto</author> <pubPlace>de antuerpia</pubPlace> <date type="publication" when="1603">año 1603</date> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl> Mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de Justiniano</author> <title>sobre las espistolas de san pablo</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+            <bibl> Mas <title>comentarios</title> <author>de <choice><abbr>Ju</abbr><expan>Juan</expan></choice> antonio</author> <title>sobre el decreto</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl> mas <title>las obras</title> <author>de alejandrino</author> <measure unit="vol" quantity="1">un cuerpo</measure>= --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>10 mas <title>las obras</title> <author>de tertuliano</author> <measure unit="vol" quantity="1">en otro</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+ <bibl>11 Mas <title><choice><abbr>disputa.<hi rend="super">es</hi></abbr><expan>disputaciones</expan></choice></title> <author>de belarmino</author>=</bibl>
+
+            <bibl>12 Mas <title>las obras</title> <author>de san bernardo</author> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>13 Mas <title>ordo romances de diuionis de oficis</title> <measure unit="vol" quantity="1">un tomo</measure> <note type="condition" subtype="size">grande</note> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+ <bibl>14 Mas <title>la segunda parte de las obras</title> <author>de origines</author> =</bibl>
+
+ <bibl>15 Mas <author><choice><abbr>fras.<hi rend="super">co</hi></abbr> <expan>francisco</expan></choice> axesino</author><!-- aresino? --> <title>sobre el dixesto biejo</title> =</bibl>
+
+ <bibl>16 Mas <author>nicolas sandexo</author> <title>de la monarquia eclesiastica</title> =</bibl>
+
+
+         </listBibl></div>
+         
+        <milestone unit="folio" n="7v"/>
+         <div><listBibl> 
+            <bibl>17 mas <measure unit="vol" quantity="1">un tomo</measure> <author>de aymon</author> =</bibl>
+
+            <bibl>18 Mas <title>las obras</title> <author>de san ylario</author> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>19 Mas <author>san gregorio nascensino</author> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>20 Mas <title>las epistolas</title> <author>de esidoro <unclear>pelucesteta</unclear></author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>21 Mas <title>las obras</title> <author>de alenbino</author> <measure unit="vol" quantity="2">en dos cuerpos</measure> --- <measure unit="vol" quantity="2">002</measure></bibl>
+
+            <bibl>22 Mas <title>las obras</title> <author>de San Jeronimo</author> <measure unit="vol" quantity="4">en quatro cuerpos</measure> --- <measure unit="vol" quantity="4">004</measure></bibl>
+
+            <bibl>23 Mas <title>las obras</title> <author>de san ambrosio</author> <measure unit="vol" quantity="3">en tres cuerpos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>24 Mas <title>las obras</title> <author>de san agustin</author> <measure unit="vol" quantity="7">en siete cuerpos</measure> --- <measure unit="vol" quantity="7">007</measure></bibl>
+
+            <bibl>25 Mas <title>sermones</title> de <del>san agustin</del> <author>san bernardino</author> <measure unit="vol" quantity="1">en un cuerpo</measure> <note type="condition" subtype="size">pequeño</note> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>26 Mas <title><choice><sic>blibioteca</sic><corr>biblioteca</corr></choice> de los santos padres</title> <author>de margatino de la bezne</author> <measure unit="vol" quantity="9">nuebe cuerpo</measure> <note type="condition" subtype="size">grandes</note> --- <measure unit="vol" quantity="9">009</measure></bibl>
+
+            <bibl>2<del>6</del>7 mas <title><choice><sic>blibioteca</sic><corr>biblioteca</corr></choice> cluniacensis</title> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>28 Mas <title><choice><sic>blibioteca</sic><corr>biblioteca</corr></choice> consionura</title> <author>de Jorje de bertoldo</author> <measure unit="vol" quantity="4">en quatro cuerpos</measure> --- <measure unit="vol" quantity="4">004</measure></bibl>
+
+            <bibl>29 Mas <title>index <choice><sic>blibioteca</sic><corr>biblioteca</corr></choice> beterun patrun</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>30 Mas <measure unit="vol" quantity="2">dos cuerpos</measure> <author>de teodoreto</author> --- <measure unit="vol" quantity="2">002</measure></bibl>
+
+            <bibl>31 Mas <title><choice><abbr>institu<hi rend="super">es</hi></abbr><expan>instituciones</expan></choice> morales</title> <author>de acor</author> <measure unit="vol" quantity="3">tres tomos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>32 Mas <title>Bocatarun Unibersal seu catholicun</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>33 Mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de san bernardo</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>34 Mas <title>las obras</title> <author>de Ugon</author> <measure unit="vol" quantity="8">en ocho cuerpos</measure> --- <measure unit="vol" quantity="8">00<choice><sic>1</sic><corr>8</corr></choice></measure></bibl>
+
+            <bibl>35 Mas <title>las obras</title> <author>de peneda</author> <measure unit="vol" quantity="3">en tres cuerpos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>36 mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de castro</author> <title>de berisebus</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>37 mas <measure unit="vol" quantity="1">otro cuerpo</measure> <title>in profesias <choice><abbr>hieromꝭ</abbr><expan>hieronimis</expan></choice></title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>38 Mas <title>ebanjelio</title> <author>de lindorno</author> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>39 Mas <author>Beda</author> <measure unit="vol" quantity="8">en ocho cuerpos</measure> --- <measure unit="vol" quantity="8">008</measure></bibl>
+
+            <bibl>40 Mas <title>las obras</title> <author>de san Juda masçeno</author> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure><!-- this particularly needs to be edited in database bc had as 2 cuerpos before --></bibl>
+
+
+         </listBibl></div>
+        <milestone unit="folio" n="8r"/>
+         <div><listBibl> 
+            <bibl>41 Mas <title>las</title> <author>de Cirilo</author> <measure unit="vol" quantity="1">en otro</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>42 Mas <title>las</title> <author>de Pelos trato</author> <measure unit="vol" quantity="1">en otro</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>43 Mas <author>somefran</author> <measure unit="vol" quantity="2">en dos cuerpos</measure> --- <measure unit="vol" quantity="2">002</measure></bibl>
+
+            <bibl>44 Mas <title>las obras</title> <author>de bercorio</author> <measure unit="vol" quantity="3">en tres cuerpos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>45 Mas <author>Basquez</author> <title><choice><sic>im</sic><corr>in</corr></choice> priman parte de thome</title> en <measure unit="vol" quantity="2">dos tomos</measure> --- <measure unit="vol" quantity="2">002</measure></bibl>
+
+            <bibl>46 Mas <author>perayro</author> <title>en jenesin</title> <measure unit="vol" quantity="2">en otros dos</measure> --- <measure unit="vol" quantity="2">002</measure></bibl>
+
+            <bibl>47 Mas <author>suarez</author> <title>in tercian de thome</title> <measure unit="vol" quantity="3">en tres cuerpos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>48 Mas <measure unit="vol" quantity="1">otro</measure> <author>del mismo</author> <title>de Yncarnacione</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>49 Mas <author>Ludalfol</author> <title>in bitan de christi</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>50 Mas <title>dicionario</title> <author>al berico</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>51 Mas <title>la monarquia eclesiastica</title> <author>de pineda</author> <measure unit="vol" quantity="4">en quatro tomos</measure> --- <measure unit="vol" quantity="4">004</measure></bibl>
+
+            <bibl>52 Mas <title>las obras</title> <author>de garibay</author> <measure unit="vol" quantity="3">en tres tomos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>53 Mas <author>el tostado</author> <title>sobre el Jenesis</title> <measure unit="vol" quantity="1">un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>54 Mas <measure unit="vol" quantity="4">quatro tomos</measure> <author>de Cayetano</author> --- <measure unit="vol" quantity="4">004</measure></bibl>
+
+            <bibl>55 Mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de san tomas</author> <title>sobre las <choice><abbr>señas</abbr><expan>sentencias</expan></choice></title> --- <measure unit="vol" quantity="1">001</measure><!-- re-identify. current wrong --></bibl>
+
+            <bibl>56 Mas <title>las obras</title> <author>de nicolas de lira</author> <measure unit="vol" quantity="3">en tres cuerpos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+            <bibl>57 Mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de san epifanio</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>58 Mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de san gregorio nacienceno</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>59 Mas <measure unit="vol" quantity="1">otro</measure> <author>de diosio cartujano</author> <title>sobre los ebanjelios</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>60 Mas <title>las obras</title> <author>de san atanacio el magno</author> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>61 Mas <title>las</title> <author>de Justiniano</author> <measure unit="vol" quantity="1">en otro cuerpo</measure> --- 001</bibl>
+
+            <bibl>62 Mas <author>palito</author> <title>de eclesia Benzoniensis</title> --- <measure unit="vol" quantity="1">001</measure><!-- Paleotti de bononiensis ecclesiae --></bibl>
+
+            <bibl>63 Mas <author>sansenio</author> <title>sobre los ebanjelios</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>64 Mas <title>las obras</title> <author>de Cermo</author> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>65 Mas <title>la canonica general de san benito</title> <measure unit="vol" quantity="6">en seys cuerpos</measure> y <author>es del maestro <unclear>Jupis</unclear></author></bibl>
+
+
+        </listBibl></div>
+         <milestone unit="folio" n="8v"/>
+         <div><listBibl> <bibl>66 Mas <title>contrabersias</title> <author>de Roberto</author><!-- capital R look like J --> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>67 Mas <author>abendanio</author> <title>sobre san mateo</title> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure><!-- alfonso de avendano --></bibl>
+
+            <bibl>68 Mas <title>contrabersias</title> <author>de belarmino</author> <measure unit="vol" quantity="1">en otro cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>69 Mas <title>concordansas de la <choice><sic>blibia</sic><corr>biblia</corr></choice></title> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>70 Mas <author>el cardenal tholedo</author> <title>sobre san lucas</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>71 Mas <author>el mismo</author> <title>sobre san joan</title> <measure unit="vol" quantity="1">otro cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>72 Mas <author>Palidano</author> <title>sobre las <choice><abbr>sen.<hi rend="super">as</hi></abbr><expan>sentencias</expan></choice></title> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>73 Mas <title>Catena aurea</title> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>74 Mas <author><choice><abbr>S<hi rend="super">t</hi></abbr><expan>Santo</expan></choice> Thomas</author> <title>sobre los Jentiles</title> <measure unit="vol" quantity="1">un tomo</measure> <author>es de <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> silbestre</author> --- <measure unit="vol" quantity="1">001</measure><!-- has commentary of Francisco Silvestre --></bibl>
+
+            <bibl>75 Mas <author>fray domingo Vanez</author> <measure unit="vol" quantity="1">en un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>76 Mas <author>et horpinto</author><!-- hector pinto --> <title>sobre guayas</title> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>77 Mas <measure unit="vol" quantity="1">otro tomo</measure> <title>de hordinaria conbersione</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>78 Mas <title>sobre las obras de escoto</title> <author>mauricio de porto</author> --- <measure unit="vol" quantity="1">001</measure><!-- has notes from "Maurici de Portu Hyberni, aka Maurice O'Fihely, not Maurice de la Porte as currently have--></bibl>
+
+            <bibl>79 Mas <title>las Historias del pilar de Caragoça</title> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>80 Mas <measure unit="vol" quantity="1">un tomo</measure> <title>de consesione beri fidei</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>81 Mas <author><choice><abbr>s.<hi rend="super">t</hi></abbr><expan>sant</expan></choice> Juan crisostomo</author> <measure unit="vol" quantity="4">en quatro cuerpos</measure> --- <measure unit="vol" quantity="4">004</measure></bibl>
+
+            <bibl>82 Mas <title>consideraciones</title> <author>de <unclear>Rogas</unclear></author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>83 Mas <author>et horpinto</author> <title>sobre ecequiel</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>84 Mas <title>compendio</title> <author>de garibay</author> <title>la <unclear>destorral peral</unclear> de espana</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>85 Mas <title>las obras</title> <author>de Josepho flaneo</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>86 Mas <author>estella</author> <title>sobre san Lucas</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>87 Mas <measure unit="vol" quantity="1">un tomo</measure> <author>de Cordoba</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>88 Mas <measure unit="vol" quantity="1">un cuerpo</measure> <author>de san <choice><abbr>jhe.<hi rend="super">mo</hi></abbr><expan>jheronimo</expan></choice></author> <title>in poberbia</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+            <bibl>89 Mas <author>escoto</author> <measure unit="vol" quantity="1">de un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+
+         </listBibl></div>
+         <milestone unit="folio" n="9r"/>
+         <div>
+            <listBibl> 
+               <bibl>90 Mas <title>las obras</title> <author>de simon de Casior</author> <measure unit="vol" quantity="1">en un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>91 Mas <author>Luis lopez</author> <title>ynstrucion de la consiencia</title> <measure unit="vol" quantity="1">en un cuerpo</measure> <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>92 Mas <author>medina</author> <measure unit="vol" quantity="1">un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>93 Mas <measure unit="vol" quantity="1">otro</measure> <author>de grabiel biel <sic>heper</sic></author> <title>primum librum sentensiarum</title> <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>94 Mas <title>la historia general de la <choice><abbr>mrd</abbr><expan>merced</expan></choice></title> <author>de Padre Remon</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>95 Mas <title>sermones de nuestra señora</title> <author>del <choice><abbr>P<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> florencia</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>96 Mas <author>luys lopez</author> <title>de contratibus</title> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>97 Mas <title>domica</title><!-- dominica?, possibly USTC 5034382 --> <author>de arce</author> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl><del>9</del>98 Mas <author>Cipriano</author> <title>in Job</title> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>99 Mas <author>durando</author> <title>sobre las <choice><abbr>sen.<hi rend="super">as</hi></abbr><expan>sentencias</expan></choice> theolojica</title> <measure unit="vol" quantity="1">un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>100 Mas <measure unit="vol" quantity="1">un tomo</measure> <author>de marcilla</author> <title>sobre moyses</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>101 mas <author>pereyno</author> <title>in genesina</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>102 mas <title>republica del mundo</title> <author>del padre <choice><sic>Romar</sic><corr>Roman</corr></choice></author><!-- Roman --> <measure unit="vol" quantity="3">a tres cuerpos</measure> --- <measure unit="vol" quantity="3">003</measure></bibl>
+
+               <bibl>103 Mas <title>historia de Balencia</title> <measure unit="vol" quantity="2">en dos cuerpos</measure> --- <measure unit="vol" quantity="2">002</measure></bibl>
+
+               <bibl>104 Mas <title>historia de la malucas</title> <measure unit="vol" quantity="1">en un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>105 Mas <title>historia del hombre</title> <measure unit="vol" quantity="1">en otro</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>106 Mas <title>historia general de espana</title> <author>de florencia de campo</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>107 Mas <title>historia de benecia</title> <measure unit="vol" quantity="1">un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>108 Mas <title>historia general</title> <author>de don Pudrencio de sandobal</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>109 Mas <title>thesauro <unclear>verium ansequ berum</unclear></title></bibl>
+
+               <bibl>110 Mas <author>Banez</author> <title>de justicia et juri</title> <measure unit="vol" quantity="1">un tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>111 Mas <author>albari pelagi</author> <title>de plantu eclesie</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>112 Mas <author>Basilio</author> <measure unit="vol" quantity="1">un cuerpo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>113 Mas <title><sic>magustirtibus benecie</sic></title><!-- I think the scribe has something wrong here. first word magistratibus? --> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>114 Mas <author>et horpinco</author> <title>in ezechielem</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>115 Mas <title>inbentario</title> <author>de grabiel</author> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>Mas <measure unit="vol" quantity="1">otro tomo</measure> <author>de padre florencia</author> <title>de las festibidades de fray seno</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+            </listBibl>
+         </div>
+         <milestone unit="folio" n="9v"/>
+         <div>
+            <listBibl>
+               <bibl>116 Mas <title>un manual de <unclear>patochos</unclear></title><!-- parochos? --> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>117 Mas <author>de san Grabiel</author> <measure unit="vol" quantity="1">otro tomo</measure> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>118 Mas <measure unit="vol" quantity="1">otro</measure> <author>del mismo</author> <title>in terciam</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+               <bibl>119 Mas <measure unit="vol" quantity="1">otro</measure> <author>de dionisio Cartusiano</author> <title>en anacronis</title> --- <measure unit="vol" quantity="1">001</measure></bibl>
+
+ <bibl>120 Mas otros <measure unit="simple_count" quantity="16">dieziseys libros</measure> <note type="condition" subtype="size">sueltos</note> =</bibl>
+
+
+            </listBibl><p>
+         estos son otros libros</p>
+            <listBibl> <bibl><choice><abbr>Prim.<hi rend="super">te</hi></abbr><expan>Primeramente</expan></choice> <measure unit="vol" quantity="1">un libro</measure> <title>Yntitulado Ynactos apostolorum</title></bibl>
+               <bibl>mas <measure unit="vol" quantity="1">otro</measure> <author>mal donado</author> <title>yn ebanjelio</title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado <sic>apera</sic><!-- opera? --> bide bernardi</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <author>ribera</author> <title>yn profetas</title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado orhagania de sacramentos yn deneze</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado <persName>boiessa</persName> yn ebanjelia</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado combentario super epistolas ad ebreos</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado <persName>mendoza</persName> yn quatro libros</title> </bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado <del>Ynol</del> <persName>salacar</persName> de concepcione de beato marie</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="2">dos tomos</measure> <title>intitulados de <persName>salacar</persName> yn proberbia</title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado de <persName>santo tomas</persName></title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado opera <persName>tertuliani</persName></title> </bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <persName><unclear>nislina</unclear></persName> yn prima parten</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado confesione <persName>agustine</persName></title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="2">otros <add>dos</add></measure> <title>yntitulados aragon</title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <persName>Bartolomeus torres</persName> Yn decen et <choice><sic>ceepten</sic><corr>septem</corr></choice> cuestiones diui tome</title> =</bibl>
+
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <sic rend="repeat">libro</sic> <title>intitulado biejas apocalipsi</title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado Yn canticun</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>Yntitulado <persName>lorinus</persName> Yn eclesias</title></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <persName>lorinus</persName> yn <choice><sic>elcesias</sic><corr>eclesias</corr></choice></title></bibl>
+            </listBibl>
+         </div>
+
+         <milestone unit="folio" n="10r"/>
+         <div>
+            <listBibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>Yntitulado Cooresma</title> <author>de fray feliphe</author></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado quaresma</title> <author>de porres</author></bibl>
+               <bibl>Mas <measure unit="vol" quantity="1">otro</measure> <title>yntitulado de quaresma</title> <author>de cabreda</author></bibl>
+ <bibl>Mas <measure unit="simple_count" quantity="5">cinco libros</measure> <note type="condition" subtype="size">medianos</note> <title>entitulados de diferentes quaresmas</title></bibl>
+ <bibl>Mas <measure unit="simple_count" quantity="30">treinta libros</measure> <note type="condition" subtype="size">pequenos y medianos</note> de <textLang xml:lang="lat">Latin</textLang> y <textLang xml:lang="spa">Romanze</textLang></bibl>
+
+         </listBibl></div>
+
+         
+         
+         
+      </body>
+   </text>
+</TEI>

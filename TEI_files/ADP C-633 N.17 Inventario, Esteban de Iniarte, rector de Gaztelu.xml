@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Esteban de Iriarte, rector de Gaztelu</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/633 N. 17</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <milestone unit="folio" n="22r"/>
+
+
+            <!--This inventory is very separate from the surrounding documents. Very different handwriting and there's no introduction. It's not the same handwriting as the other inventory that is earlier in the manuscript which does not have any books -->
+            <div>
+               <listBibl>
+                  <head>inuentario de los libros del <choice><abbr>l<hi rend="super">do</hi></abbr><expan>licenciado</expan></choice> yriarte <choice><abbr>R<hi rend="super">or</hi></abbr><expan>Rector</expan></choice> <choice><abbr>dif<hi rend="super">to</hi></abbr><expan>difunto</expan></choice> de lugar de gaztelu
+            con los titulos de sus authores.</head>
+               <bibl><choice><abbr>Primeram.<hi rend="super">te</hi></abbr><expan>Primeramente</expan></choice> <title>la phisica</title> <author>de toledo</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> los ocho libros de <choice><abbr>Arist.</abbr><expan>Aristoteles</expan></choice></title></bibl>
+               <bibl>ytem <title>los comentarios</title> <author>del mismo autor</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> el primer libro de <choice><abbr>geratione</abbr><expan>generatione</expan></choice></title>.</bibl>
+                  <bibl>ytem <title>la suma</title> <author>de Armilla</author></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un libro</measure> <title>intitulado historia del <choice><abbr>ss<hi rend="super">mo</hi></abbr><expan>santisimo</expan></choice> <choice><abbr>sacram<hi rend="super">to</hi></abbr><expan>sacramento</expan></choice></title></bibl>
+                  <bibl>ytem <title>el directorium curatorum</title></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="age">viejo</note> <title>intitulado quadragesimal</title> <author>de <choice><abbr>Amb.<hi rend="super">o</hi></abbr><expan>Ambrosio</expan></choice> eremita</author></bibl>
+                  <bibl>ytem <author><choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> thomas</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> el maestro de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></title></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un libro</measure> de <title>los sermones</title> <author>de <choice><abbr>s<hi rend="super">t</hi></abbr><expan>santo</expan></choice> vicentio</author></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un librillo</measure> de <title>exercicios de Deuociones</title> <author>del <choice><abbr>P</abbr><expan>Padre</expan></choice> fr luis de granada</author></bibl>
+                  <bibl>ytem <title>problemata <persName>marci antony  <choice><abbr>cimarie</abbr><expan>cimariae</expan></choice></persName></title></bibl>
+                  <bibl>ytem <title>la 1<hi rend="super">a</hi> de los decretos</title></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un</measure> <title>comentario <choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> los diez libros ethicorum de Aristotles</title></bibl>
+                  <bibl>ytem <title>el libro de Enquiridion contra lutero</title></bibl>
+                  <bibl>ytem <title>la suma de los concilios</title></bibl>
+                  <bibl>ytem <title>testamenti novi editio vulgata</title></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un libro</measure> <title>intitulado tesarus nous</title></bibl>
+                  <bibl>ytem <title>comentaria in cantica salomonis</title> <author>authore <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> titelmano</author>.</bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un lib<supplied reason="scribal error">ro</supplied></measure> <author>de bernardo diaz de luco</author></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un</measure> <title>instructorio</title> <author>de fr Luis Copeti</author></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">dos libros</measure> <title>de la vanidad y amor de dios</title> <author>de fr diego de estella</author></bibl>
+                  <bibl>ytem <title>disticta <persName>catonis</persName> liber 1<hi rend="super">us</hi></title></bibl>
+                  <bibl>ytem <title>la fundacion de la <choice><abbr>indulg<hi rend="super">as</hi></abbr><expan>indulgencias</expan></choice> de la <choice><abbr>ss<hi rend="super">ma</hi></abbr><expan>santisima</expan></choice> trinidad</title></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un</measure> <title>sermonario</title> <note type="condition" subtype="age">viejo</note> <author>de sancro porta</author></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">otro libro</measure> <author>del mismo autor sancro porta</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> la vida de la virgen sagrada</title></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="age">viejo</note> <title>entitulado <choice><abbr>sermo<hi rend="super">es</hi></abbr><expan>sermones</expan></choice> <unclear>adoce</unclear> status</title><!-- possibly sermones ad omnes status by Guibert de Tournai --></bibl>
+                  <bibl>ytem <measure unit="vol" quantity="1">un</measure> <title>diurnal</title> <note type="condition" subtype="age">viejo</note></bibl>
+            </listBibl>
+            </div>
+            <milestone unit="folio" n="22v"/>
+           <div>
+            <listBibl><bibl>ytem <title>la 1<hi rend="super">a</hi> parte del expejo de conselacion</title></bibl>
+               <bibl>ytem <title><choice><abbr>figurꝭ</abbr><expan>figuris</expan></choice> <choice><abbr>bibliꝭ</abbr><expan>bibliae</expan></choice></title></bibl>
+               <bibl>ytem <title>oficium angeli custodis</title></bibl>
+               <bibl>ytem <title>canones concilij Provinciales colomenses</title></bibl>
+               <bibl>ytem <title>sermones <persName>gabrielis <choice><abbr>bareletꝭ</abbr><expan>bareletae</expan></choice></persName></title></bibl>
+               <bibl>ytem <title>rosarium sermonum <persName>busti</persName></title></bibl>
+               <bibl>ytem <title>instrutiones de confesores</title> <author>de medina</author></bibl>
+               <bibl>ytem <measure unit="vol" quantity="1">un <choice><abbr>lib<hi rend="super">o</hi></abbr><expan>libro</expan></choice></measure> <author>de caietano</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> las parabolas de salomon</title></bibl>
+               <bibl>ytem <author>a titleman</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> todas las epistolas apostolicas</title></bibl>
+               <bibl>ytem <measure unit="vol" quantity="1">el texto</measure> <author>del maestro de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></author></bibl>
+               <bibl>ytem <title>2<hi rend="super">a</hi> <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> del rosario sermonum</title></bibl>
+               <bibl>ytem <title>biblia sumareorum</title></bibl>
+               <bibl>ytem <title>jardin de diuinas flores del sacerdote</title></bibl>
+               <bibl>ytem <measure unit="simple_count" quantity="4">los quatro thomos</measure> <author>de <choice><abbr>s<hi rend="super">t</hi></abbr><expan>santo</expan></choice> antonino de florencia</author></bibl>
+               <bibl>ytem <title>computo eclesiastico</title></bibl>
+               <bibl>ytem <author>diego de deca</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> los quatro libros de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></title></bibl>
+               <bibl>ytem <title>las <choice><abbr>metapha</abbr><expan>metaphisica</expan></choice></title> <author>de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> thomas</author></bibl>
+               <bibl>ytem <measure unit="vol" quantity="1">una</measure> <title>philosophia</title> <author>de thomas <unclear>brei</unclear></author></bibl>
+               <bibl>ytem <author>diego de deca</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> el 1<hi rend="super">o</hi> libro de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></title></bibl>
+               <bibl>ytem <author>soto</author> <title>de <choice><abbr>ius<hi rend="super">ta</hi></abbr><expan>iustitia</expan></choice> et iure</title></bibl>
+               <bibl>ytem <author>soto</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> el quarto <choice><abbr>lib<hi rend="super">o</hi></abbr><expan>libro</expan></choice> de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></title></bibl>
+               <bibl>ytem <title>los predicalles</title> <author>de <unclear>bur</unclear></author><!-- last name here looks similar to the name in philosophia de thomas brei --></bibl>
+               <bibl>ytem <author>diego de deca</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> el tercer <choice><abbr>lib</abbr><expan>libro</expan></choice> de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></title></bibl>
+               <bibl>ytem <title>el primer tomo y el <choice><sic>sengo</sic><corr>segundo</corr></choice></title> <author>destella</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> los <choice><abbr>evang.<hi rend="super">os</hi></abbr><expan>evangelios</expan></choice></title></bibl>
+               <bibl>ytem <author><choice><abbr>Gab.</abbr><expan>Gabriel</expan></choice> Viel</author> <title><choice><abbr>s<hi rend="super">e</hi></abbr><expan>sobre</expan></choice> los quatro libros de las <choice><abbr>sentas</abbr><expan>sentencias</expan></choice></title></bibl>
+               <bibl>ytem <title>el instructorio</title> <author>de fr Luis lopez</author></bibl>
+               <bibl>ytem <title>el segundo <choice><abbr>lib.</abbr><expan>libro</expan></choice> de la 2<hi rend="super">a</hi> parte</title> <author>de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> thomas</author></bibl>
+               <bibl>ytem <title>1<hi rend="super">a</hi> <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> de los sermones</title> <author>de Rebolledo</author><!-- Luis de Rebolledo,     Primera parte de cien oracion funerales --></bibl>
+               <bibl>ytem <title>el 1<hi rend="super">o</hi> thomo segundo quinto, y sesto</title> <author>de fr phelipe diez</author></bibl>
+               <bibl>ytem <title>la suma</title> <author>de uitoria</author></bibl>
+            </listBibl>
+         </div>
+          
+         
+      </body>
+   </text>
+</TEI>

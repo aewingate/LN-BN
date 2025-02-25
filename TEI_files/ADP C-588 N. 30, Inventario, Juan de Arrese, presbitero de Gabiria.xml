@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Juan de Arrese, presbitero de Gabiria</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/588 N.30</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- case noted as 1651 from ADP catalogue I assume. -->
+         <milestone unit="folio" n="1r"/>
+         <div>
+            <p>
+               El Cura de Alma de este obispado dice que es a su noticia que Don Joan <lb/>
+               de Arresse Presbitero benefiçiado que fue de la billa de gabiria a los ultimos <lb/>
+               de Julio del año Passado murio abintestato y al suplicante se toca <lb/>
+               el recaudar sus bienes que esten aquellos en deposito en persona <lb/>
+               eclesiastica y abonada  =  <choice><abbr>ssup<hi>ca</hi></abbr><expan>ssuplica</expan></choice>  a  <choice><abbr>V.<hi>d</hi></abbr><expan>Vuestra merced</expan></choice>  Mande se Reçiba ynfor<lb/>maçion 
+               y constando Por ella haber muerto el dicho Don Joan Abin<lb/>testato
+               se sequesten y enbargen todos sus Biens se Pongan <lb/>
+               en field Epossito en Persona eclesiastica y abonada y cometer <lb/>
+               su Recepcion a quien  <choice><abbr>Vm.<hi>d</hi></abbr><expan>Vuestra merced</expan></choice>  fuere serbido y juntamente se <lb/>
+               <!-- continues, have scan. -->
+            </p>
+         </div>
+         <milestone unit="folio" n="10v"/>
+         <div>
+            <listBibl>
+               <head>Libros</head>
+               <!-- Note that this inventory is written without line breaks between entries -->
+               <bibl><choice><abbr>Prim.<hi>te</hi></abbr><expan>Primeramente</expan></choice> <measure unit="vol" quantity="1">un</measure> <title>brebiario</title> <note type="condition" subtype="wear">medio andado</note> =</bibl> 
+               <bibl><measure unit="vol" quantity="1">un</measure> <title>diurno</title> <note type="condition" subtype="age">biejo</note></bibl>
+               <bibl><measure unit="vol" quantity="1">una</measure> <title>suma de cassos</title> <author>de Manuel Rodriguez</author> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>instruccion de sacerdotes</title> <author>de fray <choice><abbr>Ant<hi>o</hi></abbr><expan>Antonio</expan></choice> de molina</author> <milestone unit="folio" n="11r"/><textLang xml:lang="spa">ambos en romance</textLang> =</bibl>
+               <bibl><measure>otro</measure> <title>intitulado lucha espiritual</title> <author>por fray <choice><abbr>Ju<hi>o</hi></abbr><expan>Juan</expan></choice> de Los angeles</author> <textLang xml:lang="spa">en Romanze</textLang> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <author>del padre Anbrosio montesino</author> <title>que es declaracion de los epistolas y ebangelios del año</title> <textLang xml:lang="spa">en Romanze</textLang></bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>intitulado belar<add rend="caret">mino</add><del>bino</del> sobre la doctrina christiana</title></bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>intitulado destierro de ignorancia</title> =</bibl> 
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>manual de confesores</title> <author>por el padre enrrique de Villalobos</author> =</bibl> 
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>sumas de cassos de conciencia</title> <author>autor pedro aza</author> <textLang xml:lang="spa">en Romanze</textLang> =</bibl>
+               <bibl><measure unit="vol" quantity="1">un</measure> <title>quaderno de rezo de la orden de los menores</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>de ceremonias y misterios de la missa</title> <author>de fray <choice><abbr>Ju<hi>o</hi></abbr><expan>Juan</expan></choice> de los angeles</author> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>quaderno del Rezo de los santos deste obispado</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>del Rezo de nuestra señora</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>del Rezo del angel custodio</title> =</bibl> 
+               <bibl>y <measure unit="simple_count" quantity="6">otros seis libros</measure> <note type="condition" subtype="age">biejos</note> <note type="condition" subtype="value">que por no ser de probecho se dejan de inbentariar por menor</note></bibl>
+               
+            </listBibl>
+
+         
+         </div>
+      </body>
+   </text>
+</TEI>

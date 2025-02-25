@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Juan Andia, vicario de Arroniz </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/407 N. 12</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <milestone unit="folio" n="9r"/>
+         <div>
+            <p>
+         En la villa de arroniz a diez y ocho dias del mes de <lb/>
+         jullio de mill y seycientos y quarenta y un años en virtud <lb/>
+               
+         de la dicha comission del <choice><abbr>s<hi rend="super">r</hi></abbr><expan>señor</expan></choice> <choice><abbr>vica<hi rend="super">o</hi></abbr><expan>vicario</expan></choice> general de pedimiento de <lb/>
+               
+         d. juan fernandez el dicho <choice><abbr>s<hi rend="super">r</hi></abbr><expan>señor</expan></choice> <choice><abbr>licen<hi rend="super">do</hi></abbr><expan>licenciado</expan></choice>  don <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> de Montes <lb/>
+               
+         y castillo en presencia de mi el <choice><abbr>es<hi rend="super">no</hi></abbr><expan>escribano</expan></choice> ynfrasecripto fue a la cassa <lb/>
+               
+         do viuio el <choice><abbr>licen<hi rend="super">do</hi></abbr><expan>licenciado</expan></choice>  don Juan andia y a difunto y como vienes <lb/>
+               
+         suyos <choice><abbr>q</abbr><expan>que</expan></choice> allo en la dicha cassa en poder de domingo andia <lb/>
+               
+         su sobrino y Heredero, <unclear><abbr>anparō</abbr></unclear> los vienes del rold <del>y varios</del> <lb/>
+               
+         e inventario siguiente</p>
+            <listBibl>
+            <head>Libros del difunto</head>
+       
+               <bibl><choice><abbr>Prima.<hi rend="super">te</hi></abbr><expan>Primeramente</expan></choice> <title>Las partes</title> <author>de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> thomas</author> <measure unit="vol" quantity="5">en cinco cuerpos</measure> <note type="condition" subtype="size">grandes</note> <milestone unit="folio" n="9v"/> <title><choice><abbr>q</abbr><expan>que</expan></choice> son primera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title> <title>1<hi rend="super">a</hi> 2<hi rend="super">a</hi></title> =<title>2<hi rend="super">a</hi>2<hi rend="super">a</hi></title>= y <title>3<hi rend="super">a</hi> <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title> y <title>suma cuisden del mismo santo contra Jentiles</title> =</bibl>
+          
+            <bibl>ytem - <measure unit="vol" quantity="4">4 <hi rend="super"><gap rend="cancelled" extent="2 letters"/></hi> tomos</measure> de <author>Bonaçina</author> = <choice><abbr>q</abbr><expan>que</expan></choice> son <title>uno de <choice><abbr>legibꝰ</abbr><expan>legibus</expan></choice></title>, <title>otro de <choice><abbr>connactibꝰ</abbr><expan>connactibus</expan></choice></title>, <title>otro de çensuris</title>, <title>otro de sacramentis</title></bibl> <bibl>y <title>una suma de iuri canonico de aragon</title></bibl>
+          
+            <bibl>Ytem <measure unit="vol" quantity="6">seys cuerpos</measure> <author>de suarez</author> <choice><abbr>q</abbr><expan>que</expan></choice> son <title>dos methaphisicas</title> y <title>uno de sacramentis</title> y <title>tres y tercera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> de divi <choice><abbr>thꜫ.</abbr><expan>thome</expan></choice> tomo 1: 2. y 4</title> =</bibl>
+       
+               <bibl>Ytem <measure unit="vol" quantity="1">un</measure><title> libro septimo tesauro de predicadores</title> <author>de la misma <abbr>adm</abbr><!-- administrador? --> de dominicos</author><!-- tomas de trujillo --></bibl>
+         
+            <bibl>Yten <measure unit="vol" quantity="1">un tomo</measure> <title>comentario</title> <author>de Miguel gulerio romano de los clerigos regulares</author>, <title>in cantico canticorum</title></bibl>
+         
+            <bibl>ytem = <measure unit="vol" quantity="1">una</measure> <title>inidicion, in omnes <choice><sic>spsalinos</sic><corr>psalmos</corr></choice></title> <author>por el hermano <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> titilmano de la Horden de los menores</author> -</bibl>
+         
+            <bibl>ytem <measure unit="vol" quantity="1">una</measure> <title>tercera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title> <author>de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> <choice><abbr>thas</abbr><expan>thomas</expan></choice></author></bibl>
+     
+            <bibl>ytem = <measure unit="vol" quantity="2">dos tomos</measure> <author>de Soto</author> <title>en quarto sentenerarum, 1<hi rend="super">o</hi> y 2<hi rend="super">o</hi> tomo</title></bibl>
+         
+            <bibl>ytem = <measure unit="vol" quantity="2">dos</measure> <title>sumas</title> <author>de rodiguez</author></bibl>
+         
+            <bibl>ytem = <measure unit="vol" quantity="1">una</measure> <title>suma</title> <author>de san vicencio</author>;</bibl> 
+         
+            <bibl>y <measure unit="vol" quantity="1">un libro</measure> <author>de Marrius vernardino de busto</author></bibl>
+       
+            <bibl>Yten <title>declaracion de los salmos</title> <author>por roberto belarmino</author></bibl>
+         
+            <bibl>ytem = <measure unit="vol" quantity="1">un</measure> <title>libro aureo</title> <author>de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> <choice><abbr>thas</abbr><expan>thomas</expan></choice></author> -</bibl>
+          
+            <bibl>ytem <measure unit="vol" quantity="1">un</measure> <title>connentario in genesim</title> <author>de antonio de honcala</author> -</bibl>
+          
+            <bibl>ytem = <measure unit="vol" quantity="1">un</measure> <title>opusculo digno</title> <author>de terse de honcala</author><!-- USTC 339149 --></bibl>
+           
+            <bibl>ytem = <title>constitucion general del<del>a</del> obispado de calaorra</title><!-- now it makes sense to have the calahorra constitutions because tudela merindad belongs to calahorra sometimes --></bibl>
+            
+            <bibl>ytem = <measure unit="vol" quantity="1">un libro</measure> <gap reason="cancelled" extent="1 letter"/> <title>elacion secreta en el consultorio secreto de los cardinales</title> =</bibl>
+            
+            <bibl>ytem =<measure unit="vol" quantity="1">un</measure> <title>cathacismo istorici de Flores exemplar <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> 2<hi rend="super">a</hi> et 4</title></bibl>
+           
+            <bibl>ytem = <title>todos cassos</title> = <author>de fr. antonio de <gap reason="cancelled" extent="2 letters"/> cordoba</author> :</bibl>
+            
+            <bibl>y <measure unit="vol" quantity="1">otro libro</measure> <title>examen de theulojia moral</title> <author>de antonio fernandiz</author></bibl>
+            
+            <bibl>ytem <title>manual de confesores</title> <author>por el doctor martin carrillo</author> -</bibl>
+         </listBibl>
+         </div>
+       <milestone unit="folio" n="10r"/>
+         <div>
+            <listBibl>
+            
+            <bibl>Ytem <measure unit="vol" quantity="1">un</measure> <title>comentario literal</title> <author>de caietano</author>,</bibl>
+            
+            <bibl>y <measure unit="vol" quantity="1">otro libro</measure> <title>de epithome istoriarum <persName>tursilani</persName></title>=</bibl>
+            
+            <bibl>Ytem = <measure unit="vol" quantity="1">otro libro</measure> <title>la sexta <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title> <author>de fr. philipe</author> : y <measure unit="vol" quantity="1">otro</measure> <author>del mismo</author> <title><choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> x</title>, y <measure unit="vol" quantity="1">otro</measure> <title><choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> x</title> <author>del mismo</author></bibl>
+            
+            <bibl>Ytem = <title>flores de theologicas questiones</title> <author>de Joschf angles</author> -</bibl>
+            
+            <bibl>Ytem = <measure unit="vol" quantity="1">una</measure> <title>suma</title> <author>de fr custa el tio de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> pio</author><!-- believe santo pio is Pius V --></bibl>
+            
+            <bibl>Ytem = <measure unit="vol" quantity="4">quatro</measure> <title>sumas theologicas dos primeras una 2<hi rend="super">a</hi> y otra 3<hi rend="super">a</hi> parte</title></bibl>
+            
+            <bibl>Yten <measure unit="vol" quantity="1">un</measure> <title>tomo quinto</title> <author>de Martin Becano</author> y <measure unit="vol" quantity="1">otro tomo</measure> <author>del mismo</author> <title>1<hi rend="super">o</hi></title>, y <measure unit="vol" quantity="1">otro</measure> <title>tomo 4</title> <author>del mismo</author>, y <measure unit="vol" quantity="1">otro</measure> <title>tomo 3</title> <author>del mismo</author> y <measure unit="vol" quantity="1">otro</measure> <title>tomo 2</title> <author>del mismo</author> -</bibl>
+               
+               <bibl>Ytem= <measure unit="vol" quantity="1">un</measure> <title>manuel</title> <author>del <choice><abbr>d<hi rend="super">or</hi></abbr><expan>doctor</expan></choice> Nauarro</author>: </bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">un</measure> <title>conpendio de todas las obras</title> <author>del dicho Nauaro</author>= </bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>dicho concepto espiritual sobre la Magnifica</title> <author>del muy <choice><abbr>R.</abbr><expan>Reverendo</expan></choice> cesar cardinal</author> =</bibl>
+               
+               <bibl>Ytem <measure unit="vol" quantity="1">unas</measure> <title>adiciones a la silua spiritual y su tercera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> del mismo silva</title>, </bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>dominical</title> <author>de fr. juan colma</author> -</bibl>
+            
+               <bibl>Ytem = <title>primera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> de la vida de <choice><abbr>xpo</abbr><expan>cristo</expan></choice> nuestro <choice><abbr>s<hi rend="super">r</hi></abbr><expan>señor</expan></choice></title></bibl>
+               
+               <bibl>Ytem= <measure unit="vol" quantity="1">un</measure> <title>enpleo y exercicio santo sobre los ebangellios de la dominica despues de pente costes</title> =</bibl>
+            
+               <bibl>Ytem= <title>salvacion de la alma</title> =<!-- seems like this might be part of the next bibl and/or written by martin becanus as well --></bibl> 
+               
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title><gap reason="cancelled" extent="2 letters"/><unclear>thimologia</unclear><!-- h unclear --> del nuebo y viejo testamento</title> <author>de Martino Becano</author> =</bibl>
+            
+               <bibl><title>retrato de los fructos de la madre <choice><abbr>s<hi rend="super">ta</hi></abbr><expan>santa</expan></choice> theressa</title> =</bibl>
+         
+               <bibl>Yten <title>purgatorio de la conciencia, llamado saluacion de la alma</title>, <author>de fr Martin Ruego</author> = <!--(http://ustc.ac.uk/index.php/record/341453) --></bibl>
+               
+               <bibl>Yten = <measure unit="vol" quantity="1">una</measure> <title>Historia de san gregorio obispo de Hostia</title> =<!-- Gregorio Ostiense, seems to have been bishop of Pamplona in 11th century; USTC 5005893 --></bibl>
+               
+               <bibl><measure unit="vol" quantity="1">un libro</measure> <author>de escriptor eclesiastico</author></bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <choice><sic>Bliuia</sic><corr>Biulia</corr></choice> <choice><abbr>s<hi rend="super">ta</hi></abbr><expan>santa</expan></choice></title>,</bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>intitulado <persName>Bega</persName> de santis</title></bibl>
+            
+               <bibl>Ytem = <title>ordo recitandi oficorun diuinum</title></bibl>
+               
+               <bibl>Ytem <measure unit="vol" quantity="1">un libro</measure> <author>del <choice><abbr>d<hi rend="super">or</hi></abbr><expan>doctor</expan></choice> domingo garcia</author> <title>propugnacion muy valida <unclear>otra</unclear><!-- I think it should be contra, but that's not how it's written. --> la obstinacion perfida de los judios</title></bibl>
+            
+               <bibl>Ytem <title>explicacion de la bula</title> =</bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">una</measure> <title>1<hi rend="super">a</hi> parte de la silua spiritual</title> <author>de fr. antonio aluarez</author> =</bibl>
+               
+               <bibl>y <measure unit="vol" quantity="1">un</measure> <title>reportorio de tiempos</title> <author>de tornamira</author></bibl>
+               
+               <bibl>Ytem = <measure unit="vol" quantity="1">un libro</measure> <author>de d. martin alfonso de ybaldo</author> <title>llamado candelero de oro</title> =</bibl>
+         </listBibl>
+         </div>
+         <milestone unit="folio" n="10v"/>
+         <div>
+            <listBibl>
+               <bibl>Ytem= <measure unit="vol" quantity="1">un libro</measure> <author>de belardino</author> <title>intitulado principe <choice><sic>crhistiano</sic><corr>christiano</corr></choice></title></bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> <title>intitulado eterna felicitate</title> <author>de roberto cardenal</author></bibl>
+               <bibl>Ytem: <title>vox turturis</title> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <author>de belarminio</author> <title>de ascensio- mentis<!-- I think this is really 2 twords versus a hyphen connecting --> in deum</title> =</bibl>
+               <bibl>Ytem = <measure unit="vol" quantity="1">otro libro</measure> <author>de Marçelo cerbiño</author> </bibl>
+               <bibl>y <measure unit="vol" quantity="1">una</measure> <author>suma</author> <title>de <choice><abbr>carç<hi rend="super">o</hi></abbr></choice></title></bibl>
+               <bibl>Ytem= <title>magister sentenciarum</title> <author>de <choice><abbr>P<hi rend="super">o</hi></abbr><expan>Pedro</expan></choice> Lonbardo</author> =</bibl>
+               <bibl>Y mas <measure unit="vol" quantity="1">otro libro</measure> <author>de <choice><abbr>P<hi rend="super">do</hi></abbr><expan>Pedro</expan></choice> rebuffo de monte pesulliano</author> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>libro de exorcismo diuidido en tres <choice><abbr>p<hi rend="super">tes</hi></abbr><expan>partes</expan></choice></title> <author>de Cacharias</author>,</bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>gemitris <choice><abbr>columbꜫ</abbr><expan>columbae</expan></choice></title> =</bibl>
+               <bibl>Ytem= <title>arte de uien morir</title>=</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>controuersia de fide</title>-</bibl>
+               <bibl>Ytem= <measure unit="vol" quantity="1">un libro</measure> <author>conpuesto por orden de clemento octauo</author> <title>declaracion de la doctrina <choice><sic>crhistiana</sic><corr>christiana</corr></choice></title> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">un libro</measure> <title>de las siete palabras <choice><abbr>q</abbr><expan>que</expan></choice> <choice><abbr>xpto</abbr><expan>cristo</expan></choice> dijo en la cruz</title> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">un</measure> <title>libro de philosofia<!-- t overwritten to p --> natural del conocimiento de dios y del hombre</title></bibl>
+               <bibl>Ytem= <measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="size"><choice><abbr>pno</abbr><expan>pequeno</expan></choice></note> <title>intitulado la uirgen maria</title> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">un</measure> <title>libro geografhico eclasiastico</title> -</bibl>
+               <bibl>Ytem <title>conclusion de la uniuersa suma de las sagrada theulogia</title> <author>de <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> thomas</author> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> de <unclear>auçe</unclear><!-- interested if this is right. it very much looks like auçe, but maybe very cramped cruçe --> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>libro de lugares comunes de la sagrada scriptura</title> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">un libro</measure> <author>del medico - sebastian <unclear>sinentiño</unclear></author> - </bibl>
+               <bibl><measure unit="vol" quantity="1">y otro</measure> <title>intitulado de ecHicerias</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">y otro</measure> <title>flor de  los exemplos 1<hi rend="super">a</hi> y 2<hi rend="super">a</hi> <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro</measure> <title>de los años y cossas ecHas desde el principio del mundo asta la uenida de <choice><abbr>xpto</abbr><expan>cristo</expan></choice></title> -</bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> <title>intitulado responso para qualesquier cassos de conciencia generalmente</title> </bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> <title>1<hi rend="super">o</hi> tomo de La cruz de <choice><abbr>xpto</abbr><expan>cristo</expan></choice></title>  =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> <title>hordo de oficio diuino</title> ; </bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>exemplo de exercicio <choice><abbr>s<hi rend="super">to</hi></abbr><expan>santo</expan></choice> sobre los euangelios de las dominicas del año</title> =</bibl>
+               <bibl><title>primera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> de las fundaciones de san uenito</title> </bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro libro</measure> <title>ystoria de las fortunas</title> </bibl>
+               <bibl>y <measure unit="vol" quantity="1">una</measure> <title>suma <choice><abbr>q</abbr><expan>que</expan></choice> trata de la partidas y preuenciones del mundo</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> <author>de alfonso castro</author> =</bibl>
+               <bibl><title>sermones desde el domingo de septuagessima asta <del>el dom</del> la octaua de la resurrection</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro - libro</measure> <author>de valde rana</author> <title>sobre los euangellios de exercicios espirituales para la quaresma</title> =</bibl>
+               <bibl>Ytem = <measure unit="vol" quantity="1">un</measure> <title>nouilario despana</title></bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>libro aurea</title> <author>del <choice><abbr>d<hi rend="super">or</hi></abbr><expan>doctor</expan></choice> guillermo</author></bibl>
+               <bibl><measure unit="vol" quantity="1">un libro</measure> <author>de fr. thomas trugillo</author> <title>tesoro de predicadores</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">libro</measure> <author>de fr. domingo de soto segouiano</author> = </bibl>
+               <bibl><measure unit="vol" quantity="1">un</measure> <title>libro de la uida y palabras de los santos padres</title>, </bibl>
+               <bibl><measure unit="vol" quantity="1">un libro</measure> <author>de antonio de chonic</author><!-- conick, creo -->, </bibl>
+               <bibl>y <measure unit="vol" quantity="1">una</measure> <title>suma del concillio de los pontifices asta pio 4<hi rend="super">o</hi></title> </bibl>
+            </listBibl>
+         </div>
+         <milestone unit="folio" n="11r"/>
+         <div>
+            <listBibl>
+               <bibl>Ytem = <measure unit="vol" quantity="1">otro libro</measure> <author>de fr. juan Royardo</author> =</bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro libro</measure> <author>de Martin Becano</author> </bibl>
+               <bibl>y <measure unit="vol" quantity="1">otro libro</measure> <title>de sacramentis in genere</title> <note type="condition" subtype="age">antiguo</note><!-- wondering if next bibl is part of this one --></bibl>
+               <bibl><title>manual de cassados</title> =</bibl>
+               <bibl><title>remissiones de los <choice><abbr>d<hi rend="super">res</hi></abbr><expan>doctores</expan></choice> <choice><abbr>q</abbr><expan>que</expan></choice> tratan varios lugares de los principios del Consilio tridentino</title></bibl> 
+               <bibl>y <measure unit="vol" quantity="1">un libro</measure> <author>de juan de osorio</author> =</bibl>
+               <bibl><measure unit="vol" quantity="1">otro libro</measure> <author>de san vicente fferrer</author> <textLang xml:lang="fra">en lingua francessa</textLang> =</bibl>
+               <bibl><measure unit="vol" quantity="1">un</measure> <title>conpendio de toda la theulogia</title> <note type="condition" subtype="size">en cuerpo pequeño</note> =</bibl>
+               <bibl><measure unit="vol" quantity="1">un</measure> <title>conpendio</title> <author>suarez</author> <title>sobre lo mismo</title> <note type="condition" subtype="size">en cuerpo pequeño</note> =</bibl>
+               <bibl>Ytem = <measure unit="vol" quantity="1">otro libro</measure> <title>llamado claudiçiria in loro de <unclear>felices lirca</unclear></title></bibl> 
+               <bibl><measure unit="vol" quantity="1">una</measure> <title>silua</title> =<!-- unsure if this is part of previous --> </bibl>
+         <bibl><title>manual</title> <author>de Juan de tubiçiano</author> =</bibl>
+         <bibl><title>auto de la fe <choice><abbr>q</abbr><expan>que</expan></choice> se hiço en <choice><abbr>m<hi rend="super">d</hi></abbr><expan>madrid</expan></choice></title> </bibl>
+               <bibl><measure unit="vol" quantity="1">libro</measure> <author>de fray alonso de castro</author> </bibl>
+               <bibl><measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="size"><choice><abbr>pe-q<hi rend="super">e</hi>no</abbr><expan>pequeño</expan></choice></note> <title>manual <abbr>exssa</abbr></title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">un</measure> <title>indice de todos los sermones</title> =</bibl>
+               <bibl><measure unit="vol" quantity="1">una</measure> <title>glossa</title><author> de pedro Lopez clerigo</author> <title>de ebangellio</title> = </bibl>
+               <bibl><measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="size">pequeño</note> <author>de Belarminio</author> <title>intitulado <choice><sic>dmonitio</sic><corr>admonitio</corr><!-- think i'm right about this --></choice> <choice><abbr>epi.<hi rend="super">o</hi></abbr><expan>episcopo</expan></choice></title> =</bibl>
+               <bibl><measure unit="simple_count" quantity="2">dos libros</measure> <note type="condition" subtype="size">uno de pliego entero</note> y <note type="condition" subtype="size">otro pequeño</note> <note type="condition" subtype="wear">sin titulo principal</note> =</bibl>
+         <bibl>Ytem = <measure unit="simple_count" quantity="30">treinta libros</measure> <note type="method" subtype="mss">scriptos de mano</note> <title>sobre differentes <choice><abbr>ma<hi rend="super">as</hi></abbr><expan>materias</expan></choice></title></bibl>
+            </listBibl>
+         </div>
+        
+         
+         
+      </body>
+   </text>
+</TEI>

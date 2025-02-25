@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Inventario, Bernardo de Veroiz, vicario de Santa María en San Sebastián</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document transcribed, encoded, and edited by Alexandra E. Wingate.</p>
+            <p>Documento transcrito, codificado y editado por Alexandra E. Wingate</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+
+               <msIdentifier>
+                  <country key="ES">Spain</country>
+                  <region key="Navarre" type="community"/>
+                  <settlement>Pamplona</settlement>
+                  <institution/>
+                  <repository corresp="#ADP">Archivo Diocesano de Pamplona</repository>
+                  <!-- Archivo Real y General de Navarra OR Archivo Diocesano de Pamplona -->
+                  <!-- #ADP or #AGN -->
+                  <collection>Sección Procesos</collection>
+                  <!-- Procesos, Protocolos notariales, etc. -->
+                  <idno>C/849 N. 1</idno>
+                  <!-- shelfmark -->
+                  <altIdentifier>
+                     <idno source="URL to finding aid
+                        "/>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+
+                  <summary> </summary>
+                  <!-- summary from ADP or AGN catalog -->
+                  <textLang xml:lang="spa"/>
+               </msContents>
+               <physDesc>
+                  <ab n="no of folios"/>
+                  <!-- folios -->
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <milestone unit="folio" n=""/>
+         <!--good of D. Bernardo de Beroiz vicar of St. Maria in S. Sebastian including books-->
+         <!-- 1664 -->
+         
+         <milestone unit="folio" n="7r"/>
+         <div>
+            <listBibl>
+               
+               <head>Libros de afolio</head>
+               <bibl>53- <measure unit="vol" quantity="8">Ocho tomos</measure> <title>theatrum <choice><abbr>Vitꝭ</abbr><expan>Vitae</expan></choice> <choice><abbr>Humanꝭ</abbr><expan>Humanae</expan></choice></title></bibl>
+               <bibl>54- Iten <measure unit="vol" quantity="2">dos tomos</measure> <author>de calepino</author></bibl>
+               <bibl>55- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Jossepho</author> <title>de antiquitate, et bello Judaico</title></bibl>
+               <bibl>56- Iten <measure unit="vol" quantity="1">dos tomos</measure> <title>de Pandectas ciuiles</title></bibl>
+               <bibl>57- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>de Menochio</author> <title>de Republica</title></bibl>
+               <bibl>58- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Bañez</author> <title>de fide, spe, et charitate</title></bibl>
+               <bibl>59- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>corpus canonicum textus</title></bibl>
+               <bibl>60- Iten <measure unit="vol" quantity="1">dos tomos</measure> <author>Petrus Gregorius</author> <title>in ius canonicum</title></bibl>
+               <bibl>61- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>tiraquelo</author> <title>de legibus connubialibus</title></bibl>
+               <bibl>62- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Caramuel</author> <title>theologia fundamentalis</title></bibl>
+               <bibl>63- Iten <measure unit="vol" quantity="1">tres tomos</measure> <author>fragosso</author> <title>de Rejimine <choice><abbr>Reip.</abbr><expan>Reipublicae</expan></choice></title></bibl>
+               <bibl>64- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Pribilegia Regularum</title></bibl>
+               <bibl>65- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Cobarrubias</author> <title>in cap. quam <unclear>ius patum</unclear>, in regula possessor, et de testamentis</title></bibl>
+               <bibl>66- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>del mismo</author> <title>in clementina si furiosus et veterum collatio numimatum, et <abbr>despons.</abbr> et <unclear>matrim</unclear></title></bibl>
+               <bibl>67- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>del mismo</author> <title>practicarum <abbr>quest</abbr></title><!-- possibly quaest. e looks kind of like truncation mark --></bibl>
+               <bibl>68- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>del mismo</author> <title>variarum</title></bibl>
+               <bibl>69- Iten <measure unit="vol" quantity="2">dos tomos</measure> <author>Ludobicus Lopez</author> <title><abbr>instruct.</abbr></title></bibl>
+               <bibl>70- Yten <measure unit="vol" quantity="19">diez y nuebe tomos</measure> <author>de Barbossa</author><!-- Agustin Barbosa if Coroneu is right. --></bibl>
+               <bibl>71- Iten <measure unit="vol" quantity="4">quatro tomos</measure> <title>Bullarium magnum</title></bibl>
+               <bibl>72- Iten <measure unit="vol" quantity="4">quatro tomos</measure> <author>Suarez</author> <title>de Religione</title></bibl>
+               <bibl>73- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>del dicho</author> <title>de Çenssuris</title></bibl>
+               <bibl>74- Iten <measure unit="vol" quantity="2">dos tomos</measure> <author>de Layman</author></bibl>
+               <bibl>75- Iten <measure unit="vol" quantity="7">siete tomos</measure> <author>de castro Palao</author></bibl>
+               <bibl>76- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Bassei</author> <gap reason="cancelled" extent="1 letter"/> <title>flores</title><!-- Eloi de la Bassee, Flores totius theologiae --></bibl>
+               <bibl>77- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Lessio</author> <title>de justitia</title></bibl>
+               <bibl>78- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>conink</author> <title>de sacramentis et <choice><abbr>sens.</abbr><expan>sensuris</expan></choice></title></bibl>
+               <bibl>79- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Simon Mayolo</author> <title>dies caniculares</title></bibl>
+               <bibl>80- Iten <measure unit="vol" quantity="6">seis tomos</measure> <title>Annales</title> <author>de Saliano</author></bibl>
+               <bibl>81- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>del <choice><abbr>dho</abbr><expan>dicho</expan></choice></author> <title>epitome</title></bibl>
+               <bibl>82- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Horrison Marianus</title><!-- USTC 1513319 --></bibl>
+               <bibl>83- Iten <measure unit="vol" quantity="2">dos tomos</measure> <title>Rerum Hisp. scriptores</title></bibl>
+            </listBibl>
+         </div>
+         <milestone unit="folio" n="7v"/>
+         <div>
+            <listBibl>
+               <bibl>84- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>de florian de Ocampo</author></bibl>
+               <bibl>85- Iten <measure unit="vol" quantity="3">tres tomos</measure> <title>Chronicum</title> <author>de Morales</author><!-- Coronica, Ambrosio de Morales; continues for Ocampo, so it makes sense that they're shelved together. --></bibl>
+               <bibl>86- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Poblution de españa</title></bibl>
+               <bibl>87- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Horatio</author> <title>comentado</title></bibl>
+               <bibl>88- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Opera</title> <author>Seneca</author></bibl>
+               <bibl>89- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Guastauinus</author> <title>in <choice><abbr>problem.</abbr><expan>problematum</expan></choice> <choice><abbr>Arist.</abbr><expan>Aristotelis</expan></choice></title><!-- USTC 6901050 --></bibl>
+               <bibl>90- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>çerda</author> <title>in <choice><abbr>Bucol.</abbr><expan>Bucolica</expan></choice> et <choice><abbr>Georg.</abbr><expan>Georgica</expan></choice></title></bibl>
+               <bibl>91- Iten <measure unit="vol" quantity="2">dos tomos</measure> <title><persName>Lugo</persName> de iustitia</title></bibl>
+               <bibl>92- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>del <choice><abbr>dho</abbr><expan>dicho</expan></choice></author> <title>Responssa <choice><abbr>Moral.</abbr><expan>Moralium</expan></choice></title></bibl>
+               <bibl>93- Iten <measure unit="vol" quantity="3">tres tomos</measure> <title><persName>Bossij</persName> moralia varia</title></bibl>
+               <bibl>94- Iten <measure unit="vol" quantity="2">dos tomos</measure> <author>thomas urtado</author> <title><choice><abbr>Resol.</abbr><expan>Resolutionum</expan></choice> <choice><abbr>variꝭ</abbr><expan>variis</expan></choice></title></bibl>
+               <bibl>95- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Samuel</author> <title>de Sepulturis</title></bibl>
+               <bibl>96- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Paralipomenon</title> <author>de olano</author></bibl>
+               <bibl>97- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>suma</title> <author>de Sylbestro</author></bibl>
+               <bibl>98- Iten <measure unit="vol" quantity="8">ocho tomos</measure> <title>opera <persName><abbr>thomꝭ</abbr><expan>thomae</expan> sanchez</persName></title></bibl>
+               <bibl>99- Iten <measure unit="vol" quantity="6">seis tomos</measure> <title>opera <persName>Leandri</persName></title></bibl>
+               <bibl>100- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Praxis <persName>Reginaldi</persName></title></bibl>
+               <bibl>101- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>opera</title> <author>Rodriguez</author></bibl>
+               <bibl>102- Iten <measure unit="vol" quantity="3">tres tomos</measure> <title>opera omnia</title> <author><unclear>trullenc</unclear></author><!-- May be Juan Gil Trullench --></bibl>
+               <bibl>103- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>hortus pastorum</title></bibl>
+               <bibl>104- Iten <measure unit="vol" quantity="12">doze tomos</measure> <title>opera <persName><choice><abbr>dianꝭ</abbr><expan>dianae</expan></choice></persName></title></bibl>
+               <bibl>105- Iten <measure unit="vol" quantity="1">un tomo</measure> <author>Del <choice><abbr>dho</abbr><expan>dicho</expan></choice></author> <title>summa</title></bibl>
+               <bibl>106- Iten <measure unit="vol" quantity="1">un</measure> <title>derecho ciuil</title></bibl>
+               <bibl>107- Iten <measure unit="vol" quantity="1">un tomo</measure> <title><persName>Guidonis Bonati</persName> Astronomia</title></bibl>
+               <bibl>108- Iten <measure unit="vol" quantity="1">un tomo</measure> <title>Rituum <choice><abbr>ecclessiast.</abbr><expan>ecclessiasticorum</expan></choice></title></bibl>
+               <bibl>109- Iten <measure unit="simple_count" quantity="30">treinta libros</measure> <measure type="format" corresp="#_4o">en quarto</measure>, <measure type="format" corresp="#_8o">octavo</measure>, y <measure type="format" corresp="#_12mo">doze</measure></bibl>
+            </listBibl>
+         </div>
+
+
+
+      </body>
+   </text>
+</TEI>
