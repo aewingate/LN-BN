@@ -48,7 +48,7 @@
    </teiHeader>
    <text>
       <body>
-         <milestone unit="folio" n="1r"/>
+
 
             
             <milestone unit="folio" n="7r"/>
@@ -71,7 +71,7 @@
             <div>
 <!-- intervening goods -->
             <listBibl>
-               <bibl>Iten mas <measure unit="copies" quantity="1"><add>un</add></measure><del rend="strike">dos</del> <title>brebiario</title> <measure unit="vol" quantity="2">en dos cuerpos</measure> <measure type="format" corresp="#_2o">de medio folio</measure> <pubPlace corresp="Antwerp">impreso en <unclear>Anerpia</unclear></pubPlace><!-- erpia clear. bad spelling of Antuerpia? --> <date type="publication" when="1661">año <add>mil y <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y sesenta</add> <gap reason="cancelled" extent="3 letters"/> y un</date> y <sic>urno</sic> =</bibl>
+               <bibl>Iten mas <measure unit="copies" quantity="1"><add place="super">un</add></measure><del rend="strike">dos</del> <title>brebiario</title> <measure unit="vol" quantity="2">en dos cuerpos</measure> <measure type="format" corresp="#_2o">de medio folio</measure> <note type="method" subtype="print">impreso</note> <pubPlace>en <unclear>Anerpia</unclear></pubPlace><!-- erpia clear. bad spelling of Antuerpia? --> <date type="publication" when="1661">año <add place="super">mil y <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y sesenta</add> <gap reason="cancelled" extent="3 letters"/> y un</date> y <sic>urno</sic> =</bibl>
                <bibl>Mas <measure unit="vol" quantity="1">un libro</measure> <title>yntitulado de la esperanza y temor <choice><abbr>xptiano</abbr><expan>cristiano</expan></choice></title> <author>conpuesto por fr juan de la fuente</author> =</bibl>
                <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Manual de confesores</title> <author>conpuesto por el <choice><abbr>p<hi rend="super">e</hi></abbr><expan>padre</expan></choice> enrique de villalobos</author> =</bibl>
                <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>zeremonial <choice><abbr>p<hi rend="super">a</hi></abbr><expan>para</expan></choice> las misas solegnes</title> <author>conpuesto por el Padre Guerrero</author></bibl>
