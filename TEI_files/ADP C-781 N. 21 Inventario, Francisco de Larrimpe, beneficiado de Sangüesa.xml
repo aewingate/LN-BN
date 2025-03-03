@@ -339,7 +339,7 @@
                <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado opera <persName>tertuliani</persName></title> </bibl>
                <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <persName><unclear>nislina</unclear></persName> yn prima parten</title></bibl>
                <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado confesione <persName>agustine</persName></title></bibl>
-               <bibl>Mas <measure unit="vol" quantity="2">otros <add>dos</add></measure> <title>yntitulados aragon</title> =</bibl>
+               <bibl>Mas <measure unit="vol" quantity="2">otros <add place="super">dos</add></measure> <title>yntitulados aragon</title> =</bibl>
                <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <persName>Bartolomeus torres</persName> Yn decen et <choice><sic>ceepten</sic><corr>septem</corr></choice> cuestiones diui tome</title> =</bibl>
 
                <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <sic rend="repeat">libro</sic> <title>intitulado biejas apocalipsi</title> =</bibl>
