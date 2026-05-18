@@ -36,7 +36,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -45,24 +45,27 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
    <text>
       <body>
 
             <milestone unit="folio" n="7r"/>
-            <div><p>Inbentario de los bienes que sean allado de Don Joan de 
-            Echauri, lerigo de ayzpun y bienes rayces son los siguentes</p>
+            <div><p>Inbentario de los <choice><abbr>bnes</abbr><expan>bienes</expan></choice> que se an allado de Don Joan de <del rend="strike">ayz</del> <lb/>
+                  <del rend="strike">pun clerig</del> de
+            Echauri, <add rend="caret" place="super">clerigo</add> de ayzpun y <choice><abbr>bnes</abbr><expan>bienes</expan></choice>  rayces son los <lb/>
+                  siguentes</p>
            <listBibl> 
-                    <bibl>Primeramente <measure unit="vol" quantity="1">un libro</measure> <title>llamado floretodes <persName>bernardo</persName></title>
-                  <note type="condition" subtype="binding">con su cubierta negro</note></bibl>
-              <bibl><measure unit="vol" quantity="1">un</measure> <title>sermonario</title> <author>de thomas de ylixicoz</author></bibl>
-              <bibl><measure unit="vol" quantity="1">un libro</measure> de <title>sermones funebres</title> <author>de Santo ximiniano</author></bibl>
-                  <bibl><measure unit="vol" quantity="1">otro libro</measure> de <title>sermones de mornis securs</title></bibl>
-              <bibl><measure unit="vol" quantity="1">otro libro</measure> <title>de questionibus super Evangelia</title> <author>de turre Cremata</author></bibl>
-              <bibl><measure unit="vol" quantity="1">otro libro</measure> de <title>sermones</title> <author>de S. Vicente</author></bibl>
-              <bibl><measure unit="vol" quantity="2">dos tomos</measure> de <title>sermones</title> <author>del pepin</author></bibl>
-                  <bibl><measure unit="vol" cert="unknown">otros</measure> <title>libros de disipulo</title></bibl>
-                  <bibl><measure unit="vol" quantity="1">un</measure> <title>brevario</title> <note type="condition" subtype="age">de los nuebos</note></bibl>
+              <head>libros</head>
+                    <bibl>Primeramente <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>llamado floretodes <persName>bernardo</persName></title>
+                  <seg ana="#binding">con su cubierta negro</seg></bibl>
+              <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title>sermonario</title> <author>de thomas de ylixicoz</author></bibl>
+              <bibl><measure unit="count" commodity="volumes" quantity="1">un libro</measure> de <title>sermones funebres</title> <author>de Santo ximiniano</author></bibl>
+                  <bibl><measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>sermones de mornis securs</title></bibl>
+              <bibl><measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de questionibus super Evangelia</title> <author>de turre Cremata</author></bibl>
+              <bibl><measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>sermones</title> <author>de S. Vicente</author></bibl>
+              <bibl><measure unit="count" commodity="volumes" quantity="2">dos tomos</measure> de <title>sermones</title> <author>del pepin</author></bibl>
+                  <bibl><measure unit="count" commodity="volumes" cert="unknown">otros</measure> <title>libros de disipulo</title></bibl>
+                  <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title>brevario</title> <seg ana="#age">de los nuebos</seg></bibl>
            </listBibl>
             <list>
                <head>Vestidos</head>
@@ -70,7 +73,7 @@
                   <item>unas calças de burel</item>
                   <item>una ropa vieja</item>
                   <item>una cassa y su torre</item>
-                  <item>una pieça de sys robas echo hyermo</item>
+                  <item>una pieça de seys <choice><abbr>robad</abbr><expan>robadas</expan></choice> echo hyermo</item>
                   <item>una anca de pino</item>
             </list>
             </div>
