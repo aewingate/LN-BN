@@ -36,7 +36,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -45,7 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
    <text>
       <body>
          <milestone unit="folio" n="1r"/>
@@ -64,30 +64,30 @@
             <!-- Bottom few lines, other good above-->
             <listBibl>
                   <head>Libros:</head>
-               <bibl>Primeramente <measure unit="vol" quantity="3">tres tomos</measure><!-- possibly simple count --> de <author>bonacina</author></bibl>
-               <bibl><measure unit="vol" quantity="1">un</measure> <title>predicable</title> <author>de niseno</author> <title>primera parte de quaresma</title>=</bibl>
+               <bibl>Primeramente <measure unit="count" commodity="volumes" quantity="3">tres tomos</measure><!-- possibly simple count --> de <author>bonacina</author></bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title>predicable</title> <author>de niseno</author> <title>primera parte de quaresma</title>=</bibl>
             </listBibl>
          </div>
 
          <milestone unit="folio" n="10r"/>
          <div>
             <listBibl>
-               <bibl>mas <measure unit="vol" quantity="1">un libro</measure> <author>Jacob de niseno</author>=</bibl>
-               <bibl>mas <measure unit="vol" quantity="1">un libro</measure> <title>dominical</title> <author>de ramon</author> <title>segunda parte</title>=</bibl>
-               <bibl>mas <measure unit="simple_count" quantity="3">tres tomos</measure><!-- possibly simple count --> de <title> <choice><sic>pedicables</sic><corr>predicables</corr></choice> </title> <author>de fray luis de granada</author>=</bibl>
-               <bibl>Mas <measure unit="vol" quantity="1">un libro</measure> de <title> <choice><sic>pedicables</sic><corr>predicables</corr></choice>  del abiento con
+               <bibl>mas <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <author>Jacob de niseno</author>=</bibl>
+               <bibl>mas <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>dominical</title> <author>de ramon</author> <title>segunda parte</title>=</bibl>
+               <bibl>mas <measure unit="count" commodity="codices" quantity="3">tres tomos</measure><!-- possibly simple count --> de <title> <choice><sic>pedicables</sic><corr>predicables</corr></choice> </title> <author>de fray luis de granada</author>=</bibl>
+               <bibl>Mas <measure unit="count" commodity="volumes" quantity="1">un libro</measure> de <title> <choice><sic>pedicables</sic><corr>predicables</corr></choice>  del abiento con
                   sus festibidades en dos partes  <choice><sic>pedricados</sic><corr>predicados</corr></choice>  en la yglesia mayor de Caragoça</title> <author>por el maestro
                   fray martin perasa de la orden de <choice><abbr>nra</abbr><expan>nuestra</expan></choice> <choice><abbr>s<hi rend="super">a</hi></abbr><expan>señora</expan></choice> del Carmen</author>=</bibl>
-               <bibl><measure unit="vol" quantity="1">una</measure> <title>suma</title> <author>de medina</author> <title>yntitulada ynstrucion de Confesores</title>=</bibl>
-               <bibl><measure unit="vol" quantity="1">un libro</measure> <title>marial</title> <author>de Camora</author>=</bibl>
-                  <bibl><measure unit="vol" quantity="1">Un libro</measure> <title>yntitulado quarajesimal medeçinal</title>=</bibl>
-               <bibl><measure unit="vol" quantity="1">una</measure> <title>suma</title> <author>de toledo</author> <distinct type="oral">digo</distinct> <author>rodriguez</author>=</bibl>
-                  <bibl><measure unit="vol" quantity="1">un</measure> <title> <choice><sic>pedicable</sic><corr>predicable</corr></choice>  libro de santos que se
+               <bibl><measure unit="count" commodity="volumes" quantity="1">una</measure> <title>suma</title> <author>de medina</author> <title>yntitulada ynstrucion de Confesores</title>=</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>marial</title> <author>de Camora</author>=</bibl>
+                  <bibl><measure unit="count" commodity="volumes" quantity="1">Un libro</measure> <title>yntitulado quarajesimal medeçinal</title>=</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">una</measure> <title>suma</title> <author>de toledo</author> <seg ana="#oral_evidence">digo</seg> <author>rodriguez</author>=</bibl>
+                  <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title> <choice><sic>pedicable</sic><corr>predicable</corr></choice>  libro de santos que se
                    <choice><sic>pedrican</sic><corr>predican</corr></choice>  desde el dia de san Andres asta
                   el dia dela Magdalena</title>=</bibl>
-               <bibl><measure unit="vol" quantity="1">una</measure> <title>suma</title> <author>de Vitoria</author> <textLang xml:lang="lat">en latin</textLang>=</bibl>
-                  <bibl><measure unit="vol" quantity="1">un</measure> <title>brebiario</title> <pubPlace>de la Ynpresion de aynturpia</pubPlace>=</bibl>
-                  <bibl><measure unit="vol" quantity="1">una</measure> <title>constitucion sinodal</title>=</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">una</measure> <title>suma</title> <author>de Vitoria</author> <textLang mainLang="la">en latin</textLang>=</bibl>
+                  <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title>brebiario</title> <pubPlace>de la Ynpresion de aynturpia</pubPlace>=</bibl>
+                  <bibl><measure unit="count" commodity="volumes" quantity="1">una</measure> <title>constitucion sinodal</title>=</bibl>
             </listBibl>
             <list>
                <head>dineros</head>
