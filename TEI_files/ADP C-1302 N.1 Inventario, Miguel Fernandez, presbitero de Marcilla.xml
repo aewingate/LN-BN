@@ -36,7 +36,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -45,7 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
    <text>
       <body>
 
@@ -59,7 +59,7 @@
                ynbentario de los bienes rayzes muebles y recibos que quedaron por <lb/>
                fin y muerte de don Miguel Hernandez presbitero ya difunto, <lb/>
                beneficiado que fue de la parroquial de la <choice><abbr>dha</abbr><expan>dicha</expan></choice> villa a ynstanzia del <lb/>
-               fiscal General deste <add rend="caret"><choice><abbr>dho</abbr><expan>dicho</expan></choice></add> obispado y en birtud de lo que se manda por <lb/>
+               fiscal General deste <add rend="caret" place="super"><choice><abbr>dho</abbr><expan>dicho</expan></choice></add> obispado y en birtud de lo que se manda por <lb/>
                la <choice><abbr>dha</abbr><expan>dicha</expan></choice> comision y con la de la <choice><abbr>ynfor<hi rend="super">on</hi></abbr><expan>ynformacion</expan></choice> por mi recibida aber muerto <lb/>
                abintestato el <choice><abbr>dho</abbr><expan>dicho</expan></choice> don Miguel fernadez, hiçe ynbentario <lb/>
                para que en todos tiempos conste de los vienes siguentes =
@@ -71,47 +71,49 @@
             <div>
 <!-- intervening goods -->
             <listBibl>
-               <bibl>Iten mas <measure unit="copies" quantity="1"><add place="super">un</add></measure><del rend="strike">dos</del> <title>brebiario</title> <measure unit="vol" quantity="2">en dos cuerpos</measure> <measure type="format" corresp="#_2o">de medio folio</measure> <note type="method" subtype="print">impreso</note> <pubPlace>en <unclear>Anerpia</unclear></pubPlace><!-- erpia clear. bad spelling of Antuerpia? --> <date type="publication" when="1661">año <add place="super">mil y <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y sesenta</add> <gap reason="cancelled" extent="3 letters"/> y un</date> y <sic>urno</sic> =</bibl>
-               <bibl>Mas <measure unit="vol" quantity="1">un libro</measure> <title>yntitulado de la esperanza y temor <choice><abbr>xptiano</abbr><expan>cristiano</expan></choice></title> <author>conpuesto por fr juan de la fuente</author> =</bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Manual de confesores</title> <author>conpuesto por el <choice><abbr>p<hi rend="super">e</hi></abbr><expan>padre</expan></choice> enrique de villalobos</author> =</bibl>
-               <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>zeremonial <choice><abbr>p<hi rend="super">a</hi></abbr><expan>para</expan></choice> las misas solegnes</title> <author>conpuesto por el Padre Guerrero</author></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>de Juycio final</title> <note type="condition" subtype="wear">sin principio ni fin</note></bibl>
+               <bibl>Iten mas <measure unit="count" commodity="copies" quantity="1"><add place="super">un</add></measure><del rend="strike">dos</del> <title>brebiario</title> <measure unit="count" commodity="volumes" quantity="2">en dos cuerpos</measure> <measure unit="bib_format" quantity="2">de medio folio</measure> <pubPlace corresp="Antwerp">en <unclear>Anerpia</unclear></pubPlace><!-- erpia clear. bad spelling of Antuerpia? --> <date type="publication" when="1661">año <add place="super">mil y <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y sesenta</add> <gap reason="cancelled" extent="3 letters"/> y un</date> y <sic>urno</sic> =</bibl>
+               <bibl>Mas <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>yntitulado de la esperanza y temor <choice><abbr>xptiano</abbr><expan>cristiano</expan></choice></title> <author>conpuesto por fr juan de la fuente</author> =</bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado Manual de confesores</title> <author>conpuesto por el <choice><abbr>p<hi rend="super">e</hi></abbr><expan>padre</expan></choice> enrique de villalobos</author> =</bibl>
+               <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>zeremonial <choice><abbr>p<hi rend="super">a</hi></abbr><expan>para</expan></choice> las misas solegnes</title> <author>conpuesto por el Padre Guerrero</author></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de Juycio final</title> <seg ana="#wear">sin principio ni fin</seg></bibl>
             </listBibl>
             </div>
          <milestone unit="folio" n="8r"/>
          <div>
             <listBibl>
-              <bibl>Ittem mas <measure unit="vol" quantity="1">un</measure> <title>compendio</title> <author>de Bonazina</author> <title>de theologia moral</title></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Balerio maximo</title></bibl>
-               <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>tratado casos de conziencia</title> <author>conpuesto por el <choice><abbr>P<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> cordoua</author></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <choice><abbr>congreg.<hi rend="super">on</hi></abbr><expan>congregacion</expan></choice> que celebraron las <choice><abbr>s<hi rend="super">tas</hi></abbr><expan>santas</expan></choice> Yglesias Metropolitanas y cathedrales de las coronas de castilla</title> =</bibl>
-               <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Monarquia mistica de la yglesia</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> Zamora</author></bibl>
-               <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="wear">que le falta el principio</note> y entra diziendo <q>el exsamen de la <choice><abbr>conzien.<hi rend="super">a</hi></abbr><expan>conziencia</expan></choice> del Muy <choice><abbr>Reu<hi rend="super">do</hi></abbr><expan>Reuerendo</expan></choice> <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> fr Alonso de orozco</q></bibl>
-               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado la segunda parte de las quatrocientas <choice><abbr>Resp<hi rend="super">tas</hi></abbr><expan>respuestas</expan></choice></title> <note type="method" subtype="print">impreso</note> <pubPlace>en Valladolid</pubPlace> <date type="publication" when="1552">año de mil quinientos <choice><abbr>cinq<hi rend="super">ta</hi></abbr><expan>cinquenta</expan></choice> y dos</date></bibl>
-               <bibl>Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado santoral seraphica</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>padre</expan></choice> fr <choice><abbr>P.<hi rend="super">o</hi></abbr><expan>Pedro</expan></choice> Nuñez castro</author> <date type="publication" when="1618">año mil <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y diez y ocho</date></bibl>
-               <bibl>Itten mas <measure unit="vol" quantity="1">un quadernillo</measure> <title>de los santos del obispado</title></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado cathedra episcopal de Zaragoza</title> <author>conpuesto por <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Arruego</author> <date type="publication" when="1653">año mil <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> cinquenta y tres</date> =</bibl>
-               <bibl>Itten Mas <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>fundaz.<hi rend="super">on</hi></abbr><expan>fundazion</expan></choice> milagrosa de la capilla de la <choice><abbr>M.<hi rend="super">e</hi></abbr><expan>Madre</expan></choice> de Dios del Pelar</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> fr Diego Murillo</author></bibl><!-- CCPB000147312-3 -->
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado canones et decreta sacrosante et generales concili tredentini</title> =</bibl>
-               <bibl>Iten <measure unit="vol" quantity="1">un quadernillo</measure> <title>de los santos <choice><sic>nueves</sic><corr>nuevos</corr></choice></title></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado blasones de la Virgen</title> <author>conpuesto por Don Plazido <choice><sic>Virto</sic><corr>Mirto</corr></choice></author></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>Ynstru.<hi rend="super">on</hi></abbr><expan>Ynstruccion</expan></choice> de sacerdotes</title> <author>conpuesto por fr <choice><abbr>An.<hi rend="super">o</hi></abbr><expan>Antonio</expan></choice> de Molina</author></bibl>
-               <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado laurea Evangelica</title> <author>conpuesta por fr angel Manrrique</author></bibl>
+              <bibl>Ittem mas <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>compendio</title> <author>de Bonazina</author> <title>de theologia moral</title></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado Balerio maximo</title></bibl>
+               <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>tratado casos de conziencia</title> <author>conpuesto por el <choice><abbr>P<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> cordoua</author></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado <choice><abbr>congreg.<hi rend="super">on</hi></abbr><expan>congregacion</expan></choice> que celebraron las <choice><abbr>s<hi rend="super">tas</hi></abbr><expan>santas</expan></choice> Yglesias Metropolitanas y cathedrales de las coronas de castilla</title> =</bibl>
+               <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado Monarquia mistica de la yglesia</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> Zamora</author></bibl>
+               <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <seg ana="#wear">que le falta el principio</seg> y entra diziendo <quote>el exsamen de la <choice><abbr>conzien.<hi rend="super">a</hi></abbr><expan>conziencia</expan></choice> del Muy <choice><abbr>Reu<hi rend="super">do</hi></abbr><expan>Reuerendo</expan></choice> <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> fr Alonso de orozco</quote></bibl>
+               <bibl>Mas <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado la segunda parte de las quatrocientas <choice><abbr>Resp<hi rend="super">tas</hi></abbr><expan>respuestas</expan></choice></title> <seg ana="#print">impreso</seg> <pubPlace>en Valladolid</pubPlace> <date type="publication" when="1552">año de mil quinientos <choice><abbr>cinq<hi rend="super">ta</hi></abbr><expan>cinquenta</expan></choice> y dos</date></bibl>
+               <bibl>Mas <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado santoral seraphica</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>padre</expan></choice> fr <choice><abbr>P.<hi rend="super">o</hi></abbr><expan>Pedro</expan></choice> Nuñez castro</author> <date type="publication" when="1618">año mil <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> y diez y ocho</date></bibl>
+               <bibl>Itten mas <measure unit="count" commodity="volumes" quantity="1">un quadernillo</measure> <title>de los santos del obispado</title></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado cathedra episcopal de Zaragoza</title> <author>conpuesto por <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Arruego</author> <date type="publication" when="1653">año mil <choice><abbr>seis.<hi rend="super">os</hi></abbr><expan>seiscientos</expan></choice> cinquenta y tres</date> =</bibl>
+               <bibl>Itten Mas <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>fundaz.<hi rend="super">on</hi></abbr><expan>fundazion</expan></choice> milagrosa de la capilla de la <choice><abbr>M.<hi rend="super">e</hi></abbr><expan>Madre</expan></choice> de Dios del Pelar</title> <author>conpuesto por el <choice><abbr>P.<hi rend="super">e</hi></abbr><expan>Padre</expan></choice> fr Diego Murillo</author></bibl><!-- CCPB000147312-3 -->
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado canones et decreta sacrosante et generales concili tredentini</title> =</bibl>
+               <bibl>Iten <measure unit="count" commodity="volumes" quantity="1">un quadernillo</measure> <title>de los santos <choice><sic>nueves</sic><corr>nuevos</corr></choice></title></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado blasones de la Virgen</title> <author>conpuesto por Don Plazido <choice><sic>Virto</sic><corr>Mirto</corr></choice></author></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>Ynstru.<hi rend="super">on</hi></abbr><expan>Ynstruccion</expan></choice> de sacerdotes</title> <author>conpuesto por fr <choice><abbr>An.<hi rend="super">o</hi></abbr><expan>Antonio</expan></choice> de Molina</author></bibl>
+               <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado laurea Evangelica</title> <author>conpuesta por fr angel Manrrique</author></bibl>
             </listBibl>
          </div>
             <milestone unit="folio" n="8v"/>
             <div>
                <listBibl>
-                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado tratado del Patronado antiguedades Gouierno y varones y cultres de la <choice><abbr>ciu<hi rend="super">d</hi></abbr><expan>ciudad</expan></choice> y comunidad de calatayud</title></bibl>
-                  <bibl>Itten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado coronaziones de los <choice><abbr>Seren.<hi rend="super">mos</hi></abbr><expan>serenisimos</expan></choice> Reyes de Aragon</title></bibl>
-                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado agricoltura Pastoril</title></bibl>
-                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <persName>Yanguas</persName> de santis</title></bibl>
-                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado Conbentari Universan Aristotelis Logicam</title></bibl>
-                  <bibl>Iten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>S.<hi rend="super">ta</hi></abbr><expan>Santa</expan></choice> Juana de la Cruz</title></bibl>
-                  <bibl>Yten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado suma</title> <author>de enriquez</author></bibl>
-                  <bibl>Yten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado suma</title> <author>de ledesma</author> <title>primero y segundo tomos</title></bibl>
+                  <bibl>Iten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado tratado del Patronado antiguedades Gouierno y varones y cultres de la <choice><abbr>ciu<hi rend="super">d</hi></abbr><expan>ciudad</expan></choice> y comunidad de calatayud</title></bibl>
+                  <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado coronaziones de los <choice><abbr>Seren.<hi rend="super">mos</hi></abbr><expan>serenisimos</expan></choice> Reyes de Aragon</title></bibl>
+                  <bibl>Iten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado agricoltura Pastoril</title></bibl>
+                  <bibl>Iten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado <persName>Yanguas</persName> de santis</title></bibl>
+                  <bibl>Iten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado Conbentari Universan Aristotelis Logicam</title></bibl>
+                  <bibl>Iten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado <choice><abbr>S.<hi rend="super">ta</hi></abbr><expan>Santa</expan></choice> Juana de la Cruz</title></bibl>
+                  <bibl>Yten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado suma</title> <author>de enriquez</author></bibl>
+                  <bibl>Yten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado suma</title> <author>de ledesma</author> <title>primero y segundo tomos</title></bibl>
                </listBibl>
-            </div>
+               
+            
+         </div>
          
       </body>
    </text>

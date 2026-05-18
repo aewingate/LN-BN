@@ -37,7 +37,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -47,7 +47,7 @@
          </sourceDesc>
       </fileDesc>
 
-   </teiHeader>
+   <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
    <text>
       <body>
          
@@ -55,56 +55,56 @@
          <milestone unit="folio" n="18r"/><!-- my word transcription says 28r, but Doña Teresa named the image as 18r -->
          <div><list><item>Itten se allo un estante de pino y en el los
          libros siguientes</item></list>
-         <listBibl><head>Primeramente <measure type="format" corresp="#_4o">en quarto folio</measure> los siguentes</head>
+         <listBibl><head>Primeramente <measure unit="bib_format" quantity="4">en quarto folio</measure> los siguentes</head>
          <milestone unit="folio" n="18v"/>
 
             <bibl><title>El politico <persName>del Lulo</persName></title> =</bibl>
             <bibl>Itten <title>Jornada para el cielo</title></bibl>
             <bibl>Ittem <title>Ieon pro didioso</title> =</bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <author>de <choice><abbr>s<hi rend="super">ta</hi></abbr><expan>santa</expan></choice> theresa de jesus</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>de la canonicacion de santo thomas de Villanueba</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author><choice><sic>Larcano</sic><corr>Lazcano</corr></choice></author> <title>de oracion</title></bibl>
-            <bibl>Itten <measure unit="vol" quantity="1">otro</measure> <title>Vida de Lulo</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>constancia del Justo</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>silba esperitual</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>supresticion la dina</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author>alchacoa</author><!-- Alchacoa is author, two works printed in Pamplona --></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones</title> <author>de quiros</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones</title> <author>de <unclear>Cespedes</unclear></author><!-- C looks like an L --></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>Politica</title> <author>de quebedo</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>obras</title> <author>de medina</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>conpendio</title> <author>de barcca</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>tratados <choice><sic>ebandelicos</sic><corr>ebangelicos</corr></choice></title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>Lojica</title> <author>de alfonsso</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>questiones morales</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de lumbier</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author>Amadio Guimenio</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de <unclear>Visien bauco</unclear></author> <textLang xml:lang="spa">Romance</textLang></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de Rodriguez</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>pasos de la Virjen santisima</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>empresas</title> <author>de sabedra</author><!-- Don Diego Saavedra Farjado, Idea de un principe en cien empresas --></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>Manual</title> <author>de Nauarro</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma</title> <author>de Rodriguez</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>adiciones</title> <author>de Rodriguez</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>suma selebistrina</title><!-- silvestrina --></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>practica de curas</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>oratoria sagrada</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sacra decima de sermones</title></bibl></listBibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <author>de <choice><abbr>s<hi rend="super">ta</hi></abbr><expan>santa</expan></choice> theresa de jesus</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>de la canonicacion de santo thomas de Villanueba</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <author><choice><sic>Larcano</sic><corr>Lazcano</corr></choice></author> <title>de oracion</title></bibl>
+            <bibl>Itten <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>Vida de Lulo</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>constancia del Justo</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>silba esperitual</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>supresticion la dina</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <author>alchacoa</author><!-- Alchacoa is author, two works printed in Pamplona --></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>sermones</title> <author>de quiros</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>sermones</title> <author>de <unclear>Cespedes</unclear></author><!-- C looks like an L --></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>Politica</title> <author>de quebedo</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>obras</title> <author>de medina</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>conpendio</title> <author>de barcca</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>tratados <choice><sic>ebandelicos</sic><corr>ebangelicos</corr></choice></title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>Lojica</title> <author>de alfonsso</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>questiones morales</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>suma</title> <author>de lumbier</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <author>Amadio Guimenio</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>suma</title> <author>de <unclear>Visien bauco</unclear></author> <textLang mainLang="es">Romance</textLang></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>suma</title> <author>de Rodriguez</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>pasos de la Virjen santisima</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>empresas</title> <author>de sabedra</author><!-- Don Diego Saavedra Farjado, Idea de un principe en cien empresas --></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>Manual</title> <author>de Nauarro</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>suma</title> <author>de Rodriguez</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>adiciones</title> <author>de Rodriguez</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>suma selebistrina</title><!-- silvestrina --></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>practica de curas</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>oratoria sagrada</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>sacra decima de sermones</title></bibl></listBibl>
          </div>
 
          <milestone unit="folio" n="19r"/>
          <div><listBibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>biblia sacra</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones</title> <author>de Gaona</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>catecismo</title> <author>de eusebio</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>sermones barios</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>de sermones barios</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>de el apostol de las yndias</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>biblia sacra</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>sermones</title> <author>de Gaona</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>catecismo</title> <author>de eusebio</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>sermones barios</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>de sermones barios</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>de el apostol de las yndias</title></bibl>
          </listBibl>
             <listBibl>
-         <head><measure type="format" corresp="#_2o">Libros de folio potente</measure></head>
+         <head><measure unit="bib_format" quantity="2">Libros de folio potente</measure></head>
             <bibl>Primeramente <title>Marial</title> <author>de Couphino</author></bibl>
-               <bibl><measure unit="simple_count" quantity="2">dos tomos</measure> <author>de villalobos</author></bibl>
+               <bibl><measure unit="count" commodity="codices" quantity="2">dos tomos</measure> <author>de villalobos</author></bibl>
             <bibl><title>selectas</title> <author>de moya</author></bibl>
             <bibl><title>caticismo</title> <author>de fr luis de Granada</author></bibl>
             <bibl><title>flosantorum</title> <author>de riba de neira</author></bibl>
@@ -116,10 +116,10 @@
             <bibl><title>orijen de los <choice><sic>flaires</sic><corr>frailes</corr></choice> ermitanos</title></bibl>
             <bibl><author>calepino</author></bibl></listBibl>
             <listBibl>
-         <head><note type="condition" subtype="size">Libros de folio pequeño</note></head>
-               <bibl>Ittem <measure unit="simple_count" quantity="12">doze libros</measure> <note type="condition" subtype="size">de folio Pequeño</note> <author>de diferentes
-         autores</author> <note type="condition" subtype="value">de poca utilidad o balor</note></bibl>
-               <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>brebiario</title> <note type="condition" subtype="size">pequeño</note></bibl>
+         <head><seg ana="#size">Libros de folio pequeño</seg></head>
+               <bibl>Ittem <measure unit="count" commodity="codices" quantity="12">doze libros</measure> <seg ana="#size">de folio Pequeño</seg> <author>de diferentes
+         autores</author> <seg ana="#value">de poca utilidad o balor</seg></bibl>
+               <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>brebiario</title> <seg ana="#size">pequeño</seg></bibl>
          </listBibl>
          </div>
          

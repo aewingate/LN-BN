@@ -37,7 +37,7 @@
                         
                         <summary> </summary>
                         <!-- summary from ADP or AGN catalog -->
-                        <textLang xml:lang="spa"/>
+                        <textLang mainLang="es"/>
                     </msContents>
                     <physDesc>
                         <ab n="no of folios"/>
@@ -46,7 +46,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-    </teiHeader>
+    <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
     <text>
         <body>
             <milestone unit="folio" n="2r"/>
@@ -128,36 +128,36 @@
                     
                 </list>
                 <listBibl>
-                    <bibl>Ittem <measure unit="vol" quantity="1">un libro</measure> <title>intitulado Instruction de sacerdotes y summado cassos de  <choice><abbr>concien<hi rend="super">a</hi></abbr><expan>conciencia</expan></choice></title> <author>author el cardenal de Toledo de la compañia de Jhs</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado supplementum  <choice><abbr>chronicoꝵ</abbr><expan>chronicorum</expan></choice></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado secunda secunde <persName>sancti thome</persName></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>sobre el  <choice><abbr>psalt<hi rend="super">o</hi></abbr><expan>psalterio</expan></choice></title> <author>de Dauid author Hugo cardenae</author><!-- cardinal? --></bibl>
+                    <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>intitulado Instruction de sacerdotes y summado cassos de  <choice><abbr>concien<hi rend="super">a</hi></abbr><expan>conciencia</expan></choice></title> <author>author el cardenal de Toledo de la compañia de Jhs</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado supplementum  <choice><abbr>chronicoꝵ</abbr><expan>chronicorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado secunda secunde <persName>sancti thome</persName></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>sobre el  <choice><abbr>psalt<hi rend="super">o</hi></abbr><expan>psalterio</expan></choice></title> <author>de Dauid author Hugo cardenae</author><!-- cardinal? --></bibl>
                     <bibl><title>las quatro partes</title> <author>de S. Antonino de  <choice><abbr>floren<hi rend="super">a</hi></abbr><expan>florencia</expan></choice></author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado epistolas</title> <author>de çiçeron</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado lexicon ecclesiastico</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado epistolas</title> <author>de çiçeron</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado lexicon ecclesiastico</title></bibl>
                 </listBibl>
                 <milestone unit="folio" n="3v"/>
                 <listBibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intittulado summa de cassos de  <choice><abbr>conçien<hi rend="super">a</hi></abbr><expan>conçiencia</expan></choice></title> <author>de fr. Manuel Rodriguez</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado suma syluestrina 2<hi rend="super">a</hi> parte</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado Reyno de Dios</title> <author>Author Fr. Sanchez de la compañia de Jhs</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intittulado summa de cassos de  <choice><abbr>conçien<hi rend="super">a</hi></abbr><expan>conçiencia</expan></choice></title> <author>de fr. Manuel Rodriguez</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado suma syluestrina 2<hi rend="super">a</hi> parte</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado Reyno de Dios</title> <author>Author Fr. Sanchez de la compañia de Jhs</author></bibl>
                     <bibl>Item <title>suma syluestrina primera parte</title></bibl>
                     <bibl>Item <title>las epistolas</title> <author>de S. Paulo</author>, y al fin <title>un tratado modus legendi in utroque jure</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> <title>Intitulado norte de los estados</title> <author>autor fr.  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Ossuna</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intittulado sermones Hyemales</title> <author>de S. Vicente</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado  <choice><abbr>postillꜫ</abbr><expan>postillae</expan></choice> maines totius Anni cum glossis questionibus et figuris</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>de las  <choice><abbr>excelen<hi rend="super">as</hi></abbr><expan>excelencias</expan></choice> y vida de S.  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> evangelista</title> <author>Author fr. Diego destella</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>tratado de Alauança y  <choice><abbr>murmura<hi rend="super">on</hi></abbr><expan>murmuracion</expan></choice></title> <author>Author el  <choice><abbr>D<hi rend="super">or</hi></abbr><expan>Doctor</expan></choice> Nauarro</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitutlado vita patrum</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Practica <persName>Vernardi Diaz</persName></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">un</measure> <title>arte de gramatica</title> <author>Author Martin de Segura</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado  <choice><abbr>epistolꜫ</abbr><expan>epistolae</expan></choice> <persName>diui Hieronymi</persName></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado Symiles para los vicio y virtudes</title> <author>author  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> Perez Moya</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro</measure> <title>Intitulado  <choice><abbr>expossi<hi rend="super">on</hi></abbr><expan>expossicion</expan></choice> de los Hymnos</title></bibl><!-- maybe this? http://catalogos.mecd.es/CCPB/cgi-ccpb/abnetopac?ACC=DOSEARCH&xsqf99=CCPB000032100-1 -->
-                    <bibl>Item <measure unit="vol" quantity="1">otro</measure> <title>intitulado <persName>Terentio</persName></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">en un volumen</measure> los quatro libros <author>compuestos por Alexio Venegas</author><!-- Alejo de Venegas --> <title>de las  <choice><abbr>differen<hi rend="super">as</hi></abbr><expan>differencias</expan></choice> de libres <choice><abbr>q</abbr><expan>que</expan></choice> Ay en el mundo</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Moralia accutissimi <persName>Jacobi Almain</persName></title><!-- Jacques Almain --></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado doctrinale  <choice><abbr>floꝵ</abbr><expan>florum</expan></choice> Actis <choice><abbr>notarie</abbr><expan>notariae</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>Intitulado norte de los estados</title> <author>autor fr.  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Ossuna</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intittulado sermones Hyemales</title> <author>de S. Vicente</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado  <choice><abbr>postillę</abbr><expan>postillae</expan></choice> maines totius Anni cum glossis questionibus et figuris</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de las  <choice><abbr>excelen<hi rend="super">as</hi></abbr><expan>excelencias</expan></choice> y vida de S.  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> evangelista</title> <author>Author fr. Diego destella</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>tratado de Alauança y  <choice><abbr>murmura<hi rend="super">on</hi></abbr><expan>murmuracion</expan></choice></title> <author>Author el  <choice><abbr>D<hi rend="super">or</hi></abbr><expan>Doctor</expan></choice> Nauarro</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitutlado vita patrum</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado Practica <persName>Vernardi Diaz</persName></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>arte de gramatica</title> <author>Author Martin de Segura</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado  <choice><abbr>epistolę</abbr><expan>epistolae</expan></choice> <persName>diui Hieronymi</persName></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado Symiles para los vicio y virtudes</title> <author>author  <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> Perez Moya</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>Intitulado  <choice><abbr>expossi<hi rend="super">on</hi></abbr><expan>expossicion</expan></choice> de los Hymnos</title></bibl><!-- maybe this? http://catalogos.mecd.es/CCPB/cgi-ccpb/abnetopac?ACC=DOSEARCH&xsqf99=CCPB000032100-1 -->
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>intitulado <persName>Terentio</persName></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">en un volumen</measure> los quatro libros <author>compuestos por Alexio Venegas</author><!-- Alejo de Venegas --> <title>de las  <choice><abbr>differen<hi rend="super">as</hi></abbr><expan>differencias</expan></choice> de libres <choice><abbr>q</abbr><expan>que</expan></choice> Ay en el mundo</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado Moralia accutissimi <persName>Jacobi Almain</persName></title><!-- Jacques Almain --></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado doctrinale  <choice><abbr>floꝵ</abbr><expan>florum</expan></choice> Actis <choice><abbr>notarie</abbr><expan>notariae</expan></choice></title></bibl>
                     
                     
                 </listBibl>
@@ -166,15 +166,15 @@
             <div>
                 <listBibl>
                     <bibl>Item <title>el concilio de Trento</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">un</measure> <title>libro de grammatica</title> <author>author Joannis despauterij</author></bibl>
-                    <bibl>Item <title>la Rhethorica</title> <author>de saura</author> <note type="condition" subtype="age">muy viejo</note></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> <title>Intitulado seduli paschali</title><!-- Caelius Sedulius --></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> en q se contiene <title>la passion de nro  <choice><abbr>S<hi rend="super">r</hi></abbr><expan>Señor</expan></choice> Jhu  <choice><abbr>xpo</abbr><expan>christo</expan></choice></title> y <title><unclear>otro</unclear> Sanctus</title> <note type="condition" subtype="age">muy biejo</note> y <note type="condition" subtype="binding">quasi desenquadernado</note></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">un libro</measure> <title>intitulado <persName>Joseph</persName> de  <choice><abbr>Antiquitatibꝰ</abbr><expan>Antiquitatibus</expan></choice>  <choice><abbr>Judeoꝵ</abbr><expan>Judeorum</expan></choice></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado <persName>Marco tulio ciceronis</persName></title> <note type="condition" subtype="size">muy pequeño</note></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado de la  <choice><abbr>ora<hi rend="super">on</hi></abbr><expan>oracion</expan></choice></title> <author>Author Fr. Andres Capilla</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado flosculus  <choice><abbr>sacramentoꝵ</abbr><expan>sacramentorum</expan></choice></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro</measure> <title>Intitulado christiani Pueri <choice><abbr>Institu<hi rend="super">o</hi></abbr><expan>Institutio</expan></choice></title> <author>author Joanne  <choice><abbr>bonifa<hi rend="super">o</hi></abbr><expan>bonifacio</expan></choice> de la compañia de <choice><abbr>jhs</abbr><expan>jesus</expan></choice></author></bibl> <!-- I wonder if the person writing has a connection to the jesuits considering that this keeps getting pointed out  -->
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>libro de grammatica</title> <author>author Joannis despauterij</author></bibl>
+                    <bibl>Item <title>la Rhethorica</title> <author>de saura</author> <seg ana="#age">muy viejo</seg></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>Intitulado seduli paschali</title><!-- Caelius Sedulius --></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">un libro</measure> en q se contiene <title>la passion de nro  <choice><abbr>S<hi rend="super">r</hi></abbr><expan>Señor</expan></choice> Jhu  <choice><abbr>xpo</abbr><expan>christo</expan></choice></title> y <title><unclear>otro</unclear> Sanctus</title> <seg ana="#age">muy biejo</seg> y <seg ana="#binding">quasi desenquadernado</seg></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>intitulado <persName>Joseph</persName> de  <choice><abbr>Antiquitatibꝰ</abbr><expan>Antiquitatibus</expan></choice>  <choice><abbr>Judeoꝵ</abbr><expan>Judeorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado <persName>Marco tulio ciceronis</persName></title> <seg ana="#size">muy pequeño</seg></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado de la  <choice><abbr>ora<hi rend="super">on</hi></abbr><expan>oracion</expan></choice></title> <author>Author Fr. Andres Capilla</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado flosculus  <choice><abbr>sacramentoꝵ</abbr><expan>sacramentorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>Intitulado christiani Pueri <choice><abbr>Institu<hi rend="super">o</hi></abbr><expan>Institutio</expan></choice></title> <author>author Joanne  <choice><abbr>bonifa<hi rend="super">o</hi></abbr><expan>bonifacio</expan></choice> de la compañia de <choice><abbr>jhs</abbr><expan>jesus</expan></choice></author></bibl> <!-- I wonder if the person writing has a connection to the jesuits considering that this keeps getting pointed out  -->
                 </listBibl>
                 <!-- inventory stopped for the day -->
             </div>
@@ -185,16 +185,16 @@
                     <bibl>Item <title>las partes de la  <choice><abbr><choice><sic>oca<hi rend="super">on</hi></sic><corr>ora<hi rend="super">on</hi></corr></choice></abbr><expan>oracion</expan></choice></title><!-- oracion meaning oration, not prayer --> <author>de <choice><abbr>Mgl</abbr><expan>Miguel</expan></choice> Saura</author> <title>por otro  <choice><abbr>nom<hi rend="super">e</hi></abbr><expan>nombre</expan></choice> llamdo Syntaxis</title></bibl>
                     <bibl>Item <title>Institutio gramatica</title> <author>de <choice><abbr>Ant.<hi rend="super">o</hi></abbr><expan>Antonio</expan></choice> de Nebrissa</author></bibl>
                     <bibl>Item <title>las elegançias</title> <author>de Paulo Manuçio</author></bibl>
-                    <bibl>Item <title>summa <choice><abbr>sacramentoꝵ</abbr><expan>sacramentorum</expan></choice> <choice><abbr>ecclesiꜫ</abbr><expan>ecclesiae</expan></choice></title> <author>de Vitoria</author></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>de constructione verbi</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado puscula <persName>sancti Bonauenture</persName></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Cathalogus  <choice><abbr>libroꝵ</abbr><expan>librorum</expan></choice> qui prohbentur</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>Intitulado Institutiones absolutissime in grescam linguam</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado vita  <choice><abbr>sanctoꝵ</abbr><expan>sanctorum</expan></choice></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado de Imitatione christi</title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado <persName>luis vives</persName></title></bibl>
-                    <bibl>Item <measure unit="vol" quantity="1">otro libro</measure> <title>intitulado tractatus sacerdotalis</title> <author>autor Nicolas de Ploue</author></bibl>
-                    <bibl>Item <measure unit="simple_count" quantity="4">quatro libros</measure> <note type="method">scriptos de mano</note></bibl>
+                    <bibl>Item <title>summa <choice><abbr>sacramentoꝵ</abbr><expan>sacramentorum</expan></choice> <choice><abbr>ecclesię</abbr><expan>ecclesiae</expan></choice></title> <author>de Vitoria</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de constructione verbi</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado puscula <persName>sancti Bonauenture</persName></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado Cathalogus  <choice><abbr>libroꝵ</abbr><expan>librorum</expan></choice> qui prohbentur</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>Intitulado Institutiones absolutissime in grescam linguam</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado vita  <choice><abbr>sanctoꝵ</abbr><expan>sanctorum</expan></choice></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado de Imitatione christi</title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado <persName>luis vives</persName></title></bibl>
+                    <bibl>Item <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>intitulado tractatus sacerdotalis</title> <author>autor Nicolas de Ploue</author></bibl>
+                    <bibl>Item <measure unit="count" commodity="codices" quantity="4">quatro libros</measure> <seg ana="#mss">scriptos de mano</seg></bibl>
                     
                 </listBibl>
                 <list>

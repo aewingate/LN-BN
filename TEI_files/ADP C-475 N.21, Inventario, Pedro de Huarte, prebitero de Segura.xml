@@ -36,7 +36,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -45,7 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
    <text>
       <body>
          
@@ -64,51 +64,74 @@
 
          <milestone unit="folio" n="15v-bis"/>
          <div>
-
+            <list>
+               <item>39 Yten quatro sabanas de lienco andadas</item>
+               <item>40 dos espadas biejas</item>
+               <item>41 un montante</item>
+               <item>42 en la segund arca se allo los siguientesun sonbrero negro con su toquilla de ceda traydo</item>
+               <item>43 dos bonetes andadas</item>
+               <item>44 una yguela en los cantor unas perlas</item>
+               <item>45 una caja de acojar con unos de plata</item>
+               <item>46 una estilla debergas</item>
+               <item>47 en un papel dos pares de antojos digo quatro los unos de plata y los tres de ordinarias? de cuero</item>
+               <item>48 media bara de damasco nuevo</item>
+               <item>49 otra cestilla pequeña curiosa</item>
+               <item>50 en calcados de yerro</item>
+               <item>51 en la otra caja no ay cossa alguno … serbia para el pan</item>
+               <item>52 dos cestas redondas</item>
+            </list>
             <listBibl>
-               <bibl>53 Itten <measure unit="vol" quantity="1">un libro</measure> <title>yntitulado flor santorun tercera parte</title></bibl>
-               <bibl>54 Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>suma de confesion llamada de feserunt</title></bibl>
+               <bibl>53 Itten <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>yntitulado flor santorun tercera parte</title></bibl>
+               <bibl>54 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>suma de confesion llamada de feserunt</title></bibl>
                
             </listBibl>
          </div>
          <milestone unit="folio" n="16r"/>
          <div>
             <listBibl>
-               <bibl>55 Ittem <measure unit="vol" quantity="1">otra</measure> <title>suma</title> <author>de rodgriquez</author></bibl>
-               <bibl>56 Itten <measure unit="vol" quantity="1">otro libro</measure> de <title>Rosario de <choice><abbr>nra</abbr><expan>nuestra</expan></choice> <choice><abbr>s<hi>a</hi></abbr><expan>señora</expan></choice></title></bibl>
-               <bibl>57 Ittem <measure unit="vol" quantity="1">otro libro</measure> de <title>la ystoria de granada</title></bibl>
-               <bibl>58 <measure unit="vol" quantity="1">un</measure> <title>brevario</title></bibl>
-               <bibl>y <measure unit="vol" quantity="1">un</measure> <title>diornal</title></bibl>
-               <bibl>59 Itten <measure unit="vol" quantity="1">otro libro</measure> de <title>los milagros de san jacinto</title></bibl>
-               <bibl>60 Itten <measure unit="vol" quantity="1">un quaderno</measure> del <title>acto del obispado</title></bibl>
+               <bibl>55 Ittem <measure unit="count" commodity="volumes" quantity="1">otra</measure> <title>suma</title> <author>de rodgriquez</author></bibl>
+               <bibl>56 Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>Rosario de <choice><abbr>nra</abbr><expan>nuestra</expan></choice> <choice><abbr>s<hi rend="super">a</hi></abbr><expan>señora</expan></choice></title></bibl>
+               <bibl>57 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>la ystoria de granada</title></bibl>
+               <bibl>58 <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>brevario</title></bibl>
+               <bibl>y <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>diornal</title></bibl>
+               <bibl>59 Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>los milagros de san jacinto</title></bibl>
+               <bibl>60 Itten <measure unit="count" commodity="volumes" quantity="1">un quaderno</measure> del <title>acto del obispado</title></bibl>
                </listBibl>
                <list>
                   <item>61 dos pares de medias de aguja las unas moradas y las otras negras</item>
                </list>
                <listBibl>
-                  <bibl>62 Itten <measure unit="vol" quantity="1">otro libro</measure> de <title>la explicacion de la bulla de la santa crucada</title></bibl>
-                  <bibl>63 Ittem <measure unit="vol" quantity="1">otro libro</measure> de <title>lunario perpetuo</title></bibl>
-                  <bibl>64 Ittem <measure unit="vol" quantity="1">otro libro</measure> de <title>la especificiacion de la bulla de los difuntos</title></bibl>
-                  <bibl>65 Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado luz del alma</title></bibl>
+                  <bibl>62 Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>la explicacion de la bulla de la santa crucada</title></bibl>
+                  <bibl>63 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>lunario perpetuo</title></bibl>
+                  <bibl>64 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>la especificiacion de la bulla de los difuntos</title></bibl>
+                  <bibl>65 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado luz del alma</title></bibl>
                <bibl>66 Itten <title>la auracana</title> <author>de arcilles</author></bibl>
-                  <bibl>67 Ittem <measure unit="vol" quantity="1">otro librillo</measure> <author>de <choice><abbr>p<hi>o</hi></abbr><expan>pedro</expan></choice> <unclear>di paludaño</unclear></author></bibl>
-                  <bibl>68 Ittem <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="age">biejo</note> <choice><abbr>q</abbr><expan>que</expan></choice> <note type="condition" subtype="wear">no tiene principio</note></bibl>
-                  <bibl>69 <measure unit="vol" quantity="1">otro libro</measure> <author>de fray luis de granada</author></bibl>
-                  <bibl>70 Ittem <measure unit="vol" quantity="1">otro libro</measure> de <title>la cisma de <choice><sic>yngalaterra</sic><corr>ynglaterra</corr></choice></title></bibl>
-                  <bibl>71 Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>cirimonial de la misa</title></bibl>
-                  <bibl>72 Itten <measure unit="vol" quantity="1">otro libro</measure> <author>de fray <choice><abbr>fran<hi>co</hi></abbr><expan>francisco</expan></choice> de alcocer</author></bibl>
-                  <bibl>73 <measure unit="vol" quantity="1">otro libro</measure> de <title>sermones</title> <author>de san agustin</author></bibl>
+                  <bibl>67 Ittem <measure unit="count" commodity="volumes" quantity="1">otro librillo</measure> <author>de <choice><abbr>p<hi rend="super">o</hi></abbr><expan>pedro</expan></choice> <unclear>di paludaño</unclear></author></bibl>
+                  <bibl>68 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <seg ana="#age">biejo</seg> <choice><abbr>q</abbr><expan>que</expan></choice> <seg ana="#wear">no tiene principio</seg></bibl>
+                  <bibl>69 <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <author>de fray luis de granada</author></bibl>
+                  <bibl>70 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>la cisma de <choice><sic>yngalaterra</sic><corr>ynglaterra</corr></choice></title></bibl>
+                  <bibl>71 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>cirimonial de la misa</title></bibl>
+                  <bibl>72 Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <author>de fray <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> de alcocer</author></bibl>
+                  <bibl>73 <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>sermones</title> <author>de san agustin</author></bibl>
                
             </listBibl>
          </div>
          <milestone unit="folio" n="16v"/>
          <div>
             <listBibl>
-               <bibl>74 Ittem <measure unit="vol" quantity="1">otro libro</measure> de <title>las ystorias de etiopia</title></bibl>
-               <bibl>75 Ittem <measure unit="vol" quantity="1">otro</measure> <title>confesionario</title> <author>de fray <choice><abbr>fran<hi>co</hi></abbr><expan>francisco</expan></choice> de vitoria</author></bibl>
-               <bibl>76 Itten <measure unit="vol" quantity="1">otro libro</measure> <note type="condition" subtype="age">biejo</note></bibl>
+               <bibl>74 Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> de <title>las ystorias de etiopia</title></bibl>
+               <bibl>75 Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>confesionario</title> <author>de fray <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice> de vitoria</author></bibl>
+               <bibl>76 Itten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <seg ana="#age">biejo</seg></bibl>
             </listBibl>
-
+               <list>
+                  <item>77 un par de capator nuebos</item>
+               <item>78 dos candiles de yerro</item>
+               <item>79 dos asadores de yerro</item>
+               <item>80 un sarten biejo</item>
+               <item>81 dos cucharas de yerro</item>
+               <item>82 dos redomas de vidrio</item>
+               <item>83 yten una enrada en caldero de atanbre</item>
+               </list>
                
             
             <p>
