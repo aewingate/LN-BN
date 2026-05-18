@@ -36,7 +36,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -54,49 +54,49 @@
          
 <listBibl> 
    <head>Libros</head>
-   <bibl><title>1<hi rend="super">a</hi>, 2<hi rend="super">a</hi>, 3<hi rend="super">a</hi> parte del <unclear><choice><abbr>It<hi rend="super">mo</hi></abbr></choice></unclear></title><!-- mo is clear --> <author>de  <choice><abbr>s</abbr><expan>santo</expan></choice>  thomas</author></bibl>
+   <bibl><title>1<hi rend="super">a</hi>, 2<hi rend="super">a</hi>, 3<hi rend="super">a</hi> parte del <unclear><abbr>It<hi rend="super">mo</hi></abbr></unclear></title><!-- mo is clear --> <author>de  <choice><abbr>s</abbr><expan>santo</expan></choice>  thomas</author></bibl>
    <bibl>Ittem <title>primer thomo</title> <author>de ffray luys de granada</author> <title>yntitulado <unclear>restrucion</unclear> de el fuego de la ffee</title></bibl>
-   <bibl>Ittem <measure unit="vol" quantity="1">otro Libro</measure> <author>de ffray luys de granada</author> <title>yntitulado dotrina <choice><abbr>xptiana</abbr><expan>christiana</expan></choice></title></bibl>
+   <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro Libro</measure> <author>de ffray luys de granada</author> <title>yntitulado dotrina <choice><abbr>xptiana</abbr><expan>christiana</expan></choice></title></bibl>
 </listBibl></div>
          <milestone unit="folio" n="34r"/>
          <div><listBibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>llamado Ystoria del monte seria de nuestra señora de</title> <!-- large blank space --></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>llamado Ystoria del monte seria de nuestra señora de</title> <!-- large blank space --></bibl>
             <bibl>Ittem <title>primera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice> del flosantorum</title> <author>de billegas</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado explicacion depistolas y ebangelios parra todo el año</title> <author>conpuesto por el padre maestro ambrosio montesino de la horden de san <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice></author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>llamado yntitulado el eclesiastico</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>bocabulario</title> <note type="condition" subtype="age">biejo</note> <author>de antonio</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>de la uida de san Jeronimo</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">un libro</measure> <title>de logica</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">un libro</measure> <title>de consideraciones sobre los ebangelios de la</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado explicacion depistolas y ebangelios parra todo el año</title> <author>conpuesto por el padre maestro ambrosio montesino de la horden de san <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice></author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>llamado yntitulado el eclesiastico</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>bocabulario</title> <seg ana="#age">biejo</seg> <author>de antonio</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de la uida de san Jeronimo</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>de logica</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <title>de consideraciones sobre los ebangelios de la</title></bibl>
             <bibl>Ittem <title>silba espiritual la tercera <choice><abbr>p<hi rend="super">te</hi></abbr><expan>parte</expan></choice></title></bibl>
             <bibl>Ittem <!-- large blank space --> <author>de fray angel</author> </bibl>
             <bibl>Ittem <title>silba espiritual de barias consideraciones</title> <author>conpuesto por el padre albarez de la Horden de san <choice><abbr>fran<hi rend="super">co</hi></abbr><expan>francisco</expan></choice></author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>suma</title> <author>de ortiz</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otra</measure> <title>suma</title> <author>de Vitoria</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otra</measure> <title>suma</title> <author>de medina</author></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">un</measure> <title>quaderno de Reco</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <title>bocabulario</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado catacismo</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado <persName>terencio</persName></title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado de ratorium curatoren</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>de concilio tridentino</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro</measure> <author>belarmino</author> <title>de dotrina <choice><abbr>xptiana</abbr><expan>christiana</expan></choice></title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>de contractos de censos</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>suma</title> <author>de ortiz</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otra</measure> <title>suma</title> <author>de Vitoria</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otra</measure> <title>suma</title> <author>de medina</author></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>quaderno de Reco</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>bocabulario</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado catacismo</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado <persName>terencio</persName></title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado de ratorium curatoren</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de concilio tridentino</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro</measure> <author>belarmino</author> <title>de dotrina <choice><abbr>xptiana</abbr><expan>christiana</expan></choice></title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de contractos de censos</title></bibl>
          </listBibl></div>
          <milestone unit="folio" n="34v"/>
          <div>
          <listBibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>de doctrina <choice><abbr>xptiana</abbr><expan>christiana</expan></choice></title> <textLang xml:lang="eus">en bascuence</textLang></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado de escribir cartas</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>de ystoria de los corporales de daroca</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>de ystoria de <choice><abbr>nra</abbr><expan>nuestra</expan></choice> señora del rosario de bitoria</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">otro libro</measure> <title>conputo Eclesiastico</title></bibl>
-            <bibl>Ittem <measure unit="vol" quantity="1">un libro</measure> <note type="condition" subtype="size">pequeño</note> <title>de los salmos pentenciales</title></bibl>
-            <bibl>Yten <measure unit="vol" quantity="1">otro libro</measure> <title>yntitulado conpendio de nologia</title></bibl>
-            <bibl>Yten <measure unit="vol" quantity="1">otro librillo</measure> <title>yntitulado de officio de semana sancta</title></bibl>
-            <bibl><measure unit="vol" quantity="1">otro librillo</measure> <title>yntitulado manual</title> <author>de nauarro</author></bibl>
-            <bibl><measure unit="vol" quantity="1">otro</measure> <title>bocabulario</title> <note type="condition" subtype="wear">roto</note></bibl> 
-            <bibl>y <measure unit="vol" quantity="1">otro</measure> <title>brebario</title> <note type="condition" subtype="wear">roto</note> y <note type="condition" subtype="age">biejo</note></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de doctrina <choice><abbr>xptiana</abbr><expan>christiana</expan></choice></title> <textLang mainLang="eu">en bascuence</textLang></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado de escribir cartas</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de ystoria de los corporales de daroca</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>de ystoria de <choice><abbr>nra</abbr><expan>nuestra</expan></choice> señora del rosario de bitoria</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>conputo Eclesiastico</title></bibl>
+            <bibl>Ittem <measure unit="count" commodity="volumes" quantity="1">un libro</measure> <seg ana="#size">pequeño</seg> <title>de los salmos pentenciales</title></bibl>
+            <bibl>Yten <measure unit="count" commodity="volumes" quantity="1">otro libro</measure> <title>yntitulado conpendio de nologia</title></bibl>
+            <bibl>Yten <measure unit="count" commodity="volumes" quantity="1">otro librillo</measure> <title>yntitulado de officio de semana sancta</title></bibl>
+            <bibl><measure unit="count" commodity="volumes" quantity="1">otro librillo</measure> <title>yntitulado manual</title> <author>de nauarro</author></bibl>
+            <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>bocabulario</title> <seg ana="#wear">roto</seg></bibl> 
+            <bibl>y <measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>brebario</title> <seg ana="#wear">roto</seg> y <seg ana="#age">biejo</seg></bibl>
          </listBibl>
          </div>
          
