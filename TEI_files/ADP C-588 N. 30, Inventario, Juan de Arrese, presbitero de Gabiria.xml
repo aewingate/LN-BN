@@ -36,7 +36,7 @@
                   
                   <summary> </summary>
                   <!-- summary from ADP or AGN catalog -->
-                  <textLang xml:lang="spa"/>
+                  <textLang mainLang="es"/>
                </msContents>
                <physDesc>
                   <ab n="no of folios"/>
@@ -45,7 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-   </teiHeader>
+   <encodingDesc><classDecl><taxonomy xml:id="production_method"><category xml:id="print"><catDesc>A book produced by printing, likely printing via moveable type.</catDesc></category><category xml:id="mss"><catDesc>A book produced by writing by hand.</catDesc></category></taxonomy><taxonomy xml:id="currency"><category xml:id="ducado"><catDesc>A high unit of currency worth 11 reales.</catDesc></category><category xml:id="real"><catDesc>A unit of currency which can vary in value. For example, one Navarrese real equals 36 maravedis while a Castilian real equals 34 maravedis.</catDesc></category><category xml:id="maravedi"><catDesc>A unit of currency smaller than a real. </catDesc></category><category xml:id="tarja"><catDesc>A Navarrese unit of currency worth 2/9 of a real.</catDesc></category><category xml:id="cornado"><catDesc>A very small unit of currency.</catDesc></category></taxonomy><taxonomy xml:id="condition"><category xml:id="age"><catDesc>Words indicating age of book, e.g. "nuevo" or "viejo."</catDesc></category><category xml:id="binding"><catDesc>Words describing the binding of lack/existence of binding.</catDesc></category><category xml:id="size"><catDesc>Size of book indicated through means other than bibliographic format, e.g. "pequeño."</catDesc></category><category xml:id="wear"><catDesc>Words indicating whether a book is worn/damaged, such as "andado."</catDesc></category><category xml:id="value"><catDesc>Words indicating the relative value of a book (i.e., not in terms of currency), such as "de poca utilidad o valor."</catDesc></category><category xml:id="typeface"><catDesc>Indication of typeface, such as "letra antigua" for gothic/blackletter.</catDesc></category></taxonomy><taxonomy xml:id="other_features"><category xml:id="orality_evidence"><catDesc>Words revealing the dictated creation of inventories and other book lists, such as "digo" for "I mean."</catDesc></category></taxonomy></classDecl></encodingDesc></teiHeader>
    <text>
       <body>
          <!-- case noted as 1651 from ADP catalogue I assume. -->
@@ -56,11 +56,11 @@
                de Arresse Presbitero benefiçiado que fue de la billa de gabiria a los ultimos <lb/>
                de Julio del año Passado murio abintestato y al suplicante se toca <lb/>
                el recaudar sus bienes que esten aquellos en deposito en persona <lb/>
-               eclesiastica y abonada  =  <choice><abbr>ssup<hi>ca</hi></abbr><expan>ssuplica</expan></choice>  a  <choice><abbr>V.<hi>d</hi></abbr><expan>Vuestra merced</expan></choice>  Mande se Reçiba ynfor<lb/>maçion 
+               eclesiastica y abonada  =  <choice><abbr>ssup<hi rend="super">ca</hi></abbr><expan>ssuplica</expan></choice>  a  <choice><abbr>V.<hi rend="super">d</hi></abbr><expan>Vuestra merced</expan></choice>  Mande se Reçiba ynfor<lb/>maçion 
                y constando Por ella haber muerto el dicho Don Joan Abin<lb/>testato
                se sequesten y enbargen todos sus Biens se Pongan <lb/>
                en field Epossito en Persona eclesiastica y abonada y cometer <lb/>
-               su Recepcion a quien  <choice><abbr>Vm.<hi>d</hi></abbr><expan>Vuestra merced</expan></choice>  fuere serbido y juntamente se <lb/>
+               su Recepcion a quien  <choice><abbr>Vm.<hi rend="super">d</hi></abbr><expan>Vuestra merced</expan></choice>  fuere serbido y juntamente se <lb/>
                <!-- continues, have scan. -->
             </p>
          </div>
@@ -69,22 +69,22 @@
             <listBibl>
                <head>Libros</head>
                <!-- Note that this inventory is written without line breaks between entries -->
-               <bibl><choice><abbr>Prim.<hi>te</hi></abbr><expan>Primeramente</expan></choice> <measure unit="vol" quantity="1">un</measure> <title>brebiario</title> <note type="condition" subtype="wear">medio andado</note> =</bibl> 
-               <bibl><measure unit="vol" quantity="1">un</measure> <title>diurno</title> <note type="condition" subtype="age">biejo</note></bibl>
-               <bibl><measure unit="vol" quantity="1">una</measure> <title>suma de cassos</title> <author>de Manuel Rodriguez</author> =</bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>instruccion de sacerdotes</title> <author>de fray <choice><abbr>Ant<hi>o</hi></abbr><expan>Antonio</expan></choice> de molina</author> <milestone unit="folio" n="11r"/><textLang xml:lang="spa">ambos en romance</textLang> =</bibl>
-               <bibl><measure>otro</measure> <title>intitulado lucha espiritual</title> <author>por fray <choice><abbr>Ju<hi>o</hi></abbr><expan>Juan</expan></choice> de Los angeles</author> <textLang xml:lang="spa">en Romanze</textLang> =</bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <author>del padre Anbrosio montesino</author> <title>que es declaracion de los epistolas y ebangelios del año</title> <textLang xml:lang="spa">en Romanze</textLang></bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>intitulado belar<add rend="caret">mino</add><del>bino</del> sobre la doctrina christiana</title></bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>intitulado destierro de ignorancia</title> =</bibl> 
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>manual de confesores</title> <author>por el padre enrrique de Villalobos</author> =</bibl> 
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>sumas de cassos de conciencia</title> <author>autor pedro aza</author> <textLang xml:lang="spa">en Romanze</textLang> =</bibl>
-               <bibl><measure unit="vol" quantity="1">un</measure> <title>quaderno de rezo de la orden de los menores</title> =</bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>de ceremonias y misterios de la missa</title> <author>de fray <choice><abbr>Ju<hi>o</hi></abbr><expan>Juan</expan></choice> de los angeles</author> =</bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>quaderno del Rezo de los santos deste obispado</title> =</bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>del Rezo de nuestra señora</title> =</bibl>
-               <bibl><measure unit="vol" quantity="1">otro</measure> <title>del Rezo del angel custodio</title> =</bibl> 
-               <bibl>y <measure unit="simple_count" quantity="6">otros seis libros</measure> <note type="condition" subtype="age">biejos</note> <note type="condition" subtype="value">que por no ser de probecho se dejan de inbentariar por menor</note></bibl>
+               <bibl><choice><abbr>Prim.<hi rend="super">te</hi></abbr><expan>Primeramente</expan></choice> <measure unit="count" commodity="volumes" quantity="1">un</measure> <title>brebiario</title> <seg ana="#wear">medio andado</seg> =</bibl> 
+               <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title>diurno</title> <seg ana="#age">biejo</seg></bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">una</measure> <title>suma de cassos</title> <author>de Manuel Rodriguez</author> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>instruccion de sacerdotes</title> <author>de fray <choice><abbr>Ant<hi rend="super">o</hi></abbr><expan>Antonio</expan></choice> de molina</author> <milestone unit="folio" n="11r"/><textLang mainLang="es">ambos en romance</textLang> =</bibl>
+               <bibl><measure>otro</measure> <title>intitulado lucha espiritual</title> <author>por fray <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de Los angeles</author> <textLang mainLang="es">en Romanze</textLang> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <author>del padre Anbrosio montesino</author> <title>que es declaracion de los epistolas y ebangelios del año</title> <textLang mainLang="es">en Romanze</textLang></bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>intitulado belar<add rend="caret" place="super">mino</add><del>bino</del> sobre la doctrina christiana</title></bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>intitulado destierro de ignorancia</title> =</bibl> 
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>manual de confesores</title> <author>por el padre enrrique de Villalobos</author> =</bibl> 
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>sumas de cassos de conciencia</title> <author>autor pedro aza</author> <textLang mainLang="es">en Romanze</textLang> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">un</measure> <title>quaderno de rezo de la orden de los menores</title> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>de ceremonias y misterios de la missa</title> <author>de fray <choice><abbr>Ju<hi rend="super">o</hi></abbr><expan>Juan</expan></choice> de los angeles</author> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>quaderno del Rezo de los santos deste obispado</title> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>del Rezo de nuestra señora</title> =</bibl>
+               <bibl><measure unit="count" commodity="volumes" quantity="1">otro</measure> <title>del Rezo del angel custodio</title> =</bibl> 
+               <bibl>y <measure unit="count" commodity="codices" quantity="6">otros seis libros</measure> <seg ana="#age">biejos</seg> <seg ana="#value">que por no ser de probecho se dejan de inbentariar por menor</seg></bibl>
                
             </listBibl>
 
