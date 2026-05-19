@@ -190,8 +190,6 @@
                     </li>
 
                 </ul>
-                <h2>Finding Aid Summary</h2>
-                <p><xsl:value-of select="//tei:sourceDesc//tei:summary"/></p>
                 <h2>Normalized Transcription</h2>
                 <xsl:apply-templates select="//tei:body"/>
             </body>

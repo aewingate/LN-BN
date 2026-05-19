@@ -197,7 +197,7 @@
                     .vol {
                         background-color: darkgray;
                     }
-                    .simple_count {
+                    .codices {
                         background-color: lightgray;
                     }
                     .price {
@@ -219,6 +219,10 @@
                     .condition_value {
                         background-color: mediumvioletred;
                         color: white;
+                    }
+                    .condition_typeface {
+                    background-color: darkmagenta;
+                    color: white;
                     }
                     .method {
                         background-color: red;
@@ -294,7 +298,7 @@
                             <span class="vol">Volumes</span>
                         </li>
                         <li class="sidebar">
-                            <span class="simple_count">Count (no. of codices)</span>
+                            <span class="codices">Count (no. of codices)</span>
                         </li>
                         <li class="sidebar">
                             <span class="price">Price/Valuation</span>
@@ -313,6 +317,9 @@
                         </li>
                         <li class="sidebar">
                             <span class="condition_value">Value</span>
+                        </li>
+                        <li class="sidebar">
+                            <span class="condition_typeface">Typeface</span>
                         </li>
                         <li class="sidebar">
                             <span class="method">Creation method</span>
@@ -562,57 +569,62 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:measure[@type = 'format']">
+    <xsl:template match="tei:measure[@unit = 'bib_format']">
         <span class="format">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:measure[@unit = 'copies']">
+    <xsl:template match="tei:measure[@commodity = 'copies']">
         <span class="copies">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:measure[@unit = 'vol']">
+    <xsl:template match="tei:measure[@commodity = 'volumes']">
         <span class="vol">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:measure[@unit = 'simple_count']">
-        <span class="simple_count">
+    <xsl:template match="tei:measure[@commodity = 'codices']">
+        <span class="codices">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:measure[@unit = 'ducados' or @unit = 'reales' or @unit = 'maravedis']">
+    <xsl:template match="tei:measure[@type='lotPrice' or @type='copyPrice']">
         <span class="price">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:note[@type = 'condition' and @subtype = 'age']">
+    <xsl:template match="tei:seg[@ana = '#age']">
         <span class="condition_age">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:note[@type = 'condition' and @subtype = 'binding']">
+    <xsl:template match="tei:seg[@ana = '#binding']">
         <span class="condition_binding">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:note[@type = 'condition' and @subtype = 'size']">
+    <xsl:template match="tei:seg[@ana = '#size']">
         <span class="condition_size">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:note[@type = 'condition' and @subtype = 'wear']">
+    <xsl:template match="tei:seg[@ana = '#wear']">
         <span class="condition_wear">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:note[@type = 'condition' and @subtype = 'value']">
+    <xsl:template match="tei:seg[@ana = '#value']">
         <span class="condition_value">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:note[@type = 'method']">
+    <xsl:template match="tei:seg[@ana = '#typeface']">
+        <span class="condition_typeface">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:seg[@ana='#print' or @ana='#mss']">
         <span class="method">
             <xsl:apply-templates/>
         </span>
@@ -622,12 +634,12 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:q">
+    <xsl:template match="tei:quote">
         <span class="content">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    <xsl:template match="tei:distinct">
+    <xsl:template match="tei:seg[@ana='#orality_evidence']">
         <span class="speech">
             <xsl:apply-templates/>
         </span>
